@@ -9,12 +9,12 @@ public class Frame extends JFrame {
 
     public Frame(){
         setDefaultCloseOperation(EXIT_ON_CLOSE);
-        setExtendedState(JFrame.MAXIMIZED_BOTH);
+        setSize(1382, 788);
         setResizable(false);
         setLocationRelativeTo(null);
-        setVisible(true);
         setTitle("Maneja tus series favoritas");
-        getContentPane().add(info) ;
+        getContentPane().add(inicio) ;
+        setVisible(true);
     }
 
     public static void main(String[] args) {

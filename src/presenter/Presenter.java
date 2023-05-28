@@ -1,18 +1,22 @@
 package presenter;
 
-import view.View;
+import fileOperations.FileReadder;
+import fileOperations.FileWritter;
+import model.BroadcastDay;
+import model.ListManager;
+import model.Serie;
+import model.Status;
+import view.Frame;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
-import model.*;
-import fileOperations.*;
 
 public class Presenter{
     FileWritter fw = new FileWritter();
     FileReadder fr = new FileReadder();
-    View view = new View();
+    Frame frame = new Frame();
     ListManager manager = new ListManager();
     List<String> generos = new ArrayList<String>();
     public Presenter(){}
