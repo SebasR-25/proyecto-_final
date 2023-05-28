@@ -9,7 +9,7 @@ public class Frame extends JFrame {
 
     public Frame(){
         setDefaultCloseOperation(EXIT_ON_CLOSE);
-        setExtendedState(JFrame.MAXIMIZED_BOTH);
+        setSize(1382, 768);
         setResizable(false);
         setLocationRelativeTo(null);
         setVisible(true);

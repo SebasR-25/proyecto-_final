@@ -1,12 +1,9 @@
 package Users;
 
-public class User {
-    private Type type;
+import java.util.jar.Attributes.Name;
 
-    public Type getType() {
-        return type;
-    }
-    public void setType(Type type) {
-        this.type = type;
-    }
+public class User {
+    Name
+    pass
+    
 }
