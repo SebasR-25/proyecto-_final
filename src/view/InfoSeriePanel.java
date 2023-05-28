@@ -1,6 +1,9 @@
 package view;
 
 import javax.swing.*;
+
+import resources.GlobalFont;
+
 import java.awt.*;
 
 public class InfoSeriePanel extends JPanel {
@@ -10,6 +13,7 @@ public class InfoSeriePanel extends JPanel {
     private JLabel seasonSerieLabel;
     private JLabel chapsSerieLabel;
     private JLabel broadcastSerieLabel;
+    private JLabel statusSerieLabel;
     private JLabel genresSerieLabel;
 
     public InfoSeriePanel() {
@@ -20,6 +24,7 @@ public class InfoSeriePanel extends JPanel {
         setLayout(null);
         setBackground(Color.black);
         initLabels();
+        setFonts();
         ubicateLabels();
         addLabels();
     }
@@ -32,7 +37,9 @@ public class InfoSeriePanel extends JPanel {
 
     private void initLabels(){
         imageSerie = new JLabel();
-        nameSerieLabel = new JLabel();
+        imageSerie.setOpaque(true);
+        imageSerie.setBackground(Color.white);
+        nameSerieLabel = new JLabel("<html><center>Naruto narunate narutiimate hero 3: Finalmente un choque Jonin vs Genin indiscriminado, torneo de gran melee</center></html>");
         nameSerieLabel.setForeground(Color.white);
         seasonSerieLabel = new JLabel("Temporadas:");
         seasonSerieLabel.setForeground(Color.white);
@@ -40,15 +47,29 @@ public class InfoSeriePanel extends JPanel {
         chapsSerieLabel.setForeground(Color.white);
         broadcastSerieLabel = new JLabel("Día de Emisión:");
         broadcastSerieLabel.setForeground(Color.white);
+        statusSerieLabel = new JLabel("Estado:");
+        statusSerieLabel.setForeground(Color.white);
         genresSerieLabel = new JLabel("Géneros:");
+        genresSerieLabel.setOpaque(true);
+        genresSerieLabel.setBackground(Color.white);
+        genresSerieLabel.setForeground(Color.white);
+    }
+    private void setFonts(){
+        nameSerieLabel.setFont(GlobalFont.customFont);
+        seasonSerieLabel.setFont(GlobalFont.infoFont);
+        chapsSerieLabel.setFont(GlobalFont.infoFont);
+        broadcastSerieLabel.setFont(GlobalFont.infoFont);
+        statusSerieLabel.setFont(GlobalFont.infoFont);
+        genresSerieLabel.setFont(GlobalFont.infoFont);
     }
     private void ubicateLabels(){
-        imageSerie.setBounds(40, 40, 100, 300);
-        nameSerieLabel.setBounds(180, 40, 817, 300);
-        seasonSerieLabel.setBounds(40, 380, 400, 60);
-        chapsSerieLabel.setBounds(40, 440, 400, 60);
-        broadcastSerieLabel.setBounds(40, 500, 400, 60);
-
+        imageSerie.setBounds(40, 40, 200, 300);
+        nameSerieLabel.setBounds(280, 40, 717, 300);
+        seasonSerieLabel.setBounds(40, 380, 200, 60);
+        chapsSerieLabel.setBounds(40, 440, 200, 60);
+        broadcastSerieLabel.setBounds(40, 500, 300, 60);
+        statusSerieLabel.setBounds(40, 560, 200, 60);
+        genresSerieLabel.setBounds(530, 380, 400, 300);
     }
     private void addLabels(){
         add(imageSerie);
@@ -56,5 +77,7 @@ public class InfoSeriePanel extends JPanel {
         add(seasonSerieLabel);
         add(chapsSerieLabel);
         add(broadcastSerieLabel);
+        add(statusSerieLabel);
+        add(genresSerieLabel);
     }
 }
