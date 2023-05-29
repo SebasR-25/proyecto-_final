@@ -1,5 +1,6 @@
 package presenter;
 
+import fileOperations.Persistence;
 import model.BroadcastDay;
 import model.NetflixAnime;
 import model.Serie;
@@ -14,62 +15,26 @@ import java.util.List;
 public class Presenter {
     private Frame frame;
     private NetflixAnime netflixAnime;
+    private Persistence persistence;
 
     public Presenter() {
+        persistence = new Persistence();
         frame = new Frame();
         netflixAnime = new NetflixAnime();
         loadDefaultData();
     }
 
     private void loadDefaultData() {
-        loadUsers();
-        loadGenres();
-        loadSeries();
+        netflixAnime.setUserList(persistence.getUserList());
+        netflixAnime.setGenereList(persistence.getGenereList());
+        netflixAnime.setSeriesList(persistence.getSeriesList());
+    }
+    public static void main(String[] args) {
+        Presenter presenter = new Presenter();
+        presenter.start();
     }
 
-    private void loadUsers() {
-
-    }
-
-    private void loadGenres() {
-
-    }
-
-    private void loadSeries() {
-
-    }
-
-    private String toJSON() {
-        String temp = "[";
-        int i = 0;
-        for (Serie serie : netflixAnime.getSeriesList()) {
-            if (i == netflixAnime.getSeriesList().size() - 1) {
-                temp += fw.getJson(serie);
-            } else {
-                temp += fw.getJson(serie) + ",";
-                i++;
-            }
-        }
-        temp += "]";
-        return temp;
-    }
-
-    private void writeJSON() throws IOException {
-        fw.write(toJSON());
-    }
-
-    private void readJSON() throws FileNotFoundException, IOException {
-        fr.loadFileJson();
-        List<Serie> temp = fr.getSeries();
-        System.out.println(temp.size() + "");
-    }
-
-    public static void main(String[] args) throws IOException {
-        Presenter p = new Presenter();
-        p.addGen();
-        p.addSeries();
-        p.toJSON();
-        p.writeJSON();
-        p.readJSON();
+    private void start() {
+        frame.setVisible(true);
     }
 }

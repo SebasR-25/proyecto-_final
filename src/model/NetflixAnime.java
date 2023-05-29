@@ -89,4 +89,28 @@ public class NetflixAnime {
         }
         return message;
     }
+
+    public List<Serie> getSeriesList() {
+        return seriesList;
+    }
+
+    public void setSeriesList(List<Serie> seriesList) {
+        this.seriesList = seriesList;
+    }
+
+    public List<User> getUserList() {
+        return userList;
+    }
+
+    public void setUserList(List<User> userList) {
+        this.userList = userList;
+    }
+
+    public List<String> getGenereList() {
+        return genereList;
+    }
+
+    public void setGenereList(List<String> genereList) {
+        this.genereList = genereList;
+    }
 }

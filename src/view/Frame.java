@@ -14,7 +14,6 @@ public class Frame extends JFrame {
         setLocationRelativeTo(null);
         setTitle("Maneja tus series favoritas");
         getContentPane().add(inicio) ;
-        setVisible(true);
     }
 
     public static void main(String[] args) {

@@ -24,12 +24,15 @@ public class Persistence {
             loadUserList();
             loadSeriesList();
         } catch (IOException e) {
+            e.printStackTrace();
             throw new RuntimeException("Error loading files");
         }
     }
 
     private void loadUserList() throws IOException {
-        FileReader fileReader = new FileReader(PropertiesManager.getInstance().getProperty("USERS_FILE_PATH"));
+        File file = new File(PropertiesManager.getInstance().getProperty("USERS_FILE_PATH"));
+        file.getParentFile().mkdirs();
+        FileReader fileReader = new FileReader(file);
         Gson gson = new GsonBuilder().setPrettyPrinting().create();
         User[] users = gson.fromJson(fileReader, User[].class);
         userList.addAll(List.of(users));
@@ -45,14 +48,16 @@ public class Persistence {
     }
 
     private void loadSeriesList() throws IOException {
-        FileReader fileReader = new FileReader(PropertiesManager.getInstance().getProperty("SERIES_FILE_PATH"));
+        File file = new File(PropertiesManager.getInstance().getProperty("SERIES_FILE_PATH"));
+        file.getParentFile().mkdirs();
+        FileReader fileReader = new FileReader(file);
         Gson gson = new GsonBuilder().setPrettyPrinting().create();
         Serie[] series = gson.fromJson(fileReader, Serie[].class);
         seriesList.addAll(List.of(series));
         fileReader.close();
     }
 
-    public void SaveData(){
+    public void SaveData() {
         Gson gson = new GsonBuilder().setPrettyPrinting().create();
         try {
             FileWriter fileWriter = new FileWriter(PropertiesManager.getInstance().getProperty("USERS_FILE_PATH"));
@@ -61,6 +66,7 @@ public class Persistence {
             fileWriter.write(gson.toJson(seriesList));
             fileWriter.close();
         } catch (IOException e) {
+            e.printStackTrace();
             throw new RuntimeException("Error saving files");
         }
     }

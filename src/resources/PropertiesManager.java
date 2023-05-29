@@ -14,6 +14,7 @@ public class PropertiesManager {
             properties = new Properties();
             properties.load(new FileReader("src/resources/config.properties"));
         } catch (IOException e) {
+            e.printStackTrace();
             throw new RuntimeException("Error loading properties file");
         }
     }
