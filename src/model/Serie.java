@@ -1,28 +1,37 @@
 package model;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Serie {
+    private int id;
     private String name;
+    private BroadcastDay broadcastDay;
     private List<String> genres;
     private Status status;
     private int seasons;
-    private int id;
     private int chapters;
-    private String descrption;
-    private BroadcastDay broadcastDay;
+    private String description;
 
     public Serie() {
+        id = 0;
+        name = "";
+        broadcastDay = BroadcastDay.LUNES;
+        genres = new ArrayList<>();
+        status = Status.ACTIVA;
+        seasons = 0;
+        chapters = 0;
+        description = "";
     }
 
-    public Serie(String name, List<String> genres, Status status, int seasons, int id, int chapters, String descrption, BroadcastDay broadcastDay) {
+    public Serie(String name, List<String> genres, Status status, int seasons, int id, int chapters, String description, BroadcastDay broadcastDay) {
         this.name = name;
         this.genres = genres;
         this.status = status;
         this.seasons = seasons;
         this.id = id;
         this.chapters = chapters;
-        this.descrption = descrption;
+        this.description = description;
         this.broadcastDay = broadcastDay;
     }
 
@@ -75,11 +84,11 @@ public class Serie {
     }
 
     public String getDescription() {
-        return descrption;
+        return description;
     }
 
-    public void setDescrption(String descrption) {
-        this.descrption = descrption;
+    public void setDescription(String description) {
+        this.description = description;
     }
 
     public BroadcastDay getBroadcastDay() {

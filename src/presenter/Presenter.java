@@ -1,9 +1,7 @@
 package presenter;
 
-import fileOperations.FileReadder;
-import fileOperations.FileWritter;
 import model.BroadcastDay;
-import model.ListManager;
+import model.NetflixAnime;
 import model.Serie;
 import model.Status;
 import view.Frame;
@@ -13,51 +11,59 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Presenter{
-    FileWritter fw = new FileWritter();
-    FileReadder fr = new FileReadder();
-    Frame frame = new Frame();
-    ListManager manager = new ListManager();
-    List<String> generos = new ArrayList<String>();
-    public Presenter(){}
+public class Presenter {
+    private Frame frame;
+    private NetflixAnime netflixAnime;
 
-    private void addGen(){
-        generos.add("terror");
-        generos.add("comedia");
-        generos.add("accion");
+    public Presenter() {
+        frame = new Frame();
+        netflixAnime = new NetflixAnime();
+        loadDefaultData();
     }
-    private void addSeries(){
-        Serie serie1 = new Serie("Anime1", generos, Status.ACTIVA, 2, 1, 24, "cualquier cosa que se pueda leer", BroadcastDay.DOMINGO);
-        Serie serie2 = new Serie("Anime2", generos, Status.ACTIVA, 2, 2, 24, "cualquier cosa que se pueda leer", BroadcastDay.DOMINGO);
-        Serie serie3 = new Serie("Anime3", generos, Status.ACTIVA, 2, 3, 24, "cualquier cosa que se pueda leer", BroadcastDay.DOMINGO);
-        Serie serie4 = new Serie("Anime4", generos, Status.EN_ESPERA, 1, 4, 0, "Nueva serie ingresada", BroadcastDay.MIERCOLES);
-        manager.addSerie(serie1);
-        manager.addSerie(serie2);
-        manager.addSerie(serie3);
-        manager.addSerie(serie4);
+
+    private void loadDefaultData() {
+        loadUsers();
+        loadGenres();
+        loadSeries();
     }
-    private String toJSON(){
+
+    private void loadUsers() {
+
+    }
+
+    private void loadGenres() {
+
+    }
+
+    private void loadSeries() {
+
+    }
+
+    private String toJSON() {
         String temp = "[";
-        int i  = 0;
-        for (Serie serie : manager.getSeriesList()) {
-            if (i == manager.getSeriesList().size()-1) {
-                temp +=  fw.getJson(serie);
+        int i = 0;
+        for (Serie serie : netflixAnime.getSeriesList()) {
+            if (i == netflixAnime.getSeriesList().size() - 1) {
+                temp += fw.getJson(serie);
             } else {
-                temp +=  fw.getJson(serie) + ",";
+                temp += fw.getJson(serie) + ",";
                 i++;
             }
         }
         temp += "]";
         return temp;
     }
-    private void writeJSON() throws IOException{
+
+    private void writeJSON() throws IOException {
         fw.write(toJSON());
     }
-    private void readJSON() throws FileNotFoundException, IOException{
+
+    private void readJSON() throws FileNotFoundException, IOException {
         fr.loadFileJson();
         List<Serie> temp = fr.getSeries();
         System.out.println(temp.size() + "");
     }
+
     public static void main(String[] args) throws IOException {
         Presenter p = new Presenter();
         p.addGen();
