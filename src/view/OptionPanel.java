@@ -13,6 +13,9 @@ public class OptionPanel extends JPanel{
     private JButton goToEdit;
     private JButton goToDelete;
     private JButton goToBack;
+    private EditDialog editDialog;
+    private AddDialog addDialog;
+    private DeleteDialog deleteDialog;
     
     public OptionPanel(){
         ImageIcon icon = new ImageIcon("src/resources/media/Fondo.jpg");
@@ -25,6 +28,7 @@ public class OptionPanel extends JPanel{
         addFont();
         locateButtons();
         addButtons();
+        initButtons();    
     }
 
     @Override
@@ -33,6 +37,11 @@ public class OptionPanel extends JPanel{
         g.drawImage(image, 0, 0, 1366, 768, this);
     }
 
+    private void initDialogs(){
+        addDialog = new AddDialog();
+        editDialog = new EditDialog();
+        deleteDialog = new DeleteDialog();
+    }
     private void initButtons(){
         goToInfo = new JButton("VER SERIES");
         goToAdd = new JButton("AÑADIR");
@@ -60,5 +69,10 @@ public class OptionPanel extends JPanel{
         add(goToEdit);
         add(goToDelete);
         add(goToBack);
+    }
+    private void addListeners(){
+        goToEdit.addActionListener(e -> {
+
+        });
     }
 }
