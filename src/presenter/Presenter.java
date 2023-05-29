@@ -7,19 +7,21 @@ import model.Serie;
 import model.Status;
 import view.Frame;
 
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Presenter {
+public class Presenter implements ActionListener {
     private Frame frame;
     private NetflixAnime netflixAnime;
     private Persistence persistence;
 
     public Presenter() {
         persistence = new Persistence();
-        frame = new Frame();
+        frame = new Frame(this);
         netflixAnime = new NetflixAnime();
         loadDefaultData();
     }
@@ -29,6 +31,7 @@ public class Presenter {
         netflixAnime.setGenereList(persistence.getGenereList());
         netflixAnime.setSeriesList(persistence.getSeriesList());
     }
+
     public static void main(String[] args) {
         Presenter presenter = new Presenter();
         presenter.start();
@@ -36,5 +39,32 @@ public class Presenter {
 
     private void start() {
         frame.setVisible(true);
+    }
+
+    @Override
+    public void actionPerformed(ActionEvent e) {
+        switch (e.getActionCommand().toUpperCase()) {
+            case "LOGIN_USER":
+                loginUser();
+                break;
+        }
+    }
+
+    private void loginUser() {
+        String userName = frame.getInicio().getUserText().getText();
+        String password = frame.getInicio().getPasswordText().getText();
+        if (userName.isEmpty() || password.isEmpty()) {
+            frame.showErrorMessage("Debe ingresar usuario y contraseña");
+            return;
+        }
+        if (netflixAnime.searchUser(userName) == null) {
+            frame.showErrorMessage("Usuario no registrado");
+            return;
+        }
+        if (netflixAnime.validateLogin(userName, password)) {
+            frame.showInfoMessage("Bienvenido " + userName);
+        } else {
+            frame.showErrorMessage("Usuario y/o contraseña incorrectos");
+        }
     }
 }

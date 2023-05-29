@@ -2,9 +2,12 @@ package view;
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionListener;
+
 import resources.GlobalFont;
 
 public class PanelInicial extends JPanel {
+    private final ActionListener actionListener;
     private Image image;
     private JLabel bienvenido;
     private JLabel fanime;
@@ -17,7 +20,8 @@ public class PanelInicial extends JPanel {
     private JButton logInButton;
     private JButton signInButton;
     
-    public PanelInicial(){
+    public PanelInicial(ActionListener actionListener){
+        this.actionListener = actionListener;
         ImageIcon icon = new ImageIcon("src/resources/media/Fondo.jpg");
         Image originalImage = icon.getImage();
         Image scaledImage = originalImage.getScaledInstance(1366, 768, Image.SCALE_SMOOTH);
@@ -27,7 +31,15 @@ public class PanelInicial extends JPanel {
         addLabels();
         initPanel();
         addPanel();
+        setEvents();
         setVisible(true);
+    }
+
+    private void setEvents() {
+        logInButton.addActionListener(actionListener);
+        logInButton.setActionCommand("LOGIN_USER");
+        passwordText.addActionListener(actionListener);
+        passwordText.setActionCommand("LOGIN_USER");
     }
 
     @Override
@@ -97,5 +109,45 @@ public class PanelInicial extends JPanel {
         logIn.add(passwordText);
         logIn.add(logInButton);
         logIn.add(signInButton);
+    }
+
+    public JPanel getLogIn() {
+        return logIn;
+    }
+
+    public void setLogIn(JPanel logIn) {
+        this.logIn = logIn;
+    }
+
+    public JTextField getUserText() {
+        return userText;
+    }
+
+    public void setUserText(JTextField userText) {
+        this.userText = userText;
+    }
+
+    public JTextField getPasswordText() {
+        return passwordText;
+    }
+
+    public void setPasswordText(JTextField passwordText) {
+        this.passwordText = passwordText;
+    }
+
+    public JButton getLogInButton() {
+        return logInButton;
+    }
+
+    public void setLogInButton(JButton logInButton) {
+        this.logInButton = logInButton;
+    }
+
+    public JButton getSignInButton() {
+        return signInButton;
+    }
+
+    public void setSignInButton(JButton signInButton) {
+        this.signInButton = signInButton;
     }
 }

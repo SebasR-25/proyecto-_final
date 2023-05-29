@@ -113,4 +113,22 @@ public class NetflixAnime {
     public void setGenereList(List<String> genereList) {
         this.genereList = genereList;
     }
+
+    public boolean validateLogin(String userName, String password) {
+        for (User user : userList) {
+            if (user.getUserName().equals(userName) && user.getPassword().equals(password)) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public User searchUser(String userName) {
+        for (User user : userList) {
+            if (user.getUserName().equals(userName)) {
+                return user;
+            }
+        }
+        return null;
+    }
 }

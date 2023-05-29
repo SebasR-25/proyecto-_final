@@ -1,5 +1,10 @@
 [
   {
+    "userName": "admin",
+    "password": "admin",
+    "userSeriesList": []
+  },
+  {
     "userName": "John",
     "password": "pass123",
     "userSeriesList": []

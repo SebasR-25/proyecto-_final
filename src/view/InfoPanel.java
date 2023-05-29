@@ -1,13 +1,14 @@
 package view;
 
 import javax.swing.*;
+import java.awt.event.ActionListener;
 
 public class InfoPanel extends JPanel {
     private InfoSeriePanel infoSerie;
     private ListSeriesPanel listSeries;
     private ButtonsInfoPanel buttonsPanel;
 
-    public InfoPanel(){
+    public InfoPanel(ActionListener actionListener){
         setVisible(true);
         setLayout(null);
         initPanels();

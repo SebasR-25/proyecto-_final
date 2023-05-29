@@ -2,6 +2,7 @@ package view;
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionListener;
 
 public class OptionPanel extends JPanel{
     private Image image;
@@ -10,7 +11,7 @@ public class OptionPanel extends JPanel{
     private JButton goToDelete;
     private JButton goToBack;
     
-    public OptionPanel(){
+    public OptionPanel(ActionListener actionListener){
         ImageIcon icon = new ImageIcon("src/resources/media/Fondo.jpg");
         Image originalImage = icon.getImage();
         Image scaledImage = originalImage.getScaledInstance(1366, 768, Image.SCALE_SMOOTH);
