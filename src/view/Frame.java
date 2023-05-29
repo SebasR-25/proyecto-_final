@@ -17,7 +17,20 @@ public class Frame extends JFrame {
         setResizable(false);
         setLocationRelativeTo(null);
         initComponent(actionListener);
+        setEvents();
         getContentPane().add(inicio);
+    }
+
+    private void setEvents() {
+        options.getGoToBack().addActionListener(e -> {
+            cleanInitPanel();
+            showPanel(inicio);
+        });
+    }
+
+    private void cleanInitPanel() {
+        inicio.getUserText().setText("");
+        inicio.getPasswordText().setText("");
     }
 
     private void initComponent(ActionListener actionListener) {

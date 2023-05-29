@@ -44,12 +44,8 @@ public class Presenter implements ActionListener {
     @Override
     public void actionPerformed(ActionEvent e) {
         switch (e.getActionCommand().toUpperCase()) {
-            case "LOGIN_USER":
-                loginUser();
-                break;
-            case "SIGN_USER":
-                signUser();
-                break;
+            case "LOGIN_USER" -> loginUser();
+            case "SIGN_USER" -> signUser();
         }
     }
 
