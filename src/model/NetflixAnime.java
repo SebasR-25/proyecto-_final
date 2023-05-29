@@ -131,4 +131,8 @@ public class NetflixAnime {
         }
         return null;
     }
+
+    public void addUser(String userName, String password) {
+        userList.add(new User(userName, password,new ArrayList<>()));
+    }
 }

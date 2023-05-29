@@ -57,4 +57,11 @@ public class Frame extends JFrame {
     public void showInfoMessage(String message) {
         JOptionPane.showMessageDialog(this, "<html><center>" + message + "</center></html>", "Información", JOptionPane.INFORMATION_MESSAGE);
     }
+
+    public void showPanel(JPanel panel) {
+        getContentPane().removeAll();
+        getContentPane().add(panel);
+        getContentPane().repaint();
+        getContentPane().revalidate();
+    }
 }

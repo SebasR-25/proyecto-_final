@@ -47,7 +47,26 @@ public class Presenter implements ActionListener {
             case "LOGIN_USER":
                 loginUser();
                 break;
+            case "SIGN_USER":
+                signUser();
+                break;
         }
+    }
+
+    private void signUser() {
+        String userName = frame.getInicio().getSignDialog().getNameTextField().getText();
+        String password = frame.getInicio().getSignDialog().getPasswordField().getText();
+        if (userName.isEmpty() || password.isEmpty()) {
+            frame.showErrorMessage("Debe ingresar usuario y contraseña");
+            return;
+        }
+        if (netflixAnime.searchUser(userName) != null) {
+            frame.showErrorMessage("Usuario ya registrado");
+            return;
+        }
+        frame.getInicio().getSignDialog().setVisible(false);
+        netflixAnime.addUser(userName, password);
+        frame.showInfoMessage("Usuario registrado correctamente");
     }
 
     private void loginUser() {
@@ -63,6 +82,7 @@ public class Presenter implements ActionListener {
         }
         if (netflixAnime.validateLogin(userName, password)) {
             frame.showInfoMessage("Bienvenido " + userName);
+            frame.showPanel(frame.getOptions());
         } else {
             frame.showErrorMessage("Usuario y/o contraseña incorrectos");
         }

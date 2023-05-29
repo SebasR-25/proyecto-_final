@@ -27,7 +27,6 @@ public class PanelInicial extends JPanel {
         Image originalImage = icon.getImage();
         Image scaledImage = originalImage.getScaledInstance(1366, 768, Image.SCALE_SMOOTH);
         image = new ImageIcon(scaledImage).getImage();
-        signDialog = new SignDialog();
         setLayout(null);
         initLabels();
         addLabels();
@@ -107,8 +106,9 @@ public class PanelInicial extends JPanel {
     }
     private void signListener(){
         signInButton.addActionListener(e ->{
-            signDialog.setVisible(true);
+            signDialog = new SignDialog(actionListener);
             signDialog.setLocationRelativeTo(this);
+            signDialog.setVisible(true);
         });
     }
     private void addPanelElements(){
@@ -158,5 +158,13 @@ public class PanelInicial extends JPanel {
 
     public void setSignInButton(JButton signInButton) {
         this.signInButton = signInButton;
+    }
+
+    public SignDialog getSignDialog() {
+        return signDialog;
+    }
+
+    public void setSignDialog(SignDialog signDialog) {
+        this.signDialog = signDialog;
     }
 }
