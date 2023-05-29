@@ -1,6 +1,6 @@
 package view;
 
-import java.awt.Color;
+import java.awt.*;
 
 import javax.swing.*;
 
@@ -29,6 +29,7 @@ public class InfoPanel extends JPanel {
     }
     private void addPanels(){
         scroll.setViewportView(listSeries);
+        scroll.getVerticalScrollBar().setUnitIncrement(16);
         add(scroll);
         add(buttonsPanel);
         add(infoSerie);

@@ -5,7 +5,7 @@ import java.util.List;
 public class Serie {
     private String name;
     private List<String> genres;
-    private  Status status;
+    private Status status;
     private int seasons;
     private int id;
     private int chapters;

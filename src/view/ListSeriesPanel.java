@@ -6,29 +6,59 @@ import resources.GlobalFont;
 
 import java.awt.*;
 
-public class ListSeriesPanel extends JPanel{
-    private  JLabel listLabel;
+public class ListSeriesPanel extends JPanel {
 
-    public ListSeriesPanel(){
+    public ListSeriesPanel() {
         setVisible(true);
-        setLayout(new BoxLayout(this, BoxLayout.Y_AXIS));
+        setLayout(new GridBagLayout());
         setBackground(new Color(5, 5, 21));
-        label();
+        addTitleLabel();
         addButtons();
     }
-    private void label(){
-        listLabel = new JLabel("<html><center>LISTA DE SERIES</center></html>");
-        listLabel.setSize(345, 30);
+
+    private void addTitleLabel() {
+        JLabel listLabel = new JLabel("<html><center>LISTA DE SERIES</center></html>");
         listLabel.setFont(GlobalFont.infoFont);
-        listLabel.setHorizontalAlignment(SwingConstants.CENTER);
         listLabel.setForeground(Color.white);
-        add(listLabel);
+
+        GridBagConstraints gbc = new GridBagConstraints();
+        gbc.gridx = 0;
+        gbc.gridy = 0;
+        add(listLabel, gbc);
     }
-    private void addButtons(){
+
+    private void addButtons() {
+        GridBagConstraints gbc = new GridBagConstraints();
+        gbc.gridx = 0;
+        gbc.gridy = 0;
         for (int i = 0; i < 20; i++) {
-            JButton tempButton = new JButton("Boton " + i);
+            gbc.gridy++;
+            JButton tempButton = new JButton("<html><center>" + adaptToHtml("Boton Boton Boton Boton Boton Boton Boton Boton Boton Boton Boton Boton Boton Boton Boton Boton Boton Boton Boton ") + i + "</center></html>");
             tempButton.setSize(345, 50);
-            add(tempButton);
+            add(tempButton, gbc);
         }
+    }
+
+    private String adaptToHtml(String text) {
+        String html = "<br>";
+        StringBuilder builder = new StringBuilder(text);
+        int upperLimit = 41;
+        if (builder.length() > upperLimit) {
+            int i = upperLimit;
+            if (builder.charAt(upperLimit) != ' ') {
+                while (builder.charAt(i) != ' ') {
+                    i--;
+                }
+            }
+            while (i < builder.length()) {
+                if (builder.charAt(i) == ' '||i == builder.length() - 1) {
+                    builder.insert(i, html);
+                    i += upperLimit;
+                } else {
+                    i++;
+                }
+            }
+        }
+        return builder.toString();
     }
 }
