@@ -1,6 +1,9 @@
 package view;
 
 import javax.swing.*;
+
+import resources.GlobalFont;
+
 import java.awt.*;
 import java.awt.event.ActionListener;
 
@@ -8,8 +11,12 @@ public class OptionPanel extends JPanel{
     private Image image;
     private JButton goToInfo;
     private JButton goToAdd;
+    private JButton goToEdit;
     private JButton goToDelete;
     private JButton goToBack;
+    private EditDialog editDialog;
+    private AddDialog addDialog;
+    private DeleteDialog deleteDialog;
     
     public OptionPanel(ActionListener actionListener){
         ImageIcon icon = new ImageIcon("src/resources/media/Fondo.jpg");
@@ -19,8 +26,10 @@ public class OptionPanel extends JPanel{
         setVisible(true);
         setLayout(null);
         initButtons();
+        addFont();
         locateButtons();
         addButtons();
+        initButtons();    
     }
 
     @Override
@@ -29,22 +38,42 @@ public class OptionPanel extends JPanel{
         g.drawImage(image, 0, 0, 1366, 768, this);
     }
 
+    private void initDialogs(){
+        addDialog = new AddDialog();
+        editDialog = new EditDialog();
+        deleteDialog = new DeleteDialog();
+    }
     private void initButtons(){
         goToInfo = new JButton("VER SERIES");
         goToAdd = new JButton("AÑADIR");
+        goToEdit = new JButton("EDITAR");
         goToDelete = new JButton("BORRAR");
         goToBack = new JButton("REGRESAR");
     }
+    private void addFont(){
+        goToInfo.setFont(GlobalFont.infoFont);
+        goToAdd.setFont(GlobalFont.infoFont);
+        goToEdit.setFont(GlobalFont.infoFont);
+        goToDelete.setFont(GlobalFont.infoFont);
+        goToBack.setFont(GlobalFont.infoFont);
+    }
     private void locateButtons(){
-        goToInfo.setBounds(591, 105, 200, 80);
-        goToAdd.setBounds(591, 270, 200, 80);
-        goToDelete.setBounds(591, 435, 200, 80);
-        goToBack.setBounds(591, 600, 200, 80);
+        goToInfo.setBounds(591, 61, 200, 80);
+        goToAdd.setBounds(591, 202, 200, 80);
+        goToEdit.setBounds(591, 343, 200, 80);
+        goToDelete.setBounds(591, 484, 200, 80);
+        goToBack.setBounds(591, 625, 200, 80);
     }
     private void addButtons(){
         add(goToInfo);
         add(goToAdd);
+        add(goToEdit);
         add(goToDelete);
         add(goToBack);
+    }
+    private void addListeners(){
+        goToEdit.addActionListener(e -> {
+
+        });
     }
 }

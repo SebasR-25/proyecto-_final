@@ -1,0 +1,3007 @@
+[{
+	"name": "!NVADE SHOW!",
+	"genres": ["band", "full cgi", "music"],
+	"seasons": 0,
+	"id": 0,
+	"chapters": 1
+}, {
+	"name": "\"0\"",
+	"genres": ["drama", "female protagonist", "indefinite", "music", "present"],
+	"seasons": 0,
+	"id": 1,
+	"chapters": 1
+}, {
+	"name": "\"Aesop\" no Ohanashi yori: Ushi to Kaeru, Yokubatta Inu",
+	"genres": ["fantasy", "kids"],
+	"seasons": 0,
+	"id": 2,
+	"chapters": 1
+}, {
+	"name": "\"Bungaku Shoujo\" Kyou no Oyatsu: Hatsukoi",
+	"genres": ["asia", "based on a light novel", "comedy", "drama", "earth", "fantasy", "japan", "library", "novel", "present", "psychological drama", "romance", "school", "school club", "school clubs", "school life", "short movie", "shoujo", "slice of life"],
+	"seasons": 0,
+	"id": 3,
+	"chapters": 1
+}, {
+	"name": "\"Bungaku Shoujo\" Memoire",
+	"genres": ["angst", "asia", "based on a light novel", "classic literature", "comedy", "coming of age", "contemporary fantasy", "drama", "earth", "ensemble cast", "episodic", "female protagonist", "japan", "mystery", "novel", "present", "primarily female cast", "psychological", "romance", "school", "school life", "shoujo", "slice of life", "slice of life drama"],
+	"seasons": 0,
+	"id": 4,
+	"chapters": 3
+}, {
+	"name": "\"Bungaku Shoujo\" Movie",
+	"genres": ["asia", "based on a light novel", "classic literature", "comedy", "coming of age", "drama", "earth", "japan", "love polygon", "love triangle", "male protagonist", "mystery", "novel", "present", "psychological", "psychological drama", "romance", "school", "school club", "school life", "supernatural drama", "time skip", "tragedy", "yandere"],
+	"seasons": 0,
+	"id": 5,
+	"chapters": 1
+}, {
+	"name": "\"Calpis\" Hakkou Monogatari",
+	"genres": ["advertisement", "food and beverage", "historical", "promotional"],
+	"seasons": 0,
+	"id": 6,
+	"chapters": 1
+}, {
+	"name": "\"Eiji\"",
+	"genres": ["based on a manga", "boxing", "combat sports", "comedy", "drama", "hand to hand combat", "manga", "present", "shounen", "sports"],
+	"seasons": 0,
+	"id": 7,
+	"chapters": 1
+}, {
+	"name": "\"Eikou Naki Tensai-tachi\" Kara no Monogatari",
+	"genres": ["based on a manga", "manga", "present", "running", "seinen", "sports", "swimming", "track and field"],
+	"seasons": 0,
+	"id": 8,
+	"chapters": 2
+}, {
+	"name": "\"Eiyuu\" Kaitai",
+	"genres": ["based on a light novel", "comedy", "drama", "fantasy", "isekai", "novel", "ojou-sama", "person in a strange world", "primarily adult cast", "rehabilitation", "reverse isekai", "rpg", "seinen", "siblings", "slice of life", "superpower"],
+	"seasons": 0,
+	"id": 9,
+	"chapters": 1
+}, {
+	"name": "\"Fragtime\" x \"Kine-Pass\"",
+	"genres": ["action", "comedy", "drama", "ecchi", "fantasy", "historical", "kids", "music", "mystery", "romance", "school", "seinen", "shoujo", "slice of life", "sports", "supernatural", "suspense"],
+	"seasons": 0,
+	"id": 10,
+	"chapters": 1
+}, {
+	"name": "\"Game \u0026 Animation Pilot Film\" \"Inazuma Eleven Ares no Tenbin\"",
+	"genres": ["action", "ganbatte", "present", "soccer", "sports"],
+	"seasons": 0,
+	"id": 11,
+	"chapters": 1
+}, {
+	"name": "\"Hataraku\" no 100-nenshi",
+	"genres": ["historical", "shorts", "slice of life", "work", "work life"],
+	"seasons": 0,
+	"id": 12,
+	"chapters": 1
+}, {
+	"name": "\"hitman\" bang: I\u003dFantasy",
+	"genres": ["cg animation", "korean animation", "music", "the arts", "vocaloid"],
+	"seasons": 0,
+	"id": 13,
+	"chapters": 1
+}, {
+	"name": "\"Kinako\" Movie x Mameshiba",
+	"genres": ["based on a movie", "comedy", "crossover", "dogs", "parody"],
+	"seasons": 0,
+	"id": 14,
+	"chapters": 1
+}, {
+	"name": "\"Kiss Dekiru Gyoza\" x Mameshiba Movie",
+	"genres": ["comedy", "commercials", "parody", "promotional", "short episodes"],
+	"seasons": 0,
+	"id": 15,
+	"chapters": 2
+}, {
+	"name": "\"Oshi no Ko\"",
+	"genres": ["acting", "adoption", "age regression", "based on a manga", "detective", "drama", "female harem", "heterosexual", "idol", "idols", "love triangle", "music", "mystery", "performance", "primarily female cast", "psychological", "reincarnation", "revenge", "seinen", "showbiz", "siblings", "slice of life", "social media", "suicide", "supernatural", "the arts", "tragedy", "twins", "working life"],
+	"seasons": 0,
+	"id": 16,
+	"chapters": 0
+}, {
+	"name": "\"Parade\" de Satie",
+	"genres": ["abstract", "action", "avant garde", "classical music", "comedy", "drama", "ecchi", "fantasy", "historical", "kids", "magic", "music", "mystery", "romance", "school", "school life", "seinen", "shoujo", "slice of life", "sports", "supernatural", "surreal comedy", "thriller"],
+	"seasons": 0,
+	"id": 17,
+	"chapters": 1
+}, {
+	"name": "\"R100\" x Mameshiba Original Manners",
+	"genres": ["based on a movie", "comedy", "crossover", "shorts"],
+	"seasons": 0,
+	"id": 18,
+	"chapters": 1
+}, {
+	"name": "\"Star\"t",
+	"genres": ["idols", "music", "present", "slice of life"],
+	"seasons": 0,
+	"id": 19,
+	"chapters": 1
+}, {
+	"name": "\"Tokyo\"",
+	"genres": ["avant garde", "dementia", "psychological", "shorts"],
+	"seasons": 0,
+	"id": 20,
+	"chapters": 1
+}, {
+	"name": "\"Uchuu Senkan Yamato\" to Iu Jidai: Seireki 2202-nen no Sentaku",
+	"genres": ["action", "adult cast", "adventure", "drama", "leijiverse", "military", "outer space", "primarily adult cast", "recap", "sci fi", "sci-fi", "science fiction", "space", "space battles", "space opera"],
+	"seasons": 0,
+	"id": 21,
+	"chapters": 1
+}, {
+	"name": "#Aqua Iro Palette",
+	"genres": ["idol", "maids", "music", "romance", "vtuber"],
+	"seasons": 0,
+	"id": 22,
+	"chapters": 1
+}, {
+	"name": "#Compass",
+	"genres": ["based on a mobile game", "cg animation", "episodic", "sci fi", "short episodes", "strategy game"],
+	"seasons": 0,
+	"id": 23,
+	"chapters": 10
+}, {
+	"name": "#Ima made de Ichiban Yokatta Sex The Animation",
+	"genres": ["hentai"],
+	"seasons": 0,
+	"id": 24,
+	"chapters": 2
+}, {
+	"name": "\u0027Twas the Night Before Christmas",
+	"genres": ["adventure", "anime influenced", "anthropomorphism", "kids", "magic"],
+	"seasons": 0,
+	"id": 25,
+	"chapters": 1
+}, {
+	"name": "(a long day of) Mr. Calpaccio",
+	"genres": ["avant garde", "black and white", "shorts"],
+	"seasons": 0,
+	"id": 26,
+	"chapters": 1
+}, {
+	"name": "(K)NoW_NAME: Harvest",
+	"genres": ["fantasy"],
+	"seasons": 0,
+	"id": 27,
+	"chapters": 1
+}, {
+	"name": "(K)NoW_NAME: Knew day",
+	"genres": ["action", "fantasy"],
+	"seasons": 0,
+	"id": 28,
+	"chapters": 1
+}, {
+	"name": "(Making of) Evangelion: Another Impact",
+	"genres": ["cg animation", "japan animator\u0027s exhibition", "sci fi", "shorts"],
+	"seasons": 0,
+	"id": 29,
+	"chapters": 1
+}, {
+	"name": "(OO)",
+	"genres": ["abstract", "avant garde", "korean animation", "shorts"],
+	"seasons": 0,
+	"id": 30,
+	"chapters": 1
+}, {
+	"name": "(Title to be Announced)",
+	"genres": [],
+	"seasons": 0,
+	"id": 31,
+	"chapters": 1
+}, {
+	"name": "(Title to be Announced)",
+	"genres": [],
+	"seasons": 0,
+	"id": 32,
+	"chapters": 1
+}, {
+	"name": "(Title to be Announced)",
+	"genres": [],
+	"seasons": 0,
+	"id": 33,
+	"chapters": 0
+}, {
+	"name": "** Kouhai",
+	"genres": ["alternative world", "anal", "defloration", "demons", "elves", "fantasy", "flat chested", "harem", "hentai", "magical girl", "mythology", "oral", "present", "school", "school girl"],
+	"seasons": 0,
+	"id": 34,
+	"chapters": 6
+}, {
+	"name": "*Luna: classroom",
+	"genres": ["vocaloid"],
+	"seasons": 0,
+	"id": 35,
+	"chapters": 1
+}, {
+	"name": "*Luna: Main Character",
+	"genres": ["vocaloid"],
+	"seasons": 0,
+	"id": 36,
+	"chapters": 1
+}, {
+	"name": ".",
+	"genres": [],
+	"seasons": 0,
+	"id": 37,
+	"chapters": 0
+}, {
+	"name": ".hack//G.U. Returner",
+	"genres": ["action", "adventure", "alternative world", "drama", "fantasy", "fantasy world", "game", "magic", "mmorpg", "new", "rpg", "sci-fi", "science fiction", "science-fiction", "video game", "virtual reality", "virtual world"],
+	"seasons": 0,
+	"id": 38,
+	"chapters": 1
+}, {
+	"name": ".hack//G.U. Trilogy",
+	"genres": ["action", "adventure", "alternative world", "cg animation", "cg-anime", "cyberpunk", "drama", "fantasy", "full cgi", "game", "mmorpg", "new", "rpg", "sci-fi", "science fiction", "science-fiction", "super power", "video game", "video games", "virtual reality", "virtual world"],
+	"seasons": 0,
+	"id": 39,
+	"chapters": 1
+}, {
+	"name": ".hack//G.U. Trilogy: Parody Mode",
+	"genres": ["cg-anime", "comedy", "fantasy", "game", "mmorpg", "parody", "rpg", "sci-fi", "science fiction", "video game", "virtual reality", "virtual world"],
+	"seasons": 0,
+	"id": 40,
+	"chapters": 1
+}, {
+	"name": ".hack//Gift",
+	"genres": ["chibi", "comedy", "fantasy", "fantasy world", "future", "game", "magic", "mmorpg", "new", "nonsense-comedy", "nudity", "parody", "present", "rpg", "seinen", "shorts", "slapstick", "swords \u0026 co", "video game", "virtual reality", "virtual world"],
+	"seasons": 0,
+	"id": 41,
+	"chapters": 1
+}, {
+	"name": ".hack//Intermezzo",
+	"genres": ["adventure", "alternative world", "coming of age", "dungeon", "fantasy", "game", "magic", "mmorpg", "mystery", "present", "rpg", "sci-fi", "science fiction", "swords \u0026 co", "video game", "video games", "virtual reality", "virtual world"],
+	"seasons": 0,
+	"id": 42,
+	"chapters": 1
+}, {
+	"name": ".hack//Liminality",
+	"genres": ["adventure", "asia", "detective", "drama", "earth", "future", "game", "isekai", "japan", "mystery", "new", "original work", "sci fi", "sci-fi", "science fiction", "science-fiction", "seinen", "supernatural drama", "video game", "video games", "virtual world"],
+	"seasons": 0,
+	"id": 43,
+	"chapters": 4
+}, {
+	"name": ".hack//Quantum",
+	"genres": ["action", "action drama", "adventure", "alternative world", "artificial intelligence", "conspiracy", "drama", "dungeon", "epic fantasy", "fantasy", "fantasy world", "game", "magic", "mmorpg", "monster", "mystery", "new", "plot continuity", "present", "sci fi", "sci-fi", "science fiction", "seinen", "super power", "swords \u0026 co", "tragedy", "video game", "video games", "virtual reality", "virtual world"],
+	"seasons": 0,
+	"id": 44,
+	"chapters": 3
+}, {
+	"name": ".hack//Quantum: Sore ike! Bokura no Chimuchimu-chan!!",
+	"genres": ["alternative world", "comedy", "game", "video game", "virtual reality"],
+	"seasons": 0,
+	"id": 45,
+	"chapters": 3
+}, {
+	"name": ".hack//Roots",
+	"genres": ["action", "adventure", "alternative world", "bionic powers", "drama", "fantasy", "fantasy world", "game", "isekai", "kemonomimi", "lgbtq+ themes", "love triangle", "magic", "mmorpg", "nekomimi", "new", "plot continuity", "psi-powers", "rpg", "sci-fi", "science fiction", "science-fiction", "seinen", "super power", "swordplay", "video game", "video games", "virtual reality", "virtual world"],
+	"seasons": 0,
+	"id": 46,
+	"chapters": 26
+}, {
+	"name": ".hack//Sign",
+	"genres": ["adventure", "alternative present", "alternative world", "amnesia", "anti-hero", "cgi", "dissociative identities", "drama", "ensemble cast", "fantasy", "fantasy world", "game", "gender bending", "hacking", "isekai", "lgbtq+ themes", "magic", "mmorpg", "mystery", "new", "person in a strange world", "present", "psychological drama", "rpg", "sci fi", "sci-fi", "science fiction", "science-fiction", "seinen", "super power", "supernatural drama", "swords \u0026 co", "tanned skin", "tragedy", "trapped in a video game", "video game", "video games", "virtual reality", "virtual world"],
+	"seasons": 0,
+	"id": 47,
+	"chapters": 26
+}, {
+	"name": ".hack//Tasogare no Udewa Densetsu",
+	"genres": ["action", "adventure", "alternative world", "comedy", "fantasy", "game", "magic", "manga", "mmorpg", "new", "present", "rpg", "sci fi", "sci-fi", "science fiction", "science-fiction", "seinen", "shounen", "siblings", "slapstick", "swords \u0026 co", "video game", "video games", "virtual reality", "virtual world"],
+	"seasons": 0,
+	"id": 48,
+	"chapters": 12
+}, {
+	"name": ".hack//Tasogare no Udewa Densetsu: Offline de Aimashou",
+	"genres": ["adventure", "alternative world", "comedy", "fantasy", "game", "magic", "present", "sci-fi", "science fiction", "swords \u0026 co", "video game", "virtual reality"],
+	"seasons": 0,
+	"id": 49,
+	"chapters": 1
+}, {
+	"name": ".hack//The Movie: Sekai no Mukou ni",
+	"genres": ["action", "adventure", "asia", "cg animation", "cg-anime", "coming of age", "earth", "fantasy", "full cgi", "future", "game", "heroine of weak character", "japan", "love triangle", "magic", "middle school", "mmorpg", "mystery", "present", "rpg", "school", "sci fi", "sci-fi", "science fiction", "science-fiction", "stoic hero", "video game", "video games", "virtual reality", "virtual world"],
+	"seasons": 0,
+	"id": 50,
+	"chapters": 1
+}, {
+	"name": ".hack//Unison",
+	"genres": ["adventure", "alternative world", "comedy", "fantasy", "game", "magic", "mmorpg", "present", "rpg", "sci-fi", "science fiction", "slice of life", "swords \u0026 co", "video game", "video games", "virtual reality", "virtual world"],
+	"seasons": 0,
+	"id": 51,
+	"chapters": 1
+}, {
+	"name": ".hack//Versus: The Thanatos Report",
+	"genres": ["action", "full cgi", "game", "sci-fi", "science fiction", "science-fiction", "terrorism", "video game", "video games", "virtual reality"],
+	"seasons": 0,
+	"id": 52,
+	"chapters": 1
+}, {
+	"name": "0 Hao Sushe",
+	"genres": ["comedy", "fantasy"],
+	"seasons": 0,
+	"id": 53,
+	"chapters": 14
+}, {
+	"name": "0-sen Hayato",
+	"genres": ["action", "adventure", "based on a manga", "guns", "half-length episodes", "historical", "military", "war", "world war 2", "world wars"],
+	"seasons": 0,
+	"id": 54,
+	"chapters": 38
+}, {
+	"name": "0-sen Hayato Pilot",
+	"genres": ["historical", "military"],
+	"seasons": 0,
+	"id": 55,
+	"chapters": 1
+}, {
+	"name": "001",
+	"genres": ["age regression", "black and white", "cars", "comedy", "crossdressing", "new", "no dialogue", "short episodes", "shorts"],
+	"seasons": 0,
+	"id": 56,
+	"chapters": 1
+}, {
+	"name": "009 Re:Cyborg",
+	"genres": ["action", "adventure", "angel", "based on a manga", "cg animation", "cg-anime", "cyborg", "cyborgs", "disaster", "drama", "earth", "gunfights", "human enhancement", "manga", "mecha", "middle east", "robots", "robots \u0026 androids", "sci fi", "sci-fi", "science fiction", "science-fiction", "shounen", "space", "super power", "superheroes", "tragedy"],
+	"seasons": 0,
+	"id": 57,
+	"chapters": 1
+}, {
+	"name": "009 Re:Cyborg x Zip",
+	"genres": ["cg animation", "comedy", "crossover", "promotional", "short episodes", "super power"],
+	"seasons": 0,
+	"id": 58,
+	"chapters": 10
+}, {
+	"name": "009-1",
+	"genres": ["action", "assassins", "based on a manga", "conspiracy", "cyberpunk", "cyborg", "cyborgs", "drama", "earth", "ecchi", "episodic", "eroticism", "espionage", "female protagonist", "guns", "manga", "mecha", "nudity", "robots \u0026 androids", "sci fi", "sci-fi", "science fiction", "science-fiction", "seinen", "tragedy", "war"],
+	"seasons": 0,
+	"id": 59,
+	"chapters": 12
+}, {
+	"name": "009-1: R\u0026B",
+	"genres": ["action", "adventure", "based on a manga", "cyberpunk", "cyborgs", "drama", "ecchi", "eroticism", "espionage", "female protagonist", "guns", "robots \u0026 androids", "sci fi", "sci-fi", "science fiction", "science-fiction", "seinen", "war"],
+	"seasons": 0,
+	"id": 60,
+	"chapters": 1
+}, {
+	"name": "00:08",
+	"genres": ["abstract", "amnesia", "avant garde", "dementia", "indefinite", "male protagonist", "new", "no dialogue", "psychological", "short movie", "shorts", "twisted story"],
+	"seasons": 0,
+	"id": 61,
+	"chapters": 1
+}, {
+	"name": "02",
+	"genres": ["action", "adventure", "comedy", "drama", "fantasy", "kids"],
+	"seasons": 0,
+	"id": 62,
+	"chapters": 1
+}, {
+	"name": "07-Ghost",
+	"genres": ["action", "action drama", "alternative world", "amnesia", "based on a manga", "bionic powers", "bishounen", "comedy", "demon", "demons", "drama", "fantasy", "fantasy world", "friendship", "ghosts", "josei", "magic", "manga", "memory manipulation", "military", "mythology", "nun", "plot continuity", "primarily male cast", "psi-powers", "reincarnation", "super power", "supernatural", "tragedy"],
+	"seasons": 0,
+	"id": 63,
+	"chapters": 25
+}, {
+	"name": "1 more night feat. Monkey Majik",
+	"genres": ["indefinite", "music", "present"],
+	"seasons": 0,
+	"id": 64,
+	"chapters": 1
+}, {
+	"name": "1% no Koibito",
+	"genres": ["romance"],
+	"seasons": 0,
+	"id": 65,
+	"chapters": 1
+}, {
+	"name": "1+2\u003dParadise",
+	"genres": ["based on a manga", "childhood friends", "childhood promise", "circus", "cohabitation", "comedy", "ecchi", "fantasy", "gynophobia", "harem", "large breasts", "love polygon", "love triangle", "magic", "male protagonist", "manga", "nonsense-comedy", "nudity", "pantsu", "panty shots", "romance", "seinen", "shounen", "twins"],
+	"seasons": 0,
+	"id": 66,
+	"chapters": 2
+}, {
+	"name": "1,2,3,4,",
+	"genres": ["abstract", "no dialogue", "non-human protagonists", "shorts"],
+	"seasons": 0,
+	"id": 67,
+	"chapters": 1
+}, {
+	"name": "1-gatsu ni wa Christmas",
+	"genres": ["adoption", "angst", "asia", "christmas", "drama", "earth", "hikikomori", "japan", "love triangle", "manga", "present", "primarily adult cast", "romance", "shoujo", "slice of life", "tragedy", "tsundere"],
+	"seasons": 0,
+	"id": 68,
+	"chapters": 1
+}, {
+	"name": "1-ri Botchi no Ookami to 7-hiki no Ko Yagi",
+	"genres": ["animal protagonists", "anthropomorphic", "based on a fairy tale", "family friendly", "fantasy", "kids", "non-human protagonists"],
+	"seasons": 0,
+	"id": 69,
+	"chapters": 1
+}, {
+	"name": "1/100 Rice Planting",
+	"genres": ["agriculture", "countryside", "rural", "shorts", "slice of life", "stop motion", "stop motion animation"],
+	"seasons": 0,
+	"id": 70,
+	"chapters": 1
+}, {
+	"name": "1/100 Shibuya Crossing",
+	"genres": ["shorts", "slice of life", "stop motion", "stop motion animation"],
+	"seasons": 0,
+	"id": 71,
+	"chapters": 1
+}, {
+	"name": "1/100 Train Station",
+	"genres": ["shorts", "slice of life", "stop motion", "stop motion animation", "trains"],
+	"seasons": 0,
+	"id": 72,
+	"chapters": 1
+}, {
+	"name": "10 Tokyo Warriors",
+	"genres": ["action", "supernatural"],
+	"seasons": 0,
+	"id": 73,
+	"chapters": 6
+}, {
+	"name": "10-fun de wakaru: Shingeki no Kyojin digest",
+	"genres": ["action", "drama", "fantasy", "military", "mystery", "super power"],
+	"seasons": 0,
+	"id": 74,
+	"chapters": 1
+}, {
+	"name": "10-shuunen da yo! Chibi Maruko-chan",
+	"genres": ["comedy", "slice of life"],
+	"seasons": 0,
+	"id": 75,
+	"chapters": 1
+}, {
+	"name": "100%",
+	"genres": ["based on a manga", "comedy", "drama", "present", "romance", "romantic comedy", "work life"],
+	"seasons": 0,
+	"id": 76,
+	"chapters": 1
+}, {
+	"name": "100% Pascal-sensei",
+	"genres": ["based on a manga", "comedy", "elementary school", "family friendly", "kids", "present", "school life", "short episodes"],
+	"seasons": 0,
+	"id": 77,
+	"chapters": 6
+}, {
+	"name": "100% Pascal-sensei (TV)",
+	"genres": ["based on a manga", "comedy", "family friendly", "half-length episodes", "kids", "kodomo", "kuudere", "male protagonist", "meta", "present", "primarily child cast", "school", "school life", "short episodes", "surreal comedy", "teacher"],
+	"seasons": 0,
+	"id": 78,
+	"chapters": 36
+}, {
+	"name": "100% Perfect Love",
+	"genres": ["comedy", "drama", "romance"],
+	"seasons": 0,
+	"id": 79,
+	"chapters": 30
+}, {
+	"name": "100% Renewable Energy",
+	"genres": ["animals", "earth", "educational", "environmental", "music", "promotional", "shorts"],
+	"seasons": 0,
+	"id": 80,
+	"chapters": 1
+}, {
+	"name": "100-man no Inochi no Ue ni Ore wa Tatteiru",
+	"genres": ["action", "action drama", "adventure", "alternate universe", "alternative world", "anti-hero", "based on a manga", "comedy", "coming of age", "dark fantasy", "death game", "drama", "ensemble cast", "fantasy", "fantasy world", "female harem", "game", "goblin", "harem", "isekai", "magic", "male protagonist", "manga", "monster", "monsters", "otaku culture", "parallel world", "person in a strange world", "philosophy", "primarily female cast", "romance", "rpg", "school", "shounen", "survival", "swords \u0026 co", "tragedy", "video game"],
+	"seasons": 0,
+	"id": 81,
+	"chapters": 12
+}, {
+	"name": "100-man no Inochi no Ue ni Ore wa Tatteiru 2nd Season",
+	"genres": ["action", "action drama", "adventure", "alternate universe", "angst", "anti-hero", "based on a manga", "body horror", "comedy", "coming of age", "death game", "drama", "fantasy", "fantasy world", "female harem", "game", "harem", "isekai", "lgbtq+ themes", "magic", "male protagonist", "manga", "monster", "monsters", "parallel world", "person in a strange world", "philosophy", "romance", "rpg", "shounen", "survival", "swords \u0026 co", "time skip", "video game"],
+	"seasons": 0,
+	"id": 82,
+	"chapters": 12
+}, {
+	"name": "100-man no Inochi no Ue ni Ore wa Tatteiru Recap",
+	"genres": ["action", "based on a manga", "drama", "fantasy", "isekai", "monsters", "person in a strange world", "recap", "rpg", "shounen", "video game"],
+	"seasons": 0,
+	"id": 83,
+	"chapters": 1
+}, {
+	"name": "100-man-nen Chikyuu no Tabi: Bander Book",
+	"genres": ["action", "adventure", "alien", "aliens", "animals", "comedy", "crossover", "future", "male protagonist", "outer space", "sci fi", "sci-fi", "science fiction", "space", "time manipulation"],
+	"seasons": 0,
+	"id": 84,
+	"chapters": 1
+}, {
+	"name": "100-nichikan Ikita Wani",
+	"genres": ["animal protagonists", "animals", "anthropomorphic", "based on a 4-koma manga", "based on a doujinshi", "based on a manga", "comedy", "drama", "manga", "non-human protagonists", "romance", "seinen", "slice of life", "slice of life drama", "tragedy"],
+	"seasons": 0,
+	"id": 85,
+	"chapters": 1
+}, {
+	"name": "100-nichikan Ikita Wani X Bourbon",
+	"genres": ["slice of life"],
+	"seasons": 0,
+	"id": 86,
+	"chapters": 1
+}, {
+	"name": "1000-nen Joou: Queen Millennia",
+	"genres": ["action", "adventure", "based on a manga", "drama", "fantasy", "female protagonist", "leijiverse", "post apocalypse", "post-apocalyptic", "romance", "sci fi", "sci-fi", "science fiction", "science-fiction", "seinen", "space", "space opera", "tragedy"],
+	"seasons": 0,
+	"id": 87,
+	"chapters": 1
+}, {
+	"name": "10000-Kounen Sougankyou",
+	"genres": ["cg-anime"],
+	"seasons": 0,
+	"id": 88,
+	"chapters": 1
+}, {
+	"name": "1001 Nights",
+	"genres": ["abstract", "avant garde", "cgi", "classic literature", "crime", "demon", "demons", "dream world", "elves", "fairy tale", "fantasy", "foreign", "historical", "manga", "middle east", "middle eastern", "music", "mythology", "no dialogue", "nudity", "original work", "past", "romance", "royalty", "seinen", "supernatural drama", "twisted story"],
+	"seasons": 0,
+	"id": 89,
+	"chapters": 1
+}, {
+	"name": "10p.m.",
+	"genres": ["drama", "music", "romance", "the arts"],
+	"seasons": 0,
+	"id": 90,
+	"chapters": 1
+}, {
+	"name": "11-gatsu Umare no Otokonoko no Tame ni.",
+	"genres": ["family friendly", "original work", "shorts", "slice of life", "stop motion", "stop motion animation"],
+	"seasons": 0,
+	"id": 91,
+	"chapters": 1
+}, {
+	"name": "11-nin Iru!",
+	"genres": ["action", "adventure", "agender", "alien", "aliens", "amnesia", "angst", "based on a manga", "cyborg", "drama", "ensemble cast", "future", "gender bending", "humanoid alien", "lgbtq+ themes", "male protagonist", "manga", "mecha", "memory manipulation", "mystery", "outer space", "primarily male cast", "psi-powers", "psychological", "romance", "sci fi", "sci-fi", "science fiction", "science-fiction", "shipboard", "shoujo", "space", "space travel", "super power", "supernatural drama", "survival", "transgender"],
+	"seasons": 0,
+	"id": 92,
+	"chapters": 1
+}, {
+	"name": "112 Sabsections of Skyline",
+	"genres": ["birds", "music", "no dialogue", "shorts"],
+	"seasons": 0,
+	"id": 93,
+	"chapters": 1
+}, {
+	"name": "11:08",
+	"genres": ["comedy", "contemporary fantasy", "drawing", "fantasy", "independent anime", "music", "no dialogue", "present", "school", "school life", "slice of life"],
+	"seasons": 0,
+	"id": 94,
+	"chapters": 1
+}, {
+	"name": "11eyes",
+	"genres": ["action", "action drama", "alternative world", "angst", "based on a visual novel", "based on an eroge", "contemporary fantasy", "demons", "drama", "ecchi", "ensemble cast", "erotic game", "fantasy", "female student", "gore", "kuudere", "magic", "male protagonist", "memory manipulation", "present", "psi-powers", "revenge", "romance", "school", "seinen", "stereotypes", "super power", "supernatural", "superpower", "superpowers", "survival", "swordplay", "tragedy", "visual novel", "witch", "yandere"],
+	"seasons": 0,
+	"id": 95,
+	"chapters": 12
+}, {
+	"name": "11eyes Picture Drama",
+	"genres": ["comedy", "kuudere", "picture drama"],
+	"seasons": 0,
+	"id": 96,
+	"chapters": 13
+}, {
+	"name": "11eyes: Momoiro Genmutan",
+	"genres": ["action", "alternative world", "based on a visual novel", "based on an eroge", "comedy", "demons", "ecchi", "fantasy", "kuudere", "nonsense-comedy", "parody", "present", "psi-powers", "romance", "school", "seinen", "super power", "supernatural", "superpower", "superpowers"],
+	"seasons": 0,
+	"id": 97,
+	"chapters": 1
+}, {
+	"name": "12 Shengxiao Guanjiafu: Wangluo Shijie Lixian",
+	"genres": ["adventure", "anthropomorphic", "chinese animation", "family friendly", "kids", "non-human protagonists"],
+	"seasons": 0,
+	"id": 98,
+	"chapters": 12
+}, {
+	"name": "12 Shengxiao Quanjiafu de Shenqi Shijie",
+	"genres": ["animal protagonists", "anthropomorphic", "chinese animation", "family friendly", "kids", "non-human protagonists"],
+	"seasons": 0,
+	"id": 99,
+	"chapters": 13
+}, {
+	"name": "12 Zhi Wenzi He 5 Geren",
+	"genres": ["chinese animation", "comedy", "educational", "kids", "shorts"],
+	"seasons": 0,
+	"id": 100,
+	"chapters": 1
+}, {
+	"name": "12-gatsu no Uta",
+	"genres": ["independent anime", "kids", "music", "present", "shorts"],
+	"seasons": 0,
+	"id": 101,
+	"chapters": 1
+}, {
+	"name": "12-sai.",
+	"genres": ["asia", "based on a manga", "earth", "friendship", "japan", "middle school", "present", "romance", "school", "school life", "shoujo", "unrequited love"],
+	"seasons": 0,
+	"id": 102,
+	"chapters": 8
+}, {
+	"name": "12-sai. 2nd Season",
+	"genres": ["based on a manga", "friendship", "romance", "school", "school life", "shoujo"],
+	"seasons": 0,
+	"id": 103,
+	"chapters": 4
+}, {
+	"name": "12-sai.: Chicchana Mune no Tokimeki",
+	"genres": ["asia", "based on a manga", "bullying", "coming of age", "earth", "elementary school", "female protagonist", "friendship", "heterosexual", "japan", "manga", "present", "primarily child cast", "romance", "school", "school life", "shoujo", "slice of life"],
+	"seasons": 0,
+	"id": 104,
+	"chapters": 12
+}, {
+	"name": "12-sai.: Chicchana Mune no Tokimeki 2nd Season",
+	"genres": ["based on a manga", "elementary school", "female protagonist", "friendship", "heterosexual", "manga", "present", "primarily child cast", "romance", "school", "school life", "shoujo"],
+	"seasons": 0,
+	"id": 105,
+	"chapters": 12
+}, {
+	"name": "12-Sai.: Kiss, Kirai, Suki",
+	"genres": ["shoujo"],
+	"seasons": 0,
+	"id": 106,
+	"chapters": 1
+}, {
+	"name": "12-sai.: Kiss, Kirai, Suki",
+	"genres": ["half-length episodes", "heterosexual", "manga", "middle school", "present", "romance", "school", "school life", "shoujo"],
+	"seasons": 0,
+	"id": 107,
+	"chapters": 12
+}, {
+	"name": "123",
+	"genres": ["family friendly", "kids", "minna no uta", "music"],
+	"seasons": 0,
+	"id": 108,
+	"chapters": 1
+}, {
+	"name": "15 Bishoujo Hyouryuuki",
+	"genres": ["anal", "big boobs", "bondage", "comedy", "female teacher", "flat chested", "hardcore", "harem", "hentai", "masturbation", "outdoors", "present", "romance", "sado maso", "school girl", "tentacle", "threesome", "tribadism"],
+	"seasons": 0,
+	"id": 109,
+	"chapters": 3
+}, {
+	"name": "15 Sonyeon Uju Pyoryugi",
+	"genres": ["action", "korean animation", "outer space", "sci-fi", "science fiction", "science-fiction", "shounen", "space"],
+	"seasons": 0,
+	"id": 110,
+	"chapters": 1
+}, {
+	"name": "15 Step",
+	"genres": ["music"],
+	"seasons": 0,
+	"id": 111,
+	"chapters": 1
+}, {
+	"name": "15-fun de Wakaru Inazuma Eleven: Ares no Tenbin",
+	"genres": ["action", "based on a video game", "family friendly", "soccer", "sports", "team sports"],
+	"seasons": 0,
+	"id": 112,
+	"chapters": 1
+}, {
+	"name": "15-fun de wakaru: Shingeki no Kyojin digest",
+	"genres": ["action", "drama", "fantasy", "military", "mystery", "super power"],
+	"seasons": 0,
+	"id": 113,
+	"chapters": 1
+}, {
+	"name": "15-sai, Kyou kara Dousei Hajimemasu.",
+	"genres": ["based on a manga", "comedy", "drama", "love polygon", "present", "romance", "romantic comedy", "school", "short episodes", "shoujo", "slice of life", "vertical anime"],
+	"seasons": 0,
+	"id": 114,
+	"chapters": 30
+}, {
+	"name": "171 Eru: Majo Le Septet",
+	"genres": ["music", "vocaloid"],
+	"seasons": 0,
+	"id": 115,
+	"chapters": 1
+}, {
+	"name": "180 Byou de Kimi no Mimi wo Shiawase ni Dekiru ka?",
+	"genres": ["bar", "cute girls doing cute things", "iyashikei", "new", "original work", "pov", "primarily female cast", "short episodes", "slice of life", "twins", "yandere"],
+	"seasons": 0,
+	"id": 116,
+	"chapters": 12
+}, {
+	"name": "183 no Nippon Très Bien Rock \u0027n\u0027 Roll",
+	"genres": ["cg-anime", "comedy"],
+	"seasons": 0,
+	"id": 117,
+	"chapters": 1
+}, {
+	"name": "189D3 / Pentium",
+	"genres": ["abstract", "shorts"],
+	"seasons": 0,
+	"id": 118,
+	"chapters": 1
+}, {
+	"name": "18if",
+	"genres": ["adventure", "alternate universe", "alternative world", "amnesia", "based on a mobile game", "beastmen", "bullying", "crossdressing", "drama", "dream world", "ensemble cast", "episodic", "excessive violence", "fantasy", "female harem", "game", "gods", "hero of strong character", "idol", "isekai", "male protagonist", "monster", "mystery", "psi-powers", "psychological drama", "supernatural", "supernatural drama", "tragedy", "witches"],
+	"seasons": 0,
+	"id": 119,
+	"chapters": 13
+}, {
+	"name": "18X",
+	"genres": ["music"],
+	"seasons": 0,
+	"id": 120,
+	"chapters": 1
+}, {
+	"name": "19 Tian",
+	"genres": ["based on a manga", "bl", "boys love", "childhood friends", "chinese animation", "comedy", "drama", "romance", "school life", "short episodes", "shounen-ai"],
+	"seasons": 0,
+	"id": 121,
+	"chapters": 60
+}, {
+	"name": "1989",
+	"genres": ["adventure", "aliens", "drama", "hero of strong character", "music", "science-fiction", "space", "tragedy"],
+	"seasons": 0,
+	"id": 122,
+	"chapters": 1
+}, {
+	"name": "2",
+	"genres": ["boxing", "cg animation", "dancing", "military", "music"],
+	"seasons": 0,
+	"id": 123,
+	"chapters": 1
+}, {
+	"name": "2-fun de wakaru: Lord El-Melloi II Sei no Jikenbo",
+	"genres": ["fantasy", "supernatural"],
+	"seasons": 0,
+	"id": 124,
+	"chapters": 1
+}, {
+	"name": "2.43 Mini Anime: Fukui-ben Kouza",
+	"genres": ["based on a light novel", "chibi", "comedy", "educational", "short episodes", "slice of life", "sports"],
+	"seasons": 0,
+	"id": 125,
+	"chapters": 8
+}, {
+	"name": "2.43 Mini Anime: Inside Story",
+	"genres": ["based on a light novel", "chibi", "comedy", "short episodes", "slice of life", "sports"],
+	"seasons": 0,
+	"id": 126,
+	"chapters": 10
+}, {
+	"name": "2.43 Mini Anime: Volleyball Kouza",
+	"genres": ["based on a light novel", "chibi", "educational", "school", "short episodes", "slice of life", "sports", "team sports", "volleyball"],
+	"seasons": 0,
+	"id": 127,
+	"chapters": 10
+}, {
+	"name": "2.43: Seiin Koukou Danshi Volley-bu",
+	"genres": ["based on a light novel", "childhood friends", "coming of age", "drama", "ensemble cast", "ganbatte", "male protagonist", "noitamina", "novel", "primarily male cast", "primarily teen cast", "school", "school club", "school clubs", "school life", "slice of life", "sports", "team sports", "time skip", "tournaments", "volleyball"],
+	"seasons": 0,
+	"id": 128,
+	"chapters": 12
+}, {
+	"name": "2.43: Seiin Koukou Danshi Volley-bu Mini Anime",
+	"genres": ["based on a light novel", "chibi", "comedy", "short episodes", "slice of life", "sports", "super deformed", "team sports", "volleyball"],
+	"seasons": 0,
+	"id": 129,
+	"chapters": 8
+}, {
+	"name": "20-dai no Heya-hen",
+	"genres": ["apartment life", "commercials", "indefinite", "promotional", "slice of life"],
+	"seasons": 0,
+	"id": 130,
+	"chapters": 1
+}, {
+	"name": "20-fun de wakaru: Shingeki no Kyojin digest",
+	"genres": ["action", "drama", "fantasy", "military", "mystery", "super power"],
+	"seasons": 0,
+	"id": 131,
+	"chapters": 1
+}, {
+	"name": "2002-nen Halmeoni Ondo",
+	"genres": ["kids", "minna no uta", "music", "soccer", "sports"],
+	"seasons": 0,
+	"id": 132,
+	"chapters": 1
+}, {
+	"name": "2005-nen Uchuu no Tabi",
+	"genres": ["aliens", "amnesia", "avant garde", "dementia", "indefinite", "new", "sci-fi", "science fiction", "science-fiction", "short movie", "shorts", "space"],
+	"seasons": 0,
+	"id": 133,
+	"chapters": 1
+}, {
+	"name": "2010",
+	"genres": ["abstract", "music"],
+	"seasons": 0,
+	"id": 134,
+	"chapters": 1
+}, {
+	"name": "2012 Ka Ku Chunwan Zhi Long Xing Tianxia",
+	"genres": ["kids"],
+	"seasons": 0,
+	"id": 135,
+	"chapters": 1
+}, {
+	"name": "2015 Chunjie Dongman Da Lianhuan",
+	"genres": ["adventure"],
+	"seasons": 0,
+	"id": 136,
+	"chapters": 1
+}, {
+	"name": "2020 Nyeon Ujuui Wonder Kiddy",
+	"genres": ["adventure", "korean animation", "outer space", "sci fi", "sci-fi", "science fiction", "science-fiction", "space"],
+	"seasons": 0,
+	"id": 137,
+	"chapters": 13
+}, {
+	"name": "2049＋Jue Chu Feng Sheng",
+	"genres": ["cg-anime", "science-fiction"],
+	"seasons": 0,
+	"id": 138,
+	"chapters": 6
+}, {
+	"name": "20:55",
+	"genres": ["idol", "music"],
+	"seasons": 0,
+	"id": 139,
+	"chapters": 1
+}, {
+	"name": "20min Walk From Nishi-Ogikubo Station",
+	"genres": ["action", "action comedy", "comedy", "insects", "japan animator\u0027s exhibition", "no dialogue", "present", "shorts"],
+	"seasons": 0,
+	"id": 140,
+	"chapters": 1
+}, {
+	"name": "21 Emon",
+	"genres": ["action", "action comedy", "based on a manga", "comedy", "family friendly", "sci fi", "sci-fi", "science fiction", "science-fiction", "shounen", "space"],
+	"seasons": 0,
+	"id": 141,
+	"chapters": 39
+}, {
+	"name": "21 Emon Uchuu e Irasshai!",
+	"genres": ["action", "action comedy", "adventure", "comedy", "sci fi", "sci-fi", "science fiction", "science-fiction", "space"],
+	"seasons": 0,
+	"id": 142,
+	"chapters": 1
+}, {
+	"name": "21 Emon Uchuu ike! Hadashi no Princess",
+	"genres": ["action", "action comedy", "adventure", "based on a manga", "comedy", "family friendly", "sci fi", "sci-fi", "science fiction", "science-fiction", "shounen", "space"],
+	"seasons": 0,
+	"id": 143,
+	"chapters": 1
+}, {
+	"name": "21 Seiki",
+	"genres": ["kids", "music"],
+	"seasons": 0,
+	"id": 144,
+	"chapters": 1
+}, {
+	"name": "21 Seiki Manga Hajimete Monogatari",
+	"genres": ["adventure", "comedy", "educational", "family friendly", "kids", "sci fi", "sci-fi", "science fiction", "science-fiction", "time travel"],
+	"seasons": 0,
+	"id": 145,
+	"chapters": 1
+}, {
+	"name": "21 Seiki wa Minna ga Shuyaku",
+	"genres": ["drama", "educational"],
+	"seasons": 0,
+	"id": 146,
+	"chapters": 1
+}, {
+	"name": "21-ji no Onna: Newscaster Katsuragi Miki",
+	"genres": ["anal", "bondage", "hentai", "masturbation", "office lady", "oral", "outdoors", "present", "softcore"],
+	"seasons": 0,
+	"id": 147,
+	"chapters": 3
+}, {
+	"name": "22/7",
+	"genres": ["band", "cgi", "comedy", "cute girls doing cute things", "dancing", "diva", "drama", "ensemble cast", "female protagonist", "ganbatte", "heroine of strong character", "heroine of weak character", "idol", "idols", "idols (female)", "moe", "music", "mystery", "performance", "present", "primarily female cast", "reluctant heroine", "showbiz", "slice of life", "stoic heroine", "the arts"],
+	"seasons": 0,
+	"id": 148,
+	"chapters": 12
+}, {
+	"name": "22/7: 8＋3\u003d?",
+	"genres": ["animals", "cannibalism", "comedy", "cute girls doing cute things", "drama", "idol", "idols", "idols (female)", "music", "present", "primarily female cast", "showbiz", "slice of life", "slice of life drama"],
+	"seasons": 0,
+	"id": 149,
+	"chapters": 1
+}, {
+	"name": "23 Hao Niu Nai Tang",
+	"genres": ["chinese animation", "family friendly", "kids", "short episodes"],
+	"seasons": 0,
+	"id": 150,
+	"chapters": 26
+}, {
+	"name": "23-ji no Saga Meshi Anime",
+	"genres": ["commercials", "food and beverage", "promotional", "short episodes"],
+	"seasons": 0,
+	"id": 151,
+	"chapters": 10
+}, {
+	"name": "23.exe: Feel so good",
+	"genres": ["adventure", "chibi", "fantasy", "urban fantasy", "vocaloid"],
+	"seasons": 0,
+	"id": 152,
+	"chapters": 1
+}, {
+	"name": "23.exe: M1KU",
+	"genres": ["chibi", "vocaloid"],
+	"seasons": 0,
+	"id": 153,
+	"chapters": 1
+}, {
+	"name": "23.exe: ochatime",
+	"genres": ["vocaloid"],
+	"seasons": 0,
+	"id": 154,
+	"chapters": 1
+}, {
+	"name": "23.exe: TYFW",
+	"genres": ["cg animation", "vocaloid"],
+	"seasons": 0,
+	"id": 155,
+	"chapters": 1
+}, {
+	"name": "24H",
+	"genres": ["music"],
+	"seasons": 0,
+	"id": 156,
+	"chapters": 9
+}, {
+	"name": "25-bu de Wakaru Tegata Kogitte no Hanashi",
+	"genres": ["educational"],
+	"seasons": 0,
+	"id": 157,
+	"chapters": 1
+}, {
+	"name": "25-sai no Joshikousei",
+	"genres": ["adult couples", "based on a manga", "ecchi", "eroticism", "hentai", "high school", "josei", "mature romance", "present", "romance", "school", "school life", "short episodes", "shoujo", "smut"],
+	"seasons": 0,
+	"id": 158,
+	"chapters": 12
+}, {
+	"name": "26 Ge Mimi",
+	"genres": ["adventure", "animal protagonists", "anthropomorphic", "chinese animation", "family friendly", "kids", "mystery", "non-human protagonists"],
+	"seasons": 0,
+	"id": 159,
+	"chapters": 26
+}, {
+	"name": "27th",
+	"genres": ["abstract", "achromatic", "art", "avant garde", "black and white", "music", "psychological", "romance"],
+	"seasons": 0,
+	"id": 160,
+	"chapters": 1
+}, {
+	"name": "2x1",
+	"genres": ["drama", "hentai", "present", "romance", "school", "school girl", "softcore", "threesome"],
+	"seasons": 0,
+	"id": 161,
+	"chapters": 2
+}, {
+	"name": "3 Choume no Tama: Onegai! Momo-chan wo Sagashite!!",
+	"genres": ["adventure", "alternative world", "animal protagonists", "animals", "cats", "dogs", "drama", "family friendly", "fantasy", "kids", "non-human protagonists", "pets", "reincarnation", "slice of life"],
+	"seasons": 0,
+	"id": 162,
+	"chapters": 1
+}, {
+	"name": "3 Choume no Tama: Uchi no Tama Shirimasen ka?",
+	"genres": ["adventure", "pets"],
+	"seasons": 0,
+	"id": 163,
+	"chapters": 36
+}, {
+	"name": "3 Little Pigs and the Magic Lamp",
+	"genres": ["animal protagonists", "anthropomorphic", "chinese animation", "family friendly", "non-human protagonists", "pigs"],
+	"seasons": 0,
+	"id": 164,
+	"chapters": 1
+}, {
+	"name": "3 O’Clock in the Afternoon, Snack Time",
+	"genres": [],
+	"seasons": 0,
+	"id": 165,
+	"chapters": 1
+}, {
+	"name": "3-bu de Wakaru Koizumi Yakumo no Kaidan",
+	"genres": ["historical", "horror", "parody", "supernatural"],
+	"seasons": 0,
+	"id": 166,
+	"chapters": 7
+}, {
+	"name": "3-byou Ato, Yajuu. Goukon de Suma ni Ita Kare wa Midara na Nikushoku Deshita",
+	"genres": ["based on a manga", "drama", "eroticism", "josei", "present", "romance", "smut"],
+	"seasons": 0,
+	"id": 167,
+	"chapters": 9
+}, {
+	"name": "3-byougo, Yajuu.: Goukon de Sumi ni Ita Kare wa Midara Nikushoku deshita",
+	"genres": ["ecchi", "hentai", "romance"],
+	"seasons": 0,
+	"id": 168,
+	"chapters": 8
+}, {
+	"name": "3-D Heaven",
+	"genres": ["family friendly", "kids", "minna no uta", "music"],
+	"seasons": 0,
+	"id": 169,
+	"chapters": 1
+}, {
+	"name": "3-gatsu no Lion",
+	"genres": ["age gap", "asia", "based on a manga", "board games", "brain games and gambling", "bullying", "childcare", "comedy", "coming of age", "drama", "earth", "family life", "game", "ganbatte", "genius", "hero of weak character", "high school", "iyashikei", "japan", "lifestyle change", "loneliness", "male protagonist", "manga", "melancholy", "mental illness", "orphans", "philosophy", "present", "primarily adult cast", "psychological", "psychological drama", "rehabilitation", "seinen", "shogi", "slice of life", "sports", "strategy game", "tokyo", "tragedy"],
+	"seasons": 0,
+	"id": 170,
+	"chapters": 22
+}, {
+	"name": "3-gatsu no Lion 2nd Season",
+	"genres": ["asia", "based on a manga", "board games", "brain games and gambling", "bullying", "childcare", "comedy", "coming of age", "drama", "family life", "game", "ganbatte", "genius", "hero of weak character", "high school", "iyashikei", "japan", "male protagonist", "manga", "melancholy", "middle school", "orphans", "philosophy", "present", "primarily adult cast", "psychological", "psychological drama", "rehabilitation", "school", "school club", "school life", "seinen", "shogi", "slice of life", "sports", "strategy game", "tokyo", "tragedy"],
+	"seasons": 0,
+	"id": 171,
+	"chapters": 22
+}, {
+	"name": "3-gatsu no Lion meets Bump of Chicken",
+	"genres": ["based on a manga", "brain games and gambling", "coming of age", "drama", "fantasy", "genius", "male protagonist", "manga", "music", "orphans", "present", "seinen"],
+	"seasons": 0,
+	"id": 172,
+	"chapters": 1
+}, {
+	"name": "3-gatsu no Lion Recap",
+	"genres": ["based on a manga", "board games", "drama", "orphans", "psychological", "recap", "seinen", "slice of life"],
+	"seasons": 0,
+	"id": 173,
+	"chapters": 1
+}, {
+	"name": "3-gatsu no Lion: Ugoku! Nya Shogi",
+	"genres": ["based on a manga", "board games", "chibi", "educational", "strategy game"],
+	"seasons": 0,
+	"id": 174,
+	"chapters": 10
+}, {
+	"name": "3-Nen C-Gumi 14-Ban Kubozono Chiyoko no Nyuukaku",
+	"genres": ["chibi", "dancing", "female protagonist", "music", "primarily female cast", "school", "school life", "super power", "time manipulation", "vocaloid"],
+	"seasons": 0,
+	"id": 175,
+	"chapters": 1
+}, {
+	"name": "3-Nen D-Gumi Glass no Kamen",
+	"genres": ["based on a manga", "cg animation", "cg-anime", "chibi", "comedy", "full cgi", "parody", "performance", "school", "school life", "short episodes", "shoujo", "the arts"],
+	"seasons": 0,
+	"id": 176,
+	"chapters": 13
+}, {
+	"name": "3-Nen D-Gumi Glass no Kamen: Tobidase! Watashitachi no Victory Road",
+	"genres": ["cg animation", "cg-anime", "chibi", "comedy", "parody", "school", "school life"],
+	"seasons": 0,
+	"id": 177,
+	"chapters": 1
+}, {
+	"name": "3-pun de Wakaru! Kore made no Love Live!",
+	"genres": ["idol", "idols", "idols (female)", "music", "recap", "school life", "shorts", "slice of life", "the arts"],
+	"seasons": 0,
+	"id": 178,
+	"chapters": 1
+}, {
+	"name": "3-pun de Wakaru! Kore made no Love Live! Sunshine!!",
+	"genres": ["ganbatte", "idol", "idols", "idols (female)", "music", "present", "recap", "school", "school life", "shorts", "slice of life", "the arts"],
+	"seasons": 0,
+	"id": 179,
+	"chapters": 1
+}, {
+	"name": "3-Second Strip",
+	"genres": ["based on a webtoon", "comedy", "korean animation", "short episodes"],
+	"seasons": 0,
+	"id": 180,
+	"chapters": 10
+}, {
+	"name": "3-tsu no Hanashi",
+	"genres": ["achromatic", "anthology", "black and white", "drama", "fantasy", "kids", "kodomo", "original work"],
+	"seasons": 0,
+	"id": 181,
+	"chapters": 1
+}, {
+	"name": "3-tsu no Kumo",
+	"genres": ["abstract", "avant garde", "black and white", "dementia", "fantasy", "independent anime", "original work", "psychological", "psychological drama", "shorts", "stop motion"],
+	"seasons": 0,
+	"id": 182,
+	"chapters": 3
+}, {
+	"name": "30-pun de Wakaru! Kore made no Love Live!",
+	"genres": ["idol", "idols", "idols (female)", "music", "recap", "school", "school life", "slice of life"],
+	"seasons": 0,
+	"id": 183,
+	"chapters": 2
+}, {
+	"name": "30-pun de Wakaru! Kore made no Love Live! Sunshine!!",
+	"genres": ["all-girls school", "ganbatte", "idol", "idols", "idols (female)", "music", "present", "recap", "school", "school life", "slice of life", "the arts"],
+	"seasons": 0,
+	"id": 184,
+	"chapters": 2
+}, {
+	"name": "30-pun de Wakaru! Love Live! Superstar!!",
+	"genres": ["idols (female)", "music", "school"],
+	"seasons": 0,
+	"id": 185,
+	"chapters": 1
+}, {
+	"name": "30-sai no Hoken Taiiku",
+	"genres": ["asia", "based on a light novel", "celestial beings", "comedy", "crossdressing", "daily life", "earth", "ecchi", "educational", "female protagonist", "gods", "half-length episodes", "japan", "kuudere", "male protagonist", "non-human protagonists", "nudity", "parody", "plot continuity", "present", "primarily adult cast", "romance", "romantic comedy", "salaryman", "seinen", "sex", "slapstick", "slice of life", "supernatural"],
+	"seasons": 0,
+	"id": 186,
+	"chapters": 12
+}, {
+	"name": "30-sai no Hoken Taiiku Specials",
+	"genres": ["based on a light novel", "comedy", "ecchi", "kuudere", "parody", "present", "romance", "seinen", "supernatural"],
+	"seasons": 0,
+	"id": 187,
+	"chapters": 3
+}, {
+	"name": "300 En no Otsukiai Anime Edition",
+	"genres": ["defloration", "flat chested", "hardcore", "hentai", "oral", "outdoors", "present"],
+	"seasons": 0,
+	"id": 188,
+	"chapters": 1
+}, {
+	"name": "3000 Leagues in Search of Mother (2000)",
+	"genres": ["family friendly"],
+	"seasons": 0,
+	"id": 189,
+	"chapters": 1
+}, {
+	"name": "30th Gundam Perfect Mission",
+	"genres": ["action", "comedy", "earth", "future", "mecha", "new", "piloted robot", "real robot", "sci fi", "sci-fi", "science fiction", "science-fiction", "short movie", "shorts", "space"],
+	"seasons": 0,
+	"id": 190,
+	"chapters": 1
+}, {
+	"name": "36 Ji",
+	"genres": ["action", "drama", "full cgi", "historical", "war"],
+	"seasons": 0,
+	"id": 191,
+	"chapters": 0
+}, {
+	"name": "36 Ji",
+	"genres": ["action", "drama"],
+	"seasons": 0,
+	"id": 192,
+	"chapters": 13
+}, {
+	"name": "365-nichi no Love Song",
+	"genres": ["kids", "music"],
+	"seasons": 0,
+	"id": 193,
+	"chapters": 1
+}, {
+	"name": "38-39°C",
+	"genres": ["bathhouse", "korean animation", "shorts", "stop motion animation"],
+	"seasons": 0,
+	"id": 194,
+	"chapters": 1
+}, {
+	"name": "39 feat. Hatsune Miku",
+	"genres": ["music"],
+	"seasons": 0,
+	"id": 195,
+	"chapters": 1
+}, {
+	"name": "39 Music!",
+	"genres": ["chibi", "music"],
+	"seasons": 0,
+	"id": 196,
+	"chapters": 1
+}, {
+	"name": "3D Kanojo: Real Girl",
+	"genres": ["based on a manga", "comedy", "coming of age", "drama", "hero of weak character", "heroine of strong character", "heterosexual", "high school", "love triangle", "male protagonist", "manga", "otaku", "otaku culture", "present", "romance", "romantic comedy", "school", "school life", "shoujo", "slice of life"],
+	"seasons": 0,
+	"id": 197,
+	"chapters": 12
+}, {
+	"name": "3D Kanojo: Real Girl 2nd Season",
+	"genres": ["based on a manga", "bullying", "comedy", "coming of age", "drama", "hero of weak character", "heroine of strong character", "heterosexual", "love triangle", "male protagonist", "manga", "otaku", "present", "romance", "romantic drama", "school", "school life", "shoujo", "slice of life", "time skip"],
+	"seasons": 0,
+	"id": 198,
+	"chapters": 12
+}, {
+	"name": "3D Onara Gorou ga Dance Dance Dance!!",
+	"genres": ["cg animation", "comedy", "crude", "music", "non-human protagonists", "original work", "shorts"],
+	"seasons": 0,
+	"id": 199,
+	"chapters": 1
+}, {
+	"name": "3Ping Lovers!☆Ippu Nisai no Sekai e Youkoso♪ The Animation",
+	"genres": ["big boobs", "boobjob", "dark skinned girl", "demons", "epic fantasy", "fantasy", "flat chested", "group sex", "hardcore", "harem", "hentai", "heroine of strong character", "lactation", "magic", "oral", "outdoors", "threesome", "witches"],
+	"seasons": 0,
+	"id": 200,
+	"chapters": 1
+}, {
+	"name": "3x3 Eyes",
+	"genres": ["action", "adventure", "based on a manga", "body horror", "demon", "demons", "dissociative identities", "excessive violence", "fantasy", "gore", "horror", "magic", "manga", "monster", "mythology", "present", "romance", "seinen", "supernatural drama", "violence"],
+	"seasons": 0,
+	"id": 201,
+	"chapters": 4
+}, {
+	"name": "3x3 Eyes: Seima Densetsu",
+	"genres": ["action", "adventure", "amnesia", "asia", "based on a manga", "body horror", "contemporary fantasy", "demon", "demons", "dissociative identities", "earth", "excessive violence", "fantasy", "gore", "horror", "japan", "magic", "manga", "monster", "mythology", "plot continuity", "present", "romance", "seinen", "supernatural drama", "violence"],
+	"seasons": 0,
+	"id": 202,
+	"chapters": 3
+}, {
+	"name": "4 Shuunen Monst? Shiru ka yo!",
+	"genres": ["action", "comedy", "slapstick", "strategy game"],
+	"seasons": 0,
+	"id": 203,
+	"chapters": 1
+}, {
+	"name": "4-Day Weekend",
+	"genres": ["abstract", "action", "action drama", "apocalyptic fiction", "cg-anime", "dark fantasy", "drama", "music", "no dialogue", "romance", "science-fiction"],
+	"seasons": 0,
+	"id": 204,
+	"chapters": 1
+}, {
+	"name": "4-fun de Wakaru: Plunderer",
+	"genres": ["action", "fantasy", "shounen"],
+	"seasons": 0,
+	"id": 205,
+	"chapters": 1
+}, {
+	"name": "4-nin wa Sorezore Uso wo Tsuku",
+	"genres": ["based on a manga", "comedy", "sci-fi", "science fiction", "shounen", "slice of life", "supernatural"],
+	"seasons": 0,
+	"id": 206,
+	"chapters": 12
+}, {
+	"name": "4.Eyes",
+	"genres": ["abstract", "avant garde", "dementia", "indefinite", "short movie", "shorts", "twisted story"],
+	"seasons": 0,
+	"id": 207,
+	"chapters": 1
+}, {
+	"name": "4.Eyes Re-Mix 2005",
+	"genres": ["avant garde"],
+	"seasons": 0,
+	"id": 208,
+	"chapters": 1
+}, {
+	"name": "40 Shuunen Da yo!! CoroCoro All-Star Shougakkou",
+	"genres": ["comedy", "crossover", "elementary school", "gag", "parody", "proxy battles", "school", "school life", "short episodes", "super deformed"],
+	"seasons": 0,
+	"id": 209,
+	"chapters": 2
+}, {
+	"name": "40meterP: Color of Drops",
+	"genres": ["idols", "vocaloid"],
+	"seasons": 0,
+	"id": 210,
+	"chapters": 1
+}, {
+	"name": "40meterP: Crouching Start",
+	"genres": ["romance", "school life", "vocaloid"],
+	"seasons": 0,
+	"id": 211,
+	"chapters": 1
+}, {
+	"name": "40MeterP: Dan Dan Hayaku Naru",
+	"genres": ["vocaloid"],
+	"seasons": 0,
+	"id": 212,
+	"chapters": 1
+}, {
+	"name": "40MeterP: Dare mo Shiranai Happy End",
+	"genres": ["vocaloid"],
+	"seasons": 0,
+	"id": 213,
+	"chapters": 1
+}, {
+	"name": "40meterP: Do Re Mi Fa Rondo",
+	"genres": ["chibi", "dogs", "family friendly", "music", "vocaloid"],
+	"seasons": 0,
+	"id": 214,
+	"chapters": 1
+}, {
+	"name": "40meterP: Going My Way",
+	"genres": ["music", "school life", "vocaloid"],
+	"seasons": 0,
+	"id": 215,
+	"chapters": 1
+}, {
+	"name": "40meterP: Hachigatsu no Kaze",
+	"genres": ["childhood friends", "music", "vocaloid"],
+	"seasons": 0,
+	"id": 216,
+	"chapters": 1
+}, {
+	"name": "40meterP: Heartbreak Headline",
+	"genres": ["journalism", "music", "vocaloid"],
+	"seasons": 0,
+	"id": 217,
+	"chapters": 1
+}, {
+	"name": "40meterP: Heartbreak Monochrome",
+	"genres": ["music", "vocaloid"],
+	"seasons": 0,
+	"id": 218,
+	"chapters": 1
+}, {
+	"name": "40meterP: Junjou Skirt",
+	"genres": ["music", "vocaloid"],
+	"seasons": 0,
+	"id": 219,
+	"chapters": 1
+}, {
+	"name": "40MeterP: Karakuri Pierrot",
+	"genres": ["vocaloid"],
+	"seasons": 0,
+	"id": 220,
+	"chapters": 1
+}, {
+	"name": "40meterP: Kokoro＊Palette",
+	"genres": ["music", "vocaloid"],
+	"seasons": 0,
+	"id": 221,
+	"chapters": 1
+}, {
+	"name": "40meterP: Kotoba no Uta",
+	"genres": ["family friendly", "family life", "music", "vocaloid"],
+	"seasons": 0,
+	"id": 222,
+	"chapters": 1
+}, {
+	"name": "40meterP: Laying Down in the Middle of Tokyo",
+	"genres": ["vocaloid"],
+	"seasons": 0,
+	"id": 223,
+	"chapters": 1
+}, {
+	"name": "40meterP: Rain and Asphalt",
+	"genres": ["melancholy", "music", "vocaloid"],
+	"seasons": 0,
+	"id": 224,
+	"chapters": 1
+}, {
+	"name": "40MeterP: Shaker",
+	"genres": ["alcohol", "cocktails", "food and beverage", "vocaloid"],
+	"seasons": 0,
+	"id": 225,
+	"chapters": 1
+}, {
+	"name": "40meterP: Shiryoku Kensa",
+	"genres": ["music", "vocaloid"],
+	"seasons": 0,
+	"id": 226,
+	"chapters": 1
+}, {
+	"name": "40meterP: Snow Fairy Story",
+	"genres": ["music", "romance", "vocaloid"],
+	"seasons": 0,
+	"id": 227,
+	"chapters": 1
+}, {
+	"name": "40MeterP: Tsuisou Youka",
+	"genres": ["feudal japan", "historical", "vocaloid"],
+	"seasons": 0,
+	"id": 228,
+	"chapters": 1
+}, {
+	"name": "40meterP: Warning!",
+	"genres": ["cg animation", "vocaloid"],
+	"seasons": 0,
+	"id": 229,
+	"chapters": 1
+}, {
+	"name": "44-hiki no Neko",
+	"genres": ["animal protagonists", "animals", "cats", "indefinite", "kids", "minna no uta", "music", "non-human protagonists", "slice of life"],
+	"seasons": 0,
+	"id": 230,
+	"chapters": 1
+}, {
+	"name": "47 Todoufuken",
+	"genres": ["animal protagonists", "comedy", "family friendly", "flash animation", "kids", "non-human protagonists", "short episodes"],
+	"seasons": 0,
+	"id": 231,
+	"chapters": 26
+}, {
+	"name": "47 Todoufuken R",
+	"genres": ["animal protagonists", "cg animation", "comedy", "family friendly", "kids", "non-human protagonists", "short episodes"],
+	"seasons": 0,
+	"id": 232,
+	"chapters": 12
+}, {
+	"name": "47 Todoufuken Specials",
+	"genres": ["animal protagonists", "comedy", "family friendly", "kids", "non-human protagonists", "romance", "short episodes"],
+	"seasons": 0,
+	"id": 233,
+	"chapters": 2
+}, {
+	"name": "48x61",
+	"genres": ["bicycling", "comedy", "cycling", "new", "no dialogue", "nonsense-comedy", "present", "racing", "short movie", "shorts", "slapstick", "sports"],
+	"seasons": 0,
+	"id": 234,
+	"chapters": 1
+}, {
+	"name": "5 Dong 32 Hao",
+	"genres": ["anthropomorphic", "chinese animation", "comedy", "family friendly", "non-human protagonists", "short episodes"],
+	"seasons": 0,
+	"id": 235,
+	"chapters": 61
+}, {
+	"name": "5 Dong 32 Hao Hesui Fan",
+	"genres": ["anthropomorphic", "chinese animation", "comedy", "family friendly", "non-human protagonists", "short episodes"],
+	"seasons": 0,
+	"id": 236,
+	"chapters": 4
+}, {
+	"name": "5-fun de Wakaru! Isekai Maou to Shoukan Shoujo no Dorei Majutsu",
+	"genres": ["comedy", "ecchi", "fantasy", "harem"],
+	"seasons": 0,
+	"id": 237,
+	"chapters": 1
+}, {
+	"name": "5-fun de Wakaru! Kingdom: Gasshougun-hen",
+	"genres": ["action", "adventure", "ancient china", "asia", "based on a manga", "feudal warfare", "historical", "military", "recap", "seinen", "short episodes", "swordplay", "war"],
+	"seasons": 0,
+	"id": 238,
+	"chapters": 2
+}, {
+	"name": "5-fun de Wakaru! Tate no Yuusha no Nariagari",
+	"genres": ["action", "adventure", "based on a light novel", "fantasy"],
+	"seasons": 0,
+	"id": 239,
+	"chapters": 1
+}, {
+	"name": "5-fun de Wakaru: Violet Evergarden",
+	"genres": ["based on a light novel", "drama", "fantasy", "recap", "short episodes", "slice of life"],
+	"seasons": 0,
+	"id": 240,
+	"chapters": 3
+}, {
+	"name": "5-nin no Yuusha to 5-tsu no Sengen",
+	"genres": ["fantasy", "flash animation", "promotional"],
+	"seasons": 0,
+	"id": 241,
+	"chapters": 1
+}, {
+	"name": "5-Oku-Nen Button: Sugahara Souta no Short Short",
+	"genres": ["cg-anime"],
+	"seasons": 0,
+	"id": 242,
+	"chapters": 12
+}, {
+	"name": "5-Okunen Button",
+	"genres": [],
+	"seasons": 0,
+	"id": 243,
+	"chapters": 0
+}, {
+	"name": "5-Okunen Button ~Sota Sugahara no Short Short~",
+	"genres": [],
+	"seasons": 0,
+	"id": 244,
+	"chapters": 1
+}, {
+	"name": "5-ten no Watashi",
+	"genres": [],
+	"seasons": 0,
+	"id": 245,
+	"chapters": 1
+}, {
+	"name": "5-toubun no Hanayome",
+	"genres": ["acting", "based on a manga", "comedy", "coming of age", "drama", "ecchi", "ensemble cast", "female harem", "genius", "harem", "heroine of strong character", "heterosexual", "high school", "kuudere", "male protagonist", "manga", "ojou-sama", "present", "primarily female cast", "primarily teen cast", "romance", "romantic comedy", "samurai", "school", "school club", "school life", "shounen", "siblings", "slice of life", "teacher", "tsundere", "tutors", "twins", "verbal comedy", "work"],
+	"seasons": 0,
+	"id": 246,
+	"chapters": 12
+}, {
+	"name": "5-toubun no Hanayome Movie",
+	"genres": ["based on a manga", "comedy", "coming of age", "cute girls doing cute things", "drama", "ecchi", "ensemble cast", "female harem", "harem", "heterosexual", "high school", "kuudere", "love triangle", "male protagonist", "manga", "present", "primarily female cast", "romance", "romantic comedy", "school", "school life", "shounen", "siblings", "slice of life", "teacher", "time skip", "tsundere", "tutors", "twins"],
+	"seasons": 0,
+	"id": 247,
+	"chapters": 1
+}, {
+	"name": "5-toubun no Hanayome ∬",
+	"genres": ["based on a manga", "comedy", "coming of age", "cute girls doing cute things", "drama", "ecchi", "ensemble cast", "female harem", "genius", "harem", "heroine of strong character", "heterosexual", "high school", "kuudere", "love triangle", "male protagonist", "manga", "ojou-sama", "present", "primarily female cast", "primarily teen cast", "romance", "romantic comedy", "school", "school club", "school life", "shounen", "siblings", "slice of life", "teacher", "time manipulation", "tsundere", "tutors", "twins", "verbal comedy", "work", "yandere"],
+	"seasons": 0,
+	"id": 248,
+	"chapters": 12
+}, {
+	"name": "5-tsu no Yubi no Niwa",
+	"genres": ["abstract", "avant garde", "music", "shorts", "stop motion animation"],
+	"seasons": 0,
+	"id": 249,
+	"chapters": 1
+}, {
+	"name": "500,000,000-nen Button",
+	"genres": ["philosophy", "psychological"],
+	"seasons": 0,
+	"id": 250,
+	"chapters": 1
+}, {
+	"name": "53rd Golden Horse Awards Opening Animation",
+	"genres": ["chinese animation", "opening animation", "promotional"],
+	"seasons": 0,
+	"id": 251,
+	"chapters": 1
+}, {
+	"name": "6 Angels",
+	"genres": ["action", "android", "earth", "ecchi", "female protagonist", "gunfights", "half-length episodes", "mecha", "military", "new", "original work", "plot continuity", "post-apocalyptic", "sci-fi", "science fiction", "science-fiction", "violence"],
+	"seasons": 0,
+	"id": 252,
+	"chapters": 6
+}, {
+	"name": "6 Lovers",
+	"genres": ["adult couples", "anthology", "based on a manga", "bl", "boys love", "boys\u0027 love", "comedy", "drama", "episodic", "erotica", "male protagonist", "mature romance", "nekomimi", "present", "primarily male cast", "romance", "school", "school life", "short episodes", "shounen ai", "slice of life", "supernatural", "yaoi"],
+	"seasons": 0,
+	"id": 253,
+	"chapters": 6
+}, {
+	"name": "6 Songs",
+	"genres": ["abstract", "avant garde", "black and white", "dementia", "music"],
+	"seasons": 0,
+	"id": 254,
+	"chapters": 1
+}, {
+	"name": "663114",
+	"genres": ["drama", "dystopian", "environmental", "fantasy", "insects", "original work", "philosophy", "present", "short movie", "shorts", "stoic hero", "tragedy", "war"],
+	"seasons": 0,
+	"id": 255,
+	"chapters": 1
+}, {
+	"name": "69 Pink Riders",
+	"genres": ["comedy", "episodic", "hentai", "masturbation", "oral", "outdoors", "parody", "present", "slapstick", "softcore"],
+	"seasons": 0,
+	"id": 256,
+	"chapters": 1
+}, {
+	"name": "69 Pink Riders 2",
+	"genres": ["alternative world", "beastmen", "comedy", "hentai", "masturbation", "oral", "parody", "slapstick", "softcore", "threesome", "twisted story"],
+	"seasons": 0,
+	"id": 257,
+	"chapters": 1
+}, {
+	"name": "6HP (Six Hearts Princess)",
+	"genres": ["action", "comedy", "drama", "fantasy", "female protagonist", "full cgi", "henshin", "henshin heroes", "high school", "magic", "magical girl", "mahou shoujo", "new", "original work", "parallel world", "primarily female cast", "school clubs", "school life", "sci-fi", "slice of life", "super power", "supernatural"],
+	"seasons": 0,
+	"id": 258,
+	"chapters": 7
+}, {
+	"name": "6♥Princess",
+	"genres": ["advertisement", "cg animation", "cg-anime", "fantasy", "full cgi", "henshin", "henshin heroes", "idol", "indefinite", "magic", "magical girl", "mahou shoujo", "music", "promotional", "vocaloid"],
+	"seasons": 0,
+	"id": 259,
+	"chapters": 1
+}, {
+	"name": "7 falls, 8 comebacks, 7 sports",
+	"genres": ["achromatic", "black and white", "kuudere", "no dialogue", "shorts", "sports"],
+	"seasons": 0,
+	"id": 260,
+	"chapters": 1
+}, {
+	"name": "7 Seeds",
+	"genres": ["action", "adventure", "apocalyptic fiction", "based on a manga", "coming of age", "drama", "ensemble cast", "environmental", "excessive violence", "guns", "hero of strong character", "heroine of strong character", "horror", "josei", "manga", "mystery", "outdoor", "person in a strange world", "post apocalypse", "post-apocalyptic", "psychological", "psychological drama", "romance", "sci fi", "sci-fi", "science fiction", "science-fiction", "shoujo", "struggle to survive", "supernatural drama", "survival", "time skip", "time travel", "tragedy", "twisted story", "violence"],
+	"seasons": 0,
+	"id": 261,
+	"chapters": 12
+}, {
+	"name": "7 Seeds 2nd Season",
+	"genres": ["action", "adventure", "apocalyptic fiction", "based on a manga", "coming of age", "drama", "ensemble cast", "environmental", "excessive violence", "guns", "hero of strong character", "heroine of strong character", "horror", "isekai", "josei", "manga", "mystery", "outdoor", "person in a strange world", "post apocalypse", "post-apocalyptic", "psychological", "psychological drama", "romance", "sci-fi", "science fiction", "science-fiction", "ship", "shoujo", "struggle to survive", "supernatural drama", "survival", "time travel", "tragedy", "twisted story", "violence"],
+	"seasons": 0,
+	"id": 262,
+	"chapters": 12
+}, {
+	"name": "7-Eleven: Tokimeki wa, Sugusoba ni. Memorial Movie",
+	"genres": ["commercials", "convenience store", "promotional", "shorts", "slice of life"],
+	"seasons": 0,
+	"id": 263,
+	"chapters": 1
+}, {
+	"name": "7-jigen GIRL wa Nekoze",
+	"genres": [],
+	"seasons": 0,
+	"id": 264,
+	"chapters": 1
+}, {
+	"name": "7-kakan.",
+	"genres": ["music"],
+	"seasons": 0,
+	"id": 265,
+	"chapters": 1
+}, {
+	"name": "7-nin no Santa Claus",
+	"genres": [],
+	"seasons": 0,
+	"id": 266,
+	"chapters": 1
+}, {
+	"name": "77Danui Bimil",
+	"genres": ["action", "based on a novel", "drama", "korean animation"],
+	"seasons": 0,
+	"id": 267,
+	"chapters": 1
+}, {
+	"name": "8-gatsu no Symphony: Shibuya 2002-2003",
+	"genres": ["adoption", "asia", "autobiographical", "autobiographies", "based on a novel", "biographie", "drama", "earth", "female protagonist", "japan", "music", "novel", "performance", "present", "sentimental drama", "slice of life", "solo singer", "the arts", "tokyo", "tragedy", "urban"],
+	"seasons": 0,
+	"id": 268,
+	"chapters": 1
+}, {
+	"name": "8-shaku 8-wa Kerakumeguri: Igyou Kaikitan The Animation",
+	"genres": ["big boobs", "boobjob", "episodic", "excessive violence", "ghost stories", "hentai", "horror", "older woman, younger man", "oral", "present", "softcore", "supernatural", "youkai"],
+	"seasons": 0,
+	"id": 269,
+	"chapters": 3
+}, {
+	"name": "81 Hao Nongchang: Baowei Mai Ji",
+	"genres": ["aliens", "animal protagonists", "anthropomorphic", "birds", "chinese animation", "comedy", "family friendly", "kids"],
+	"seasons": 0,
+	"id": 270,
+	"chapters": 1
+}, {
+	"name": "81 Hao Nongchang: Fengkuang de Mai Ji",
+	"genres": ["chinese animation", "family friendly", "kids"],
+	"seasons": 0,
+	"id": 271,
+	"chapters": 1
+}, {
+	"name": "84 Taekwon V",
+	"genres": ["action", "kodomo", "korean animation", "mecha", "piloted robot", "sci fi", "sci-fi", "science fiction", "science-fiction"],
+	"seasons": 0,
+	"id": 272,
+	"chapters": 1
+}, {
+	"name": "86",
+	"genres": ["achronological order", "action", "action drama", "alternative world", "artificial intelligence", "based on a light novel", "cgi", "conspiracy", "drama", "dystopian", "female protagonist", "ghost", "guns", "kuudere", "lost civilization", "male protagonist", "mecha", "military", "necromancy", "novel", "philosophy", "piloted robot", "politics", "post-apocalyptic", "pov", "primarily female cast", "primarily teen cast", "real robot", "robots", "sci fi", "sci-fi", "science fiction", "science-fiction", "seinen", "survival", "tragedy", "tsundere", "war"],
+	"seasons": 0,
+	"id": 273,
+	"chapters": 11
+}, {
+	"name": "86 Part 2",
+	"genres": ["action", "action drama", "angst", "based on a light novel", "drama", "dystopian", "ensemble cast", "female protagonist", "ghost", "guns", "male protagonist", "mecha", "military", "novel", "philosophy", "piloted robot", "politics", "pov", "primarily teen cast", "real robot", "robots", "sci fi", "sci-fi", "science fiction", "science-fiction", "seinen", "suicide", "survival", "time skip", "tragedy", "war"],
+	"seasons": 0,
+	"id": 274,
+	"chapters": 12
+}, {
+	"name": "86 Part 2 Recaps",
+	"genres": ["action", "based on a light novel", "drama", "mecha", "military", "recap", "sci fi", "sci-fi", "war"],
+	"seasons": 0,
+	"id": 275,
+	"chapters": 2
+}, {
+	"name": "86 Special Edition: Senya ni Akaku Hinageshi no Saku",
+	"genres": ["action", "action drama", "based on a light novel", "drama", "guns", "mecha", "military", "recap", "sci fi", "sci-fi", "science fiction", "science-fiction", "war"],
+	"seasons": 0,
+	"id": 276,
+	"chapters": 1
+}, {
+	"name": "9",
+	"genres": ["baseball", "board games", "music", "rotoscoping", "sports"],
+	"seasons": 0,
+	"id": 277,
+	"chapters": 1
+}, {
+	"name": "9 Satra",
+	"genres": ["action", "adventure", "cg-anime", "fantasy"],
+	"seasons": 0,
+	"id": 278,
+	"chapters": 1
+}, {
+	"name": "90-byou de wakaru: Grisaia Phantom Trigger The Animation",
+	"genres": ["action", "school"],
+	"seasons": 0,
+	"id": 279,
+	"chapters": 1
+}, {
+	"name": "91 Days",
+	"genres": ["action", "america", "americas", "animeism", "anti-hero", "assassins", "cannibalism", "cgi", "crime", "crime fiction", "criminals", "death of a loved one", "drama", "earth", "espionage", "excessive violence", "foreign", "gangs", "gunfights", "guns", "hero of strong character", "historical", "mafia", "male protagonist", "new", "noir", "organized crime", "original work", "past", "politics", "primarily male cast", "psychological", "revenge", "splatter", "tanned skin", "thriller", "time skip", "tragedy", "united states", "violence", "world wars"],
+	"seasons": 0,
+	"id": 280,
+	"chapters": 12
+}, {
+	"name": "91 Days: Mijikai Rousoku",
+	"genres": ["action", "animeism", "crime", "crime fiction", "drama", "excessive violence", "gangs", "guns", "heroine of strong character", "historical", "mafia", "organized crime", "original work", "recap", "revenge", "splatter", "thriller", "tragedy", "world wars"],
+	"seasons": 0,
+	"id": 281,
+	"chapters": 1
+}, {
+	"name": "91 Days: Toki no Asase/Subete no Kinou/Ashita, Mata Ashita",
+	"genres": ["achronological order", "action", "america", "anti-hero", "assassins", "crime", "drama", "episodic", "food", "foreign", "gambling", "gangs", "guns", "hero of strong character", "historical", "mafia", "noir", "organized crime", "original work", "revenge", "thriller", "world wars"],
+	"seasons": 0,
+	"id": 282,
+	"chapters": 1
+}, {
+	"name": "91 Daze",
+	"genres": ["chibi", "comedy", "historical", "mafia", "organized crime"],
+	"seasons": 0,
+	"id": 283,
+	"chapters": 7
+}, {
+	"name": "96Neko \u0026 Kurousa-P: Eternal World",
+	"genres": ["action"],
+	"seasons": 0,
+	"id": 284,
+	"chapters": 1
+}, {
+	"name": "96Neko \u0026 Kurousa-P: Gegen no Tsuki",
+	"genres": ["animal characteristics", "fantasy"],
+	"seasons": 0,
+	"id": 285,
+	"chapters": 1
+}, {
+	"name": "99 Illusion!",
+	"genres": ["music", "performing arts"],
+	"seasons": 0,
+	"id": 286,
+	"chapters": 1
+}, {
+	"name": "9mm Parabellum Bullet: Setsuna Drive",
+	"genres": ["music", "vocaloid"],
+	"seasons": 0,
+	"id": 287,
+	"chapters": 1
+}, {
+	"name": "?/Sankaku no Rhythm/Trump no Arasoi",
+	"genres": ["abstract", "avant garde", "black and white", "dementia", "new", "no dialogue", "revenge", "shorts"],
+	"seasons": 0,
+	"id": 288,
+	"chapters": 1
+}, {
+	"name": "[Shiguang Daili Ren x Lanzhi] Cheng Xiaoshi Po Fang Weiji",
+	"genres": [],
+	"seasons": 0,
+	"id": 289,
+	"chapters": 1
+}, {
+	"name": "_Summer",
+	"genres": ["asia", "based on a visual novel", "based on an eroge", "comedy", "drama", "earth", "ecchi", "erotic game", "female harem", "harem", "high school", "japan", "kuudere", "present", "romance", "romantic comedy", "school", "school life", "slice of life", "stereotypes", "visual novel"],
+	"seasons": 0,
+	"id": 290,
+	"chapters": 2
+}, {
+	"name": "_Summer Specials",
+	"genres": ["based on a visual novel", "based on an eroge", "comedy", "ecchi", "female harem", "harem", "kuudere", "present", "romance", "romantic comedy", "school", "slice of life", "tennis"],
+	"seasons": 0,
+	"id": 291,
+	"chapters": 2
+}, {
+	"name": "A A B C",
+	"genres": [],
+	"seasons": 0,
+	"id": 292,
+	"chapters": 1
+}, {
+	"name": "A Ben Mao",
+	"genres": ["chinese animation", "family friendly", "kids"],
+	"seasons": 0,
+	"id": 293,
+	"chapters": 26
+}, {
+	"name": "A Boy",
+	"genres": [],
+	"seasons": 0,
+	"id": 294,
+	"chapters": 1
+}, {
+	"name": "A Brightening Life",
+	"genres": ["abstract", "drama", "music", "no dialogue", "non-human protagonists", "original work", "poverty", "shorts", "stop motion", "stop motion animation"],
+	"seasons": 0,
+	"id": 295,
+	"chapters": 1
+}, {
+	"name": "A Christmas Song",
+	"genres": ["christmas", "family friendly", "music"],
+	"seasons": 0,
+	"id": 296,
+	"chapters": 1
+}, {
+	"name": "A Day Before Us",
+	"genres": ["college", "drama", "heterosexual", "high school", "korean animation", "love triangle", "new", "original work", "present", "romance", "romantic drama", "school", "short episodes", "slice of life", "university"],
+	"seasons": 0,
+	"id": 297,
+	"chapters": 19
+}, {
+	"name": "A Day Before Us: Merry Christmas!",
+	"genres": ["action", "christmas", "comedy", "drama", "ecchi", "fantasy", "historical", "kids", "korean animation", "music", "mystery", "original work", "romance", "school", "seinen", "shorts", "shoujo", "slice of life", "sports", "supernatural", "suspense"],
+	"seasons": 0,
+	"id": 298,
+	"chapters": 1
+}, {
+	"name": "A Fa Bei Leyuan Zhi Mofa Xiaoxuesheng",
+	"genres": ["kids"],
+	"seasons": 0,
+	"id": 299,
+	"chapters": 100
+}, {
+	"name": "A Fa Bei Leyuan Zhi Mohuan Shikong",
+	"genres": ["kids"],
+	"seasons": 0,
+	"id": 300,
+	"chapters": 174
+}, {
+	"name": "A Fa Bei Leyuan Zhi Qi Jing Zhi Lu",
+	"genres": ["kids"],
+	"seasons": 0,
+	"id": 301,
+	"chapters": 192
+}, {
+	"name": "a friend in the memories",
+	"genres": ["drama"],
+	"seasons": 0,
+	"id": 302,
+	"chapters": 1
+}, {
+	"name": "A Fu Man Youji",
+	"genres": ["kids"],
+	"seasons": 0,
+	"id": 303,
+	"chapters": 80
+}, {
+	"name": "A Fu Man Youji Zhi Wuxi Renjie",
+	"genres": ["kids"],
+	"seasons": 0,
+	"id": 304,
+	"chapters": 80
+}, {
+	"name": "A Fu Xun Gui Ji",
+	"genres": ["kids"],
+	"seasons": 0,
+	"id": 305,
+	"chapters": 60
+}, {
+	"name": "A horn girl",
+	"genres": ["drama", "romance"],
+	"seasons": 0,
+	"id": 306,
+	"chapters": 1
+}, {
+	"name": "A Kite",
+	"genres": ["action", "action drama", "anal", "bounty hunter", "crime fiction", "defloration", "detective", "drama", "eroticism", "excessive violence", "gore", "guns", "hentai", "heroine of strong character", "oral", "police", "policeman", "present", "psychological drama", "science-fiction", "thriller"],
+	"seasons": 0,
+	"id": 307,
+	"chapters": 2
+}, {
+	"name": "A Li",
+	"genres": ["fantasy", "kids"],
+	"seasons": 0,
+	"id": 308,
+	"chapters": 20
+}, {
+	"name": "A Li Bu Ta Gushi Ji",
+	"genres": ["fantasy", "kids"],
+	"seasons": 0,
+	"id": 309,
+	"chapters": 13
+}, {
+	"name": "A Li De Tonghua Riji",
+	"genres": ["fantasy", "kids"],
+	"seasons": 0,
+	"id": 310,
+	"chapters": 1
+}, {
+	"name": "A Li Huiben Xilie",
+	"genres": ["fantasy", "kids"],
+	"seasons": 0,
+	"id": 311,
+	"chapters": 7
+}, {
+	"name": "A Li Meng Zhi Dao",
+	"genres": ["fantasy", "kids"],
+	"seasons": 0,
+	"id": 312,
+	"chapters": 10
+}, {
+	"name": "A Li Meng Zhi Dao Fanwai",
+	"genres": ["fantasy", "kids"],
+	"seasons": 0,
+	"id": 313,
+	"chapters": 4
+}, {
+	"name": "A Li Tonghua Gushi",
+	"genres": ["fantasy", "kids"],
+	"seasons": 0,
+	"id": 314,
+	"chapters": 13
+}, {
+	"name": "A Li·Diu Dongxi De Wawa",
+	"genres": ["fantasy", "kids"],
+	"seasons": 0,
+	"id": 315,
+	"chapters": 2
+}, {
+	"name": "A Li·Meng Zhi Chengbao",
+	"genres": ["fantasy", "kids"],
+	"seasons": 0,
+	"id": 316,
+	"chapters": 1
+}, {
+	"name": "A Li·Xin Yan",
+	"genres": ["fantasy", "kids"],
+	"seasons": 0,
+	"id": 317,
+	"chapters": 5
+}, {
+	"name": "A Log Day of Timbre",
+	"genres": ["abstract", "avant garde", "dementia", "psychological", "shorts"],
+	"seasons": 0,
+	"id": 318,
+	"chapters": 1
+}, {
+	"name": "A lot of life",
+	"genres": ["full cgi", "music", "primarily female cast"],
+	"seasons": 0,
+	"id": 319,
+	"chapters": 1
+}, {
+	"name": "A Mao Gushi",
+	"genres": ["kids"],
+	"seasons": 0,
+	"id": 320,
+	"chapters": 26
+}, {
+	"name": "A Memory",
+	"genres": ["kids", "no dialogue", "non-human protagonists", "robot", "robot helper", "robots", "sci-fi", "science fiction", "shorts", "slice of life", "stop motion animation"],
+	"seasons": 0,
+	"id": 321,
+	"chapters": 1
+}, {
+	"name": "A Mi Luo Ge Hai Qi Yuan",
+	"genres": ["adventure"],
+	"seasons": 0,
+	"id": 322,
+	"chapters": 13
+}, {
+	"name": "A Mi Luo Zhi Kongzhong Dalu",
+	"genres": ["adventure"],
+	"seasons": 0,
+	"id": 323,
+	"chapters": 13
+}, {
+	"name": "A Midnight Opera",
+	"genres": ["anime influenced", "dark fantasy", "horror", "music", "supernatural"],
+	"seasons": 0,
+	"id": 324,
+	"chapters": 4
+}, {
+	"name": "A mistaken Belief of love",
+	"genres": ["music"],
+	"seasons": 0,
+	"id": 325,
+	"chapters": 1
+}, {
+	"name": "A New Journey",
+	"genres": ["action", "advertisement", "based on a video game", "e-sports", "fantasy", "game", "magic", "musical", "promotional", "slice of life", "video game", "video games"],
+	"seasons": 0,
+	"id": 326,
+	"chapters": 1
+}, {
+	"name": "A New Start",
+	"genres": ["adventure", "anime influenced", "idol", "music"],
+	"seasons": 0,
+	"id": 327,
+	"chapters": 1
+}, {
+	"name": "A Nuo Gou Yu Kai Rui Mao",
+	"genres": ["kids"],
+	"seasons": 0,
+	"id": 328,
+	"chapters": 50
+}, {
+	"name": "A Pawn",
+	"genres": [],
+	"seasons": 0,
+	"id": 329,
+	"chapters": 1
+}, {
+	"name": "A Piece Of Green",
+	"genres": ["abstract", "psychological", "shorts"],
+	"seasons": 0,
+	"id": 330,
+	"chapters": 1
+}, {
+	"name": "A Piece of Phantasmagoria",
+	"genres": ["achronological order", "adventure", "aliens", "alternative world", "based on a manga", "episodic", "fantasy", "kids", "mina", "no dialogue", "novel", "philosophy", "short episodes"],
+	"seasons": 0,
+	"id": 331,
+	"chapters": 15
+}, {
+	"name": "A piper",
+	"genres": ["abstract", "black and white", "fantasy", "no dialogue", "shorts"],
+	"seasons": 0,
+	"id": 332,
+	"chapters": 1
+}, {
+	"name": "A Place Further Than the Universe: Yokoku",
+	"genres": ["original work", "promotional", "short episodes"],
+	"seasons": 0,
+	"id": 333,
+	"chapters": 13
+}, {
+	"name": "A Play",
+	"genres": ["abstract", "avant garde", "music"],
+	"seasons": 0,
+	"id": 334,
+	"chapters": 1
+}, {
+	"name": "A Polar Bear in Love: Chikyuu wa Marui-hen",
+	"genres": ["animal protagonists", "based on a manga", "comedy", "josei", "non-human protagonists", "romance"],
+	"seasons": 0,
+	"id": 335,
+	"chapters": 1
+}, {
+	"name": "A Ripple in Time",
+	"genres": ["adventure", "animals", "cosmic horror", "fantasy", "kids", "monsters", "promotional", "shorts", "strategy game", "time manipulation"],
+	"seasons": 0,
+	"id": 336,
+	"chapters": 1
+}, {
+	"name": "A Sea Doesn\u0027t Tell Much",
+	"genres": ["abstract", "avant garde", "music", "shorts"],
+	"seasons": 0,
+	"id": 337,
+	"chapters": 1
+}, {
+	"name": "A Smart Experiment",
+	"genres": ["abstract", "avant garde", "dementia", "independent anime", "short episodes", "shorts"],
+	"seasons": 0,
+	"id": 338,
+	"chapters": 1
+}, {
+	"name": "A song for You! You? You!!",
+	"genres": ["comedy", "dancing", "ensemble cast", "idol", "idols", "idols (female)", "music", "new", "performance", "present", "primarily female cast", "primarily teen cast", "slice of life", "the arts"],
+	"seasons": 0,
+	"id": 339,
+	"chapters": 1
+}, {
+	"name": "a song like a fish",
+	"genres": ["no dialogue", "shorts", "stop motion animation"],
+	"seasons": 0,
+	"id": 340,
+	"chapters": 1
+}, {
+	"name": "A Tang Qi Yu",
+	"genres": ["adventure", "artificial intelligence", "cg animation", "cg-anime", "chinese animation", "comedy", "fantasy", "full cgi", "kids", "present", "robots \u0026 androids", "urban fantasy"],
+	"seasons": 0,
+	"id": 341,
+	"chapters": 1
+}, {
+	"name": "A Taste of Tokyo",
+	"genres": ["anime influenced", "slice of life"],
+	"seasons": 0,
+	"id": 342,
+	"chapters": 1
+}, {
+	"name": "A Te De Qihuan Zhi Lu",
+	"genres": ["fantasy"],
+	"seasons": 0,
+	"id": 343,
+	"chapters": 26
+}, {
+	"name": "A U: Wei Chengzhang Jia You",
+	"genres": ["comedy"],
+	"seasons": 0,
+	"id": 344,
+	"chapters": 60
+}, {
+	"name": "A Useless Onmyoji Family",
+	"genres": ["comedy", "fantasy", "shoujo", "slice of life", "supernatural"],
+	"seasons": 0,
+	"id": 345,
+	"chapters": 12
+}, {
+	"name": "A Viva Non Non",
+	"genres": ["avant garde", "monsters", "music", "non-human protagonists", "supernatural"],
+	"seasons": 0,
+	"id": 346,
+	"chapters": 1
+}, {
+	"name": "A Woman in a Fashion Building",
+	"genres": ["avant garde", "dementia", "horror", "shorts"],
+	"seasons": 0,
+	"id": 347,
+	"chapters": 1
+}, {
+	"name": "A Zuo A You De Gushi",
+	"genres": ["kids"],
+	"seasons": 0,
+	"id": 348,
+	"chapters": 20
+}, {
+	"name": "A-Channel",
+	"genres": ["4-koma manga", "asia", "based on a 4-koma manga", "based on a manga", "comedy", "cute girls doing cute things", "daily life", "earth", "episodic", "friendship", "high school", "iyashikei", "japan", "kuudere", "manga", "middle school", "moe", "present", "primarily female cast", "school", "school life", "seinen", "slapstick", "slice of life"],
+	"seasons": 0,
+	"id": 349,
+	"chapters": 12
+}, {
+	"name": "A-Channel+smile",
+	"genres": ["4-koma manga", "asia", "based on a manga", "cgdct", "comedy", "cute girls doing cute things", "daily life", "earth", "episodic", "friendship", "high school", "japan", "kuudere", "manga", "moe", "present", "school", "school life", "seinen", "slapstick", "slice of life"],
+	"seasons": 0,
+	"id": 350,
+	"chapters": 2
+}, {
+	"name": "A-Channel: +A-Channel",
+	"genres": ["based on a manga", "cgdct", "comedy", "cute girls doing cute things", "episodic", "friendship", "kuudere", "moe", "present", "school", "school life", "seinen", "slapstick", "slice of life"],
+	"seasons": 0,
+	"id": 351,
+	"chapters": 11
+}, {
+	"name": "A-Channel: Nabe wo Tabeyou",
+	"genres": ["based on a manga", "cgdct", "comedy", "cooking", "cute girls doing cute things", "food and beverage", "kuudere", "moe", "present", "school", "school life", "seinen", "slapstick", "slice of life"],
+	"seasons": 0,
+	"id": 352,
+	"chapters": 1
+}, {
+	"name": "A-Girl",
+	"genres": ["based on a manga", "daily life", "drama", "love triangle", "manga", "music", "no dialogue", "romance", "school", "school life", "shoujo", "slice of life"],
+	"seasons": 0,
+	"id": 353,
+	"chapters": 1
+}, {
+	"name": "A-jang.com",
+	"genres": ["fantasy", "korean animation"],
+	"seasons": 0,
+	"id": 354,
+	"chapters": 13
+}, {
+	"name": "A-Ko The Versus",
+	"genres": ["action", "action comedy", "adventure", "alien", "alternative world", "bionic powers", "comedy", "desert", "dragon", "fantasy", "female protagonist", "future", "guns", "humanoid alien", "monster", "new", "original work", "romance", "sci fi", "sci-fi", "science fiction", "science-fiction", "shipboard", "slapstick", "space", "space opera", "space travel", "super power", "superpowers", "violence"],
+	"seasons": 0,
+	"id": 355,
+	"chapters": 2
+}, {
+	"name": "A-men de Koi wo Shite",
+	"genres": ["romance"],
+	"seasons": 0,
+	"id": 356,
+	"chapters": 1
+}, {
+	"name": "A-ra-shi: Reborn",
+	"genres": ["action", "adventure", "alternative world", "based on a manga", "comedy", "crossover", "fantasy", "fantasy world", "music", "no dialogue", "ocean", "pirate", "pirates"],
+	"seasons": 0,
+	"id": 357,
+	"chapters": 1
+}, {
+	"name": "A-Shuai On Line",
+	"genres": ["short episodes"],
+	"seasons": 0,
+	"id": 358,
+	"chapters": 100
+}, {
+	"name": "A-Size Classmate",
+	"genres": ["boobjob", "defloration", "flat chested", "hardcore", "hentai", "oral", "present", "school girl", "threesome"],
+	"seasons": 0,
+	"id": 359,
+	"chapters": 2
+}, {
+	"name": "A.A",
+	"genres": ["avant garde", "music"],
+	"seasons": 0,
+	"id": 360,
+	"chapters": 1
+}, {
+	"name": "A.D. Police (TV)",
+	"genres": ["action", "android", "androids", "artificial intelligence", "crime", "cyberpunk", "cyborgs", "future", "gunfights", "japan", "law and order", "mafia", "male protagonist", "mecha", "memory manipulation", "original work", "police", "policeman", "power suits", "real robots", "robots", "sci fi", "sci-fi", "science fiction", "science-fiction", "seinen", "shounen", "special squads", "violence"],
+	"seasons": 0,
+	"id": 361,
+	"chapters": 12
+}, {
+	"name": "A.F",
+	"genres": ["action", "alien", "aliens", "cg animation", "drama", "gunfights", "horror", "mecha", "monster", "new", "original work", "outer space", "parasite", "piloted robot", "power suit", "sci fi", "sci-fi", "science fiction", "science-fiction", "seinen", "shipboard", "space", "tragedy", "violence"],
+	"seasons": 0,
+	"id": 362,
+	"chapters": 1
+}, {
+	"name": "A.F.R.O: Wonderland (Satoru Ver.)",
+	"genres": ["abstract"],
+	"seasons": 0,
+	"id": 363,
+	"chapters": 1
+}, {
+	"name": "A.F.R.O: Wonderland (UG Ver.)",
+	"genres": ["abstract"],
+	"seasons": 0,
+	"id": 364,
+	"chapters": 1
+}, {
+	"name": "A.I.C.O.: Incarnation",
+	"genres": ["action", "action drama", "body swapping", "cgi", "drama", "dystopian", "female protagonist", "genetic modification", "guns", "human enhancement", "human experimentation", "kaiju", "mecha", "memory manipulation", "military", "monster girl", "monsters", "new", "original work", "post-apocalyptic", "power suits", "rehabilitation", "sci fi", "sci-fi", "science fiction", "science-fiction", "super robot"],
+	"seasons": 0,
+	"id": 365,
+	"chapters": 12
+}, {
+	"name": "A.LI.CE",
+	"genres": ["action", "adventure", "artificial intelligence", "cg animation", "cg-anime", "drama", "dystopian", "earth", "female protagonist", "fugitive", "full cgi", "future", "guns", "original work", "robots", "sci fi", "sci-fi", "science fiction", "science-fiction", "time manipulation", "time travel"],
+	"seasons": 0,
+	"id": 366,
+	"chapters": 1
+}, {
+	"name": "A3! Season Autumn \u0026 Winter",
+	"genres": ["acting", "based on a mobile game", "boarding house", "comedy", "cute boys doing cute things", "debt", "delinquents", "drama", "ensemble cast", "female protagonist", "ganbatte", "music", "primarily adult cast", "primarily male cast", "showbiz", "slice of life", "the arts", "time manipulation", "urban fantasy", "yakuza"],
+	"seasons": 0,
+	"id": 367,
+	"chapters": 12
+}, {
+	"name": "A3! Season Spring \u0026 Summer",
+	"genres": ["acting", "based on a mobile game", "boarding house", "comedy", "crossdressing", "cute boys doing cute things", "debt", "delinquents", "drama", "ensemble cast", "female protagonist", "game", "ganbatte", "hero of strong character", "inheritance", "male harem", "music", "otaku", "performance", "present", "primarily male cast", "reluctant heroine", "showbiz", "slice of life", "stoic hero", "the arts", "theater", "tsundere", "yakuza"],
+	"seasons": 0,
+	"id": 368,
+	"chapters": 12
+}, {
+	"name": "A4 Microcosm",
+	"genres": ["abstract", "no dialogue", "shorts"],
+	"seasons": 0,
+	"id": 369,
+	"chapters": 1
+}, {
+	"name": "A5",
+	"genres": [],
+	"seasons": 0,
+	"id": 370,
+	"chapters": 0
+}, {
+	"name": "a_caFe",
+	"genres": ["drama", "fantasy", "independent anime", "music", "original work", "slice of life", "slice of life drama"],
+	"seasons": 0,
+	"id": 371,
+	"chapters": 1
+}, {
+	"name": "Aa / ii",
+	"genres": ["abstract", "avant garde", "black and white", "dementia", "no dialogue", "shorts"],
+	"seasons": 0,
+	"id": 372,
+	"chapters": 1
+}, {
+	"name": "Aa Harimanada",
+	"genres": ["action", "asia", "based on a manga", "combat", "combat sports", "excessive violence", "ganbatte", "hand to hand combat", "japan", "manga", "martial arts", "present", "seinen", "shounen", "sports", "sumo", "sumo wrestling", "tournaments", "wrestling"],
+	"seasons": 0,
+	"id": 373,
+	"chapters": 23
+}, {
+	"name": "Aa Okashii ne",
+	"genres": [],
+	"seasons": 0,
+	"id": 374,
+	"chapters": 1
+}, {
+	"name": "Aa! Megami-sama!",
+	"genres": ["asia", "based on a manga", "bionic powers", "celestial beings", "college", "comedy", "contemporary fantasy", "deity", "drama", "earth", "fantasy", "god-human relationship", "gods", "heterosexual", "interspecies relationship", "japan", "kuudere", "magic", "magical girl", "male protagonist", "manga", "motorcycles", "non-human protagonists", "plot continuity", "present", "primarily female cast", "psi-powers", "romance", "romantic comedy", "seinen", "stereotypes", "sudden girlfriend appearance", "supernatural", "urban fantasy"],
+	"seasons": 0,
+	"id": 375,
+	"chapters": 5
+}, {
+	"name": "Aa! Megami-sama! (2011)",
+	"genres": ["amusement park", "asia", "based on a manga", "celestial beings", "college", "comedy", "contemporary fantasy", "deity", "earth", "ecchi", "episodic", "fantasy", "gods", "japan", "kuudere", "magic", "male protagonist", "manga", "musical", "non-human protagonists", "present", "primarily female cast", "romance", "romantic comedy", "seinen", "supernatural", "urban fantasy"],
+	"seasons": 0,
+	"id": 376,
+	"chapters": 3
+}, {
+	"name": "Aa! Megami-sama! (TV)",
+	"genres": ["angel", "asia", "based on a manga", "celestial beings", "college", "comedy", "contemporary fantasy", "deity", "demons", "earth", "episodic", "fantasy", "female harem", "god-human relationship", "gods", "heterosexual", "interspecies relationship", "japan", "kuudere", "magic", "male protagonist", "manga", "non-human protagonists", "present", "primarily adult cast", "primarily female cast", "romance", "romantic comedy", "science-fiction", "seinen", "sudden girlfriend appearance", "supernatural", "urban fantasy"],
+	"seasons": 0,
+	"id": 377,
+	"chapters": 24
+}, {
+	"name": "Aa! Megami-sama! (TV) Specials",
+	"genres": ["based on a manga", "celestial beings", "college", "comedy", "contemporary fantasy", "demons", "fantasy", "gods", "kuudere", "magic", "non-human protagonists", "present", "primarily adult cast", "romance", "romantic comedy", "science-fiction", "seinen", "supernatural", "urban fantasy"],
+	"seasons": 0,
+	"id": 378,
+	"chapters": 3
+}, {
+	"name": "Aa! Megami-sama! Movie",
+	"genres": ["action", "alternative present", "based on a manga", "celestial beings", "college", "comedy", "contemporary fantasy", "deity", "demons", "drama", "fantasy", "god-human relationship", "gods", "heterosexual", "interspecies relationship", "japan", "kuudere", "magic", "male protagonist", "manga", "non-human protagonists", "parallel universe", "parallel world", "present", "primarily female cast", "romance", "science-fiction", "seinen", "supernatural", "tragedy", "university", "urban fantasy"],
+	"seasons": 0,
+	"id": 379,
+	"chapters": 1
+}, {
+	"name": "Aa! Megami-sama!: Aa! Megami-sama! to no Koukan Nikki!?",
+	"genres": ["celestial beings", "comedy", "contemporary fantasy", "demons", "fantasy", "magic", "present", "romance", "romantic comedy", "science-fiction"],
+	"seasons": 0,
+	"id": 380,
+	"chapters": 1
+}, {
+	"name": "Aa! Megami-sama!: Chichaitte Koto wa Benri da ne",
+	"genres": ["action", "adventure", "animals", "anthropomorphism", "based on a manga", "bionic powers", "chibi", "comedy", "contemporary fantasy", "deity", "fantasy", "gods", "japan", "kuudere", "magic", "manga", "non-human protagonists", "parody", "present", "primarily female cast", "psi-powers", "short episodes", "slapstick", "slice of life", "stereotypes", "super deformed", "supernatural"],
+	"seasons": 0,
+	"id": 381,
+	"chapters": 48
+}, {
+	"name": "Aa! Megami-sama!: Sorezore no Tsubasa",
+	"genres": ["angel", "asia", "based on a manga", "celestial beings", "college", "comedy", "contemporary fantasy", "deity", "demons", "drama", "earth", "episodic", "fantasy", "female harem", "god-human relationship", "gods", "harem", "interspecies relationship", "japan", "kuudere", "magic", "male protagonist", "manga", "motorsport", "non-human protagonists", "present", "primarily adult cast", "romance", "romantic comedy", "science-fiction", "seinen", "supernatural", "urban fantasy"],
+	"seasons": 0,
+	"id": 382,
+	"chapters": 22
+}, {
+	"name": "Aa! Megami-sama!: Sorezore no Tsubasa Specials",
+	"genres": ["based on a manga", "comedy", "fantasy", "god-human relationship", "gods", "interspecies relationship", "kuudere", "magic", "male protagonist", "motorcycles", "non-human protagonists", "primarily adult cast", "romance", "romantic comedy", "seinen", "supernatural", "urban fantasy"],
+	"seasons": 0,
+	"id": 383,
+	"chapters": 2
+}, {
+	"name": "Aa! Megami-sama!: Tatakau Tsubasa",
+	"genres": ["action", "angel", "asia", "based on a manga", "celestial beings", "comedy", "contemporary fantasy", "deity", "demon", "demons", "drama", "earth", "fantasy", "gods", "harem", "japan", "kuudere", "magic", "male protagonist", "manga", "non-human protagonists", "present", "primarily adult cast", "romance", "seinen", "supernatural"],
+	"seasons": 0,
+	"id": 384,
+	"chapters": 2
+}, {
+	"name": "AAA de Ikou!!: Yuuna \u0026 Akiko",
+	"genres": ["comedy"],
+	"seasons": 0,
+	"id": 385,
+	"chapters": 1
+}, {
+	"name": "Aachi wa Ssipak",
+	"genres": ["action", "action comedy", "alternative world", "apocalyptic fiction", "asia", "bionic powers", "comedy", "crime", "delinquents", "drugs", "dystopian", "earth", "ecchi", "excessive violence", "future", "gangs", "gore", "gunfights", "guns", "horror", "korean animation", "magic", "new", "nudity", "parody", "post-apocalyptic", "present", "primarily male cast", "psi-powers", "sci-fi", "science-fiction", "slapstick", "splatter", "time skip", "verbal comedy", "violence"],
+	"seasons": 0,
+	"id": 386,
+	"chapters": 1
+}, {
+	"name": "Aaron He Lili",
+	"genres": ["chinese animation", "family friendly", "kids", "shorts"],
+	"seasons": 0,
+	"id": 387,
+	"chapters": 1
+}, {
+	"name": "AAside",
+	"genres": ["music"],
+	"seasons": 0,
+	"id": 388,
+	"chapters": 1
+}, {
+	"name": "Ab-rah",
+	"genres": ["abstract", "music", "stop motion"],
+	"seasons": 0,
+	"id": 389,
+	"chapters": 1
+}, {
+	"name": "Abandon: 100 Nuki Shinai to Derarenai Fushigi na Kyoushitsu",
+	"genres": ["big boobs", "fantasy", "hentai", "oral", "present", "school girl", "softcore"],
+	"seasons": 0,
+	"id": 390,
+	"chapters": 2
+}, {
+	"name": "Abarenbou Rikishi!! Matsutarou",
+	"genres": ["absurdist humour", "based on a manga", "combat", "combat sport", "combat sports", "comedy", "ganbatte", "hand to hand combat", "historical", "male protagonist", "manga", "martial arts", "past", "romance", "seinen", "shounen", "sports", "sumo", "sumo wrestling", "wrestling"],
+	"seasons": 0,
+	"id": 391,
+	"chapters": 23
+}, {
+	"name": "Abashiri Ikka",
+	"genres": ["absurdist humour", "action", "action comedy", "based on a manga", "bionic powers", "comedy", "crime", "criminals", "drama", "ecchi", "excessive violence", "female protagonist", "gangs", "hand to hand combat", "japan", "large breasts", "mafia", "magic", "manga", "psi-powers", "school life", "shounen", "splatter", "super deformed", "violence"],
+	"seasons": 0,
+	"id": 392,
+	"chapters": 4
+}, {
+	"name": "ABC Tenkiyohou",
+	"genres": ["original work", "shorts", "slice of life", "stop motion animation"],
+	"seasons": 0,
+	"id": 393,
+	"chapters": 1
+}, {
+	"name": "Abciee Shuugyou Nikki",
+	"genres": ["action", "animal protagonists", "animals", "anthropomorphism", "asexual", "beastmen", "comedy", "contemporary fantasy", "episodic", "family friendly", "non-human protagonists", "present", "short episodes", "slice of life", "work", "work life", "workplace"],
+	"seasons": 0,
+	"id": 394,
+	"chapters": 12
+}, {
+	"name": "Abe George Kattobi Seishun Ki: Shibuya Honky Tonk",
+	"genres": ["action", "action drama", "adventure", "comedy", "coming of age", "drama", "ecchi", "eroticism", "gangs", "mafia", "present", "romance", "yakuza"],
+	"seasons": 0,
+	"id": 395,
+	"chapters": 4
+}, {
+	"name": "ABEDON: Beautiful Day",
+	"genres": ["abstract"],
+	"seasons": 0,
+	"id": 396,
+	"chapters": 1
+}, {
+	"name": "Abema TV no Benri na Tsukaikata CM",
+	"genres": ["commercials", "promotional"],
+	"seasons": 0,
+	"id": 397,
+	"chapters": 1
+}, {
+	"name": "Abenobashi Mahou Shoutengai Special",
+	"genres": ["comedy", "fantasy", "parody"],
+	"seasons": 0,
+	"id": 398,
+	"chapters": 1
+}, {
+	"name": "Abenobashi Mahou☆Shoutengai",
+	"genres": ["action", "adventure", "alternative world", "angst", "animals", "comedy", "coming of age", "contemporary fantasy", "drama", "ecchi", "episodic", "fantasy", "fantasy world", "goblin", "isekai", "magic", "meta", "new", "original work", "parallel universe", "parallel world", "parody", "person in a strange world", "plot continuity", "police", "present", "science-fiction", "shounen", "slapstick", "super deformed", "tanned skin", "tragedy", "transgender"],
+	"seasons": 0,
+	"id": 399,
+	"chapters": 13
+}, {
+	"name": "Abeojiuibang",
+	"genres": ["autobiographies", "black and white", "coming of age", "drama", "korean animation", "psychological", "shorts", "slice of life"],
+	"seasons": 0,
+	"id": 400,
+	"chapters": 1
+}, {
+	"name": "About the Girl",
+	"genres": ["alternative world", "bionic powers", "dark fantasy", "fantasy", "historical", "horror", "independent anime", "older man, younger woman", "original work", "psychological", "sci fi", "sci-fi", "shorts", "twisted story"],
+	"seasons": 0,
+	"id": 401,
+	"chapters": 1
+}, {
+	"name": "About you",
+	"genres": ["no dialogue", "psychological", "swimming"],
+	"seasons": 0,
+	"id": 402,
+	"chapters": 1
+}, {
+	"name": "Absolute Duo",
+	"genres": ["action", "based on a light novel", "bionic powers", "cgi", "comedy", "drama", "ecchi", "fantasy", "female harem", "guns", "harem", "hero of strong character", "kuudere", "magic", "magic school", "male protagonist", "novel", "nudity", "primarily female cast", "romance", "school", "school life", "slapstick", "stoic heroine", "supernatural", "swordplay", "swords \u0026 co", "tragedy", "violence", "yandere", "yuri"],
+	"seasons": 0,
+	"id": 403,
+	"chapters": 12
+}, {
+	"name": "Abstract feat. Alkama",
+	"genres": ["abstract", "avant garde", "dementia", "indefinite", "independent anime", "no dialogue", "painting", "present", "shorts", "stop motion", "stop motion animation"],
+	"seasons": 0,
+	"id": 404,
+	"chapters": 1
+}, {
+	"name": "Abu Shui Qian Gushi",
+	"genres": ["animal protagonists", "chinese animation", "family friendly", "kids", "short episodes"],
+	"seasons": 0,
+	"id": 405,
+	"chapters": 77
+}, {
+	"name": "Abunai Sisters: Koko \u0026 Mika",
+	"genres": ["action", "action comedy", "battle royale", "cg animation", "cg-anime", "comedy", "ecchi", "episodic", "female protagonist", "full cgi", "guns", "new", "original work", "short episodes", "table tennis", "volleyball"],
+	"seasons": 0,
+	"id": 406,
+	"chapters": 10
+}, {
+	"name": "Acca-kun no ACCA Kouza",
+	"genres": ["comedy"],
+	"seasons": 0,
+	"id": 407,
+	"chapters": 10
+}, {
+	"name": "ACCA: 13-ku Kansatsu-ka",
+	"genres": ["based on a manga", "conspiracy", "cops", "detective", "drama", "ensemble cast", "family life", "fantasy", "foreign", "male protagonist", "manga", "military", "mystery", "police", "policeman", "political", "politics", "present", "primarily adult cast", "revenge", "seinen", "slice of life", "stoic hero", "thriller", "travel", "work"],
+	"seasons": 0,
+	"id": 408,
+	"chapters": 12
+}, {
+	"name": "ACCA: 13-ku Kansatsu-ka - Regards",
+	"genres": ["based on a manga", "coming of age", "conspiracy", "cops", "detective", "drama", "ensemble cast", "fantasy", "law and order", "military", "mystery", "police", "politics", "primarily adult cast", "seinen", "work"],
+	"seasons": 0,
+	"id": 409,
+	"chapters": 1
+}, {
+	"name": "ACCA: 13-ku Kansatsu-ka Specials",
+	"genres": ["based on a manga", "comedy", "drama", "episodic", "male protagonist", "present", "primarily adult cast", "seinen", "slice of life", "slice of life drama", "verbal comedy"],
+	"seasons": 0,
+	"id": 410,
+	"chapters": 6
+}, {
+	"name": "ACCAMER: Be Down",
+	"genres": ["psychological"],
+	"seasons": 0,
+	"id": 411,
+	"chapters": 1
+}, {
+	"name": "ACCAMER: fluoresce",
+	"genres": ["drama"],
+	"seasons": 0,
+	"id": 412,
+	"chapters": 1
+}, {
+	"name": "ACCAMER: Saishin",
+	"genres": [],
+	"seasons": 0,
+	"id": 413,
+	"chapters": 1
+}, {
+	"name": "Accel World",
+	"genres": ["action", "alternative world", "augmented reality", "based on a light novel", "bullying", "comedy", "drama", "fantasy world", "friendship", "future", "game", "ganbatte", "henshin", "hero of weak character", "isekai", "kuudere", "male protagonist", "martial arts", "middle school", "motorcycles", "netorare", "novel", "philosophy", "primarily teen cast", "psi-powers", "psychological drama", "pvp", "romance", "school", "school life", "sci fi", "sci-fi", "science fiction", "science-fiction", "seinen", "shounen", "swords \u0026 co", "time manipulation", "video game", "video games", "virtual reality", "virtual world"],
+	"seasons": 0,
+	"id": 414,
+	"chapters": 24
+}, {
+	"name": "Accel World EX",
+	"genres": ["action", "alternative world", "asia", "based on a light novel", "comedy", "earth", "ecchi", "fantasy world", "future", "game", "high school", "japan", "kuudere", "martial arts", "novel", "psi-powers", "romance", "school", "sci fi", "sci-fi", "science fiction", "science-fiction", "seinen", "shounen", "swords \u0026 co", "video game", "virtual reality", "virtual world"],
+	"seasons": 0,
+	"id": 415,
+	"chapters": 2
+}, {
+	"name": "Accel World: Acchel World.",
+	"genres": ["based on a light novel", "chibi", "comedy", "ensemble cast", "friendship", "kuudere", "parody", "school", "sci-fi", "science fiction", "science-fiction", "shounen", "virtual world"],
+	"seasons": 0,
+	"id": 416,
+	"chapters": 8
+}, {
+	"name": "Accel World: Infinite∞Burst",
+	"genres": ["action", "based on a light novel", "fantasy", "friendship", "game", "isekai", "kuudere", "romance", "school", "school life", "sci fi", "sci-fi", "science fiction", "science-fiction", "shounen", "video game", "virtual reality", "virtual world"],
+	"seasons": 0,
+	"id": 417,
+	"chapters": 1
+}, {
+	"name": "Accelerando: Datenshi-tachi no Sasayaki",
+	"genres": ["boobjob", "exhibitionism", "group sex", "hentai", "incest", "maid", "oral", "present", "school girl", "softcore", "threesome", "urinating", "voyeurism"],
+	"seasons": 0,
+	"id": 418,
+	"chapters": 4
+}, {
+	"name": "Acchi Kocchi",
+	"genres": ["4-koma manga", "based on a 4-koma manga", "based on a manga", "comedy", "daily life", "earth", "gag humor", "iyashikei", "japan", "kuudere", "manga", "moe", "nekomimi", "present", "romance", "romantic comedy", "school", "school life", "seinen", "slapstick", "slice of life", "super deformed", "tsundere"],
+	"seasons": 0,
+	"id": 419,
+	"chapters": 12
+}, {
+	"name": "Acchi Kocchi: Place\u003dPrincess",
+	"genres": ["based on a 4-koma manga", "based on a manga", "comedy", "gag humor", "iyashikei", "kuudere", "moe", "present", "romance", "romantic comedy", "school", "school life", "seinen", "slice of life"],
+	"seasons": 0,
+	"id": 420,
+	"chapters": 1
+}, {
+	"name": "Acchi wa Kocchi",
+	"genres": ["abstract", "avant garde", "black and white", "comedy", "dementia", "indefinite", "independent anime", "kuudere", "shorts", "surreal comedy"],
+	"seasons": 0,
+	"id": 421,
+	"chapters": 1
+}, {
+	"name": "Ace wo Nerae!",
+	"genres": ["based on a manga", "bullying", "drama", "female protagonist", "ganbatte", "high school", "ojou-sama", "present", "romance", "school", "school club", "school life", "shoujo", "slapstick", "sports", "tennis"],
+	"seasons": 0,
+	"id": 422,
+	"chapters": 26
+}, {
+	"name": "Ace wo Nerae! (1979)",
+	"genres": ["based on a manga", "drama", "female protagonist", "japan", "manga", "present", "romance", "school", "school life", "shoujo", "sports", "tennis", "tragedy", "urban"],
+	"seasons": 0,
+	"id": 423,
+	"chapters": 1
+}, {
+	"name": "Ace wo Nerae! 2",
+	"genres": ["based on a manga", "drama", "female protagonist", "foreign", "ganbatte", "japan", "philosophy", "present", "romance", "school", "shoujo", "sports", "tennis", "tragedy"],
+	"seasons": 0,
+	"id": 424,
+	"chapters": 13
+}, {
+	"name": "Ace wo Nerae! Final Stage",
+	"genres": ["action", "based on a manga", "drama", "female protagonist", "foreign", "ganbatte", "japan", "plot continuity", "present", "romance", "school", "shoujo", "sports", "tennis"],
+	"seasons": 0,
+	"id": 425,
+	"chapters": 12
+}, {
+	"name": "Acerola-chan",
+	"genres": ["animal protagonists", "birds", "comedy", "family friendly", "non-human protagonists", "slice of life"],
+	"seasons": 0,
+	"id": 426,
+	"chapters": 3
+}, {
+	"name": "Action Heroine Cheer Fruits",
+	"genres": ["acting", "comedy", "cute girls doing cute things", "diva", "female protagonist", "high school", "idol", "new", "original work", "present", "primarily female cast", "school", "school life", "slice of life", "theater", "tokusatsu"],
+	"seasons": 0,
+	"id": 427,
+	"chapters": 12
+}, {
+	"name": "Active Raid: Kidou Kyoushuushitsu Dai Hachi Gakari",
+	"genres": ["action", "comedy", "cops", "crime", "cyberpunk", "detective", "diva", "ensemble cast", "episodic", "female protagonist", "guns", "henshin", "hero of strong character", "idol", "law and order", "martial arts", "mecha", "military", "new", "original work", "police", "policeman", "politics", "power suit", "present", "primarily adult cast", "real robot", "robots", "sci fi", "sci-fi", "science fiction", "science-fiction", "special squads", "super robots", "tokusatsu", "trains", "work"],
+	"seasons": 0,
+	"id": 428,
+	"chapters": 12
+}, {
+	"name": "Active Raid: Kidou Kyoushuushitsu Dai Hachi Gakari 2nd",
+	"genres": ["action", "comedy", "cops", "cyberpunk", "detective", "diva", "ensemble cast", "guns", "henshin", "hero of strong character", "idol", "law and order", "martial arts", "mecha", "military", "new", "original work", "police", "policeman", "politics", "power suit", "present", "primarily adult cast", "real robot", "robots", "sci fi", "sci-fi", "science fiction", "science-fiction", "space", "super robots", "tokusatsu", "work"],
+	"seasons": 0,
+	"id": 429,
+	"chapters": 12
+}, {
+	"name": "Actors: Songs Connection",
+	"genres": ["acting", "comedy", "conspiracy", "cute boys doing cute things", "idol", "male protagonist", "music", "musical", "mystery", "primarily male cast", "school", "school club", "school life", "slice of life", "video games", "vocaloid"],
+	"seasons": 0,
+	"id": 430,
+	"chapters": 12
+}, {
+	"name": "ACUTE",
+	"genres": ["love triangle", "yandere"],
+	"seasons": 0,
+	"id": 431,
+	"chapters": 1
+}, {
+	"name": "Ad Lib Anime Kenkyuujo",
+	"genres": ["comedy", "present", "short episodes"],
+	"seasons": 0,
+	"id": 432,
+	"chapters": 38
+}, {
+	"name": "AD Police",
+	"genres": ["action", "adult cast", "adventure", "android", "androids", "avant garde", "cyberpunk", "cyborg", "cyborgs", "dementia", "detective", "ecchi", "episodic", "excessive violence", "future", "gore", "gunfights", "horror", "human enhancement", "japan", "law and order", "male protagonist", "mecha", "military", "mystery", "nudity", "original work", "police", "policeman", "power suits", "primarily adult cast", "psychological", "robots", "robots \u0026 androids", "sci fi", "sci-fi", "science fiction", "science-fiction", "sex", "special squads", "suspense", "thriller", "urban", "violence"],
+	"seasons": 0,
+	"id": 433,
+	"chapters": 3
+}, {
+	"name": "Adachi to Shimamura",
+	"genres": ["aliens", "based on a light novel", "coming of age", "cute girls doing cute things", "delinquents", "female protagonist", "girls love", "gl", "high school", "iyashikei", "lgbtq+ themes", "novel", "present", "primarily female cast", "primarily teen cast", "romance", "school", "school life", "shoujo ai", "shoujo-ai", "slice of life", "table tennis", "yuri"],
+	"seasons": 0,
+	"id": 434,
+	"chapters": 12
+}, {
+	"name": "Adachi to Shimamura Mini Anime",
+	"genres": ["based on a light novel", "chibi", "comedy", "school life", "short episodes"],
+	"seasons": 0,
+	"id": 435,
+	"chapters": 30
+}, {
+	"name": "Adachi-ga Hara",
+	"genres": ["adventure", "alternative world", "anti-hero", "based on a manga", "dark fantasy", "drama", "dystopian", "fantasy", "guns", "romance", "sci-fi", "science fiction", "science-fiction", "sentimental drama", "shounen", "space", "space travel", "terrorism", "tragedy", "war"],
+	"seasons": 0,
+	"id": 436,
+	"chapters": 1
+}, {
+	"name": "Adachin",
+	"genres": ["animal protagonists", "comedy", "dogs", "non-human protagonists", "promotional", "short episodes"],
+	"seasons": 0,
+	"id": 437,
+	"chapters": 2
+}, {
+	"name": "Adachin Shows Up!",
+	"genres": ["animal protagonists", "dogs", "non-human protagonists", "promotional", "shorts"],
+	"seasons": 0,
+	"id": 438,
+	"chapters": 1
+}, {
+	"name": "Adachin\u0027s Theme",
+	"genres": ["animal protagonists", "dogs", "non-human protagonists", "promotional"],
+	"seasons": 0,
+	"id": 439,
+	"chapters": 1
+}, {
+	"name": "Adam by Eve: A Live in Animation",
+	"genres": ["music", "mystery", "supernatural"],
+	"seasons": 0,
+	"id": 440,
+	"chapters": 1
+}, {
+	"name": "Adamski",
+	"genres": ["abstract", "black and white", "no dialogue", "pov", "shorts", "slice of life", "stop motion", "stop motion animation"],
+	"seasons": 0,
+	"id": 441,
+	"chapters": 1
+}, {
+	"name": "Adauchi Karasu",
+	"genres": ["black and white", "shorts"],
+	"seasons": 0,
+	"id": 442,
+	"chapters": 1
+}, {
+	"name": "Additional Memory",
+	"genres": ["music", "school life", "suicide"],
+	"seasons": 0,
+	"id": 443,
+	"chapters": 1
+}, {
+	"name": "Adelie and Paul",
+	"genres": ["music", "slice of life"],
+	"seasons": 0,
+	"id": 444,
+	"chapters": 1
+}, {
+	"name": "Adesugata Mahou no Sannin Musume",
+	"genres": ["bionic powers", "comedy", "crossover", "fantasy", "henshin heroes", "magic", "magical girl", "mahou shoujo", "original work", "psi-powers", "recap", "romance", "shoujo"],
+	"seasons": 0,
+	"id": 445,
+	"chapters": 1
+}, {
+	"name": "Ado: Aitakute",
+	"genres": ["drama", "romance", "slice of life"],
+	"seasons": 0,
+	"id": 446,
+	"chapters": 1
+}, {
+	"name": "Ado: Ashura-chan",
+	"genres": [],
+	"seasons": 0,
+	"id": 447,
+	"chapters": 1
+}, {
+	"name": "Ado: Domestic de Violence",
+	"genres": ["adult couples", "possessive lovers"],
+	"seasons": 0,
+	"id": 448,
+	"chapters": 1
+}, {
+	"name": "Ado: Hanabi",
+	"genres": ["drama"],
+	"seasons": 0,
+	"id": 449,
+	"chapters": 1
+}, {
+	"name": "Ado: Kokoro to Iu Na no Fukakai",
+	"genres": ["sci fi"],
+	"seasons": 0,
+	"id": 450,
+	"chapters": 1
+}, {
+	"name": "Ado: NEW GENESIS",
+	"genres": ["music"],
+	"seasons": 0,
+	"id": 451,
+	"chapters": 1
+}, {
+	"name": "Ado: Odo",
+	"genres": ["boxing", "sports"],
+	"seasons": 0,
+	"id": 452,
+	"chapters": 1
+}, {
+	"name": "Ado: ReadyMade",
+	"genres": ["baseball", "sports"],
+	"seasons": 0,
+	"id": 453,
+	"chapters": 1
+}, {
+	"name": "Ado: Usseewa",
+	"genres": [],
+	"seasons": 0,
+	"id": 454,
+	"chapters": 1
+}, {
+	"name": "Ado: Yoru no Pierrot (360° ver.)",
+	"genres": ["abstract"],
+	"seasons": 0,
+	"id": 455,
+	"chapters": 1
+}, {
+	"name": "Adobe Student and Teacher Edition",
+	"genres": ["avant garde", "commercials", "dementia", "promotional"],
+	"seasons": 0,
+	"id": 456,
+	"chapters": 1
+}, {
+	"name": "Adult Swim Festival 2019 Animation",
+	"genres": ["abstract", "promotional", "shorts", "the arts"],
+	"seasons": 0,
+	"id": 457,
+	"chapters": 1
+}, {
+	"name": "Adult Swim ID (Masanobu Hiraoka)",
+	"genres": ["abstract", "no dialogue", "promotional", "short episodes", "station identifications"],
+	"seasons": 0,
+	"id": 458,
+	"chapters": 2
+}, {
+	"name": "Adult Swim_ID",
+	"genres": [],
+	"seasons": 0,
+	"id": 459,
+	"chapters": 2
+}, {
+	"name": "Advancer Tina",
+	"genres": ["action", "aliens", "alternative world", "amnesia", "cruel", "excessive violence", "guns", "hardcore", "hentai", "heroine of strong character", "masturbation", "on spaceship", "sci-fi", "science-fiction", "space", "space opera", "splatter", "tentacle"],
+	"seasons": 0,
+	"id": 460,
+	"chapters": 1
+}, {
+	"name": "Adventure Time",
+	"genres": ["adventure", "anime influenced", "anthropomorphism", "comedy", "friendship", "post apocalypse"],
+	"seasons": 0,
+	"id": 461,
+	"chapters": 1
+}, {
+	"name": "Adventure Time Season 1",
+	"genres": ["adventure", "anime influenced", "anthropomorphism", "comedy", "fantasy", "friendship", "post apocalypse", "vampire"],
+	"seasons": 0,
+	"id": 462,
+	"chapters": 26
+}, {
+	"name": "Adventure Time Season 10",
+	"genres": ["adventure", "anime influenced", "anthropomorphism", "comedy", "fantasy", "friendship", "post apocalypse"],
+	"seasons": 0,
+	"id": 463,
+	"chapters": 16
+}, {
+	"name": "Adventure Time Season 2",
+	"genres": ["adventure", "anime influenced", "anthropomorphism", "comedy", "fantasy", "friendship", "post apocalypse", "vampire"],
+	"seasons": 0,
+	"id": 464,
+	"chapters": 26
+}, {
+	"name": "Adventure Time Season 3",
+	"genres": ["adventure", "anime influenced", "anthropomorphism", "comedy", "fantasy", "friendship", "post apocalypse", "vampire"],
+	"seasons": 0,
+	"id": 465,
+	"chapters": 26
+}, {
+	"name": "Adventure Time Season 4",
+	"genres": ["adventure", "anime influenced", "anthropomorphism", "comedy", "fantasy", "friendship", "post apocalypse", "vampire"],
+	"seasons": 0,
+	"id": 466,
+	"chapters": 26
+}, {
+	"name": "Adventure Time Season 5",
+	"genres": ["adventure", "anime influenced", "anthropomorphism", "comedy", "fantasy", "friendship", "post apocalypse", "vampire"],
+	"seasons": 0,
+	"id": 467,
+	"chapters": 52
+}, {
+	"name": "Adventure Time Season 6",
+	"genres": ["adventure", "anime influenced", "anthropomorphism", "comedy", "fantasy", "friendship", "post apocalypse", "vampire"],
+	"seasons": 0,
+	"id": 468,
+	"chapters": 43
+}, {
+	"name": "Adventure Time Season 7",
+	"genres": ["adventure", "anime influenced", "anthropomorphism", "comedy", "fantasy", "friendship", "post apocalypse", "vampire"],
+	"seasons": 0,
+	"id": 469,
+	"chapters": 26
+}, {
+	"name": "Adventure Time Season 8",
+	"genres": ["adventure", "anime influenced", "anthropomorphism", "comedy", "fantasy", "friendship", "post apocalypse", "vampire"],
+	"seasons": 0,
+	"id": 470,
+	"chapters": 27
+}, {
+	"name": "Adventure Time Season 9",
+	"genres": ["adventure", "anime influenced", "anthropomorphism", "comedy", "fantasy", "friendship", "post apocalypse", "vampire"],
+	"seasons": 0,
+	"id": 471,
+	"chapters": 14
+}, {
+	"name": "Adventure Time Short: Frog Seasons",
+	"genres": ["adventure", "anime influenced", "anthropomorphism", "comedy", "fantasy", "friendship", "post apocalypse", "vampire"],
+	"seasons": 0,
+	"id": 472,
+	"chapters": 5
+}, {
+	"name": "Adventure Time: Diamonds and Lemons",
+	"genres": ["adventure", "anime influenced", "anthropomorphism", "comedy", "fantasy", "friendship", "kids", "post apocalypse", "vampire"],
+	"seasons": 0,
+	"id": 473,
+	"chapters": 1
+}, {
+	"name": "Adventure Time: Distant Lands",
+	"genres": ["adventure", "anthropomorphism", "fantasy", "friendship", "magic", "post apocalypse", "robot", "science fiction", "space", "vampire"],
+	"seasons": 0,
+	"id": 474,
+	"chapters": 4
+}, {
+	"name": "Adventure Time: Fionna \u0026 Cake",
+	"genres": ["action", "adventure", "anime influenced", "anthropomorphism", "fantasy", "kids", "post apocalypse"],
+	"seasons": 0,
+	"id": 475,
+	"chapters": 10
+}, {
+	"name": "Adventure Time: Graybles Allsorts",
+	"genres": ["adventure", "anime influenced", "anthropomorphism", "comedy", "fantasy", "friendship", "post apocalypse", "vampire"],
+	"seasons": 0,
+	"id": 476,
+	"chapters": 4
+}, {
+	"name": "Adventure Time: The Wand",
+	"genres": ["anime influenced", "anthropomorphism", "comedy", "fantasy", "friendship", "post apocalypse"],
+	"seasons": 0,
+	"id": 477,
+	"chapters": 1
+}, {
+	"name": "Adventures in Beauty Wonderland",
+	"genres": ["abstract", "adventure", "alice in wonderland", "alternative world", "avant garde", "dementia", "horror", "indefinite", "independent anime", "no dialogue", "promotional", "psychological", "short movie", "shorts"],
+	"seasons": 0,
+	"id": 478,
+	"chapters": 1
+}, {
+	"name": "Adventures of Sonic the Hedgehog",
+	"genres": ["action", "adventure", "anime influenced", "comedy", "kids", "sci-fi", "science fiction"],
+	"seasons": 0,
+	"id": 479,
+	"chapters": 65
+}, {
+	"name": "Adventures of Sonic the Hedgehog Pilot",
+	"genres": ["action", "adventure", "anime influenced", "comedy", "kids", "sci-fi", "science fiction"],
+	"seasons": 0,
+	"id": 480,
+	"chapters": 1
+}, {
+	"name": "AEIOUdan: Douro no Tadashii Watari Kata",
+	"genres": ["kids"],
+	"seasons": 0,
+	"id": 481,
+	"chapters": 1
+}, {
+	"name": "Aekowa Chingudeul",
+	"genres": ["cg-anime"],
+	"seasons": 0,
+	"id": 482,
+	"chapters": 26
+}, {
+	"name": "AEON",
+	"genres": ["abstract", "avant garde", "black and white", "no dialogue", "psychological", "sci-fi", "shorts", "space"],
+	"seasons": 0,
+	"id": 483,
+	"chapters": 1
+}, {
+	"name": "Aeon Flux Season 1",
+	"genres": ["action", "anime influenced", "cops", "mystery", "sci-fi", "science fiction"],
+	"seasons": 0,
+	"id": 484,
+	"chapters": 6
+}, {
+	"name": "Aeon Flux Season 2",
+	"genres": ["action", "anime influenced", "cops", "mystery", "sci-fi", "science fiction"],
+	"seasons": 0,
+	"id": 485,
+	"chapters": 5
+}, {
+	"name": "Aeon Flux Season 3",
+	"genres": ["action", "anime influenced", "cops", "mystery", "sci-fi", "science fiction"],
+	"seasons": 0,
+	"id": 486,
+	"chapters": 10
+}, {
+	"name": "Aerover: Pinigseuui Buhwal",
+	"genres": ["action", "cg animation", "comedy", "korean animation", "racing", "short episodes", "sports"],
+	"seasons": 0,
+	"id": 487,
+	"chapters": 13
+}, {
+	"name": "Aerover: Seupeiseu Drone Gwihwan",
+	"genres": ["action", "cg animation", "comedy", "korean animation", "racing", "sports"],
+	"seasons": 0,
+	"id": 488,
+	"chapters": 13
+}, {
+	"name": "Aeseullon ttobos",
+	"genres": ["kids"],
+	"seasons": 0,
+	"id": 489,
+	"chapters": 28
+}, {
+	"name": "Aesop Douwa",
+	"genres": ["animal protagonists", "based on a fairy tale", "episodic", "fantasy", "non-human protagonists"],
+	"seasons": 0,
+	"id": 490,
+	"chapters": 3
+}, {
+	"name": "Aesop\u0027s World",
+	"genres": ["adventure", "alternative world", "animal protagonists", "anthropomorphic", "family friendly", "fantasy", "kids", "non-human protagonists", "short episodes"],
+	"seasons": 0,
+	"id": 491,
+	"chapters": 26
+}, {
+	"name": "AFA Anisong 2015 feat. Seika Project",
+	"genres": ["idol", "music"],
+	"seasons": 0,
+	"id": 492,
+	"chapters": 1
+}, {
+	"name": "AFA2014: Welcome Promo Video - Featuring Seika Project",
+	"genres": ["parody"],
+	"seasons": 0,
+	"id": 493,
+	"chapters": 1
+}, {
+	"name": "Affordance",
+	"genres": [],
+	"seasons": 0,
+	"id": 494,
+	"chapters": 1
+}, {
+	"name": "Affordance",
+	"genres": [],
+	"seasons": 0,
+	"id": 495,
+	"chapters": 1
+}, {
+	"name": "Afghanistan Paghman-mura no Monogatari: Boku no Mura ni Circus ga Kita",
+	"genres": ["circus", "educational", "family friendly", "historical", "kids", "middle eastern"],
+	"seasons": 0,
+	"id": 496,
+	"chapters": 1
+}, {
+	"name": "Afghanistan Paghman-mura no Monogatari: Sekaiichi Utsukushii Boku no Mura",
+	"genres": ["educational", "family friendly", "historical", "kids", "middle eastern"],
+	"seasons": 0,
+	"id": 497,
+	"chapters": 1
+}, {
+	"name": "AFRA \u0026 INCREDIBLE BEATBOX BAND: Seven Nation Army",
+	"genres": ["abstract", "adventure", "person in a strange world"],
+	"seasons": 0,
+	"id": 498,
+	"chapters": 1
+}, {
+	"name": "Afraid To Be Cool / Raise Me Up",
+	"genres": ["music"],
+	"seasons": 0,
+	"id": 499,
+	"chapters": 2
+}, {
+	"name": "Africa no Salaryman",
+	"genres": ["animal protagonists", "anthropomorphic", "anthropomorphism", "based on a manga", "birds", "cats", "comedy", "daily life", "non-human protagonists", "short episodes", "shounen", "vertical anime", "work life", "working life", "workplace"],
+	"seasons": 0,
+	"id": 500,
+	"chapters": 10
+}]

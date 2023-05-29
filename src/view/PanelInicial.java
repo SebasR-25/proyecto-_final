@@ -19,6 +19,7 @@ public class PanelInicial extends JPanel {
     private JTextField passwordText;
     private JButton logInButton;
     private JButton signInButton;
+    private SignDialog signDialog;
     
     public PanelInicial(ActionListener actionListener){
         this.actionListener = actionListener;
@@ -26,6 +27,7 @@ public class PanelInicial extends JPanel {
         Image originalImage = icon.getImage();
         Image scaledImage = originalImage.getScaledInstance(1366, 768, Image.SCALE_SMOOTH);
         image = new ImageIcon(scaledImage).getImage();
+        signDialog = new SignDialog();
         setLayout(null);
         initLabels();
         addLabels();
@@ -83,7 +85,8 @@ public class PanelInicial extends JPanel {
         logIn.setBackground(Color.white);
         logIn.setLayout(null);
         initPanelElements();
-        addPanelElements();    
+        addPanelElements();
+        signListener();
     }
     private void addPanel(){
         add(logIn);
@@ -101,6 +104,12 @@ public class PanelInicial extends JPanel {
         logInButton.setBounds(70, 140, 90, 30);
         signInButton = new JButton("Sign in");
         signInButton.setBounds(70, 180, 90, 30);
+    }
+    private void signListener(){
+        signInButton.addActionListener(e ->{
+            signDialog.setVisible(true);
+            signDialog.setLocationRelativeTo(this);
+        });
     }
     private void addPanelElements(){
         logIn.add(userLabel);
