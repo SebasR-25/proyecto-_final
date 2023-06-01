@@ -5,8 +5,10 @@ import javax.swing.*;
 import resources.GlobalFont;
 
 import java.awt.*;
+import java.awt.event.ActionListener;
 
 public class OptionPanel extends JPanel{
+    private final ActionListener actionListener;
     private Image image;
     private JButton goToInfo;
     private JButton goToAdd;
@@ -17,7 +19,8 @@ public class OptionPanel extends JPanel{
     private AddDialog addDialog;
     private DeleteDialog deleteDialog;
     
-    public OptionPanel(){
+    public OptionPanel(ActionListener actionListener){
+        this.actionListener = actionListener;
         ImageIcon icon = new ImageIcon("src/resources/media/Fondo.jpg");
         Image originalImage = icon.getImage();
         Image scaledImage = originalImage.getScaledInstance(1366, 768, Image.SCALE_SMOOTH);
@@ -28,7 +31,6 @@ public class OptionPanel extends JPanel{
         locateButtons();
         addButtons();
         addListeners();
-        initButtons();
         initDialogs();
         setVisible(true);
     }
@@ -85,5 +87,69 @@ public class OptionPanel extends JPanel{
             addDialog.setVisible(true);
             addDialog.setModal(true);
         });
+    }
+
+    public JButton getGoToInfo() {
+        return goToInfo;
+    }
+
+    public void setGoToInfo(JButton goToInfo) {
+        this.goToInfo = goToInfo;
+    }
+
+    public JButton getGoToAdd() {
+        return goToAdd;
+    }
+
+    public void setGoToAdd(JButton goToAdd) {
+        this.goToAdd = goToAdd;
+    }
+
+    public JButton getGoToEdit() {
+        return goToEdit;
+    }
+
+    public void setGoToEdit(JButton goToEdit) {
+        this.goToEdit = goToEdit;
+    }
+
+    public JButton getGoToDelete() {
+        return goToDelete;
+    }
+
+    public void setGoToDelete(JButton goToDelete) {
+        this.goToDelete = goToDelete;
+    }
+
+    public JButton getGoToBack() {
+        return goToBack;
+    }
+
+    public void setGoToBack(JButton goToBack) {
+        this.goToBack = goToBack;
+    }
+
+    public EditDialog getEditDialog() {
+        return editDialog;
+    }
+
+    public void setEditDialog(EditDialog editDialog) {
+        this.editDialog = editDialog;
+    }
+
+    public AddDialog getAddDialog() {
+        return addDialog;
+    }
+
+    public void setAddDialog(AddDialog addDialog) {
+        this.addDialog = addDialog;
+    }
+
+    public DeleteDialog getDeleteDialog() {
+        return deleteDialog;
+    }
+
+    public void setDeleteDialog(DeleteDialog deleteDialog) {
+        this.deleteDialog = deleteDialog;
     }
 }

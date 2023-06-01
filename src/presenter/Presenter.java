@@ -1,65 +1,82 @@
 package presenter;
 
-import view.Frame;
-
-import java.io.FileNotFoundException;
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+import fileOperations.Persistence;
 import model.*;
-import fileOperations.*;
+import view.Frame;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.io.*;
 
-public class Presenter{
-    FileWritter fw = new FileWritter();
-    FileReadder fr = new FileReadder();
-    
-    ListManager manager = new ListManager();
+    public class Presenter implements ActionListener {
+    private Frame frame;
+    private NetflixAnime netflixAnime;
+    private Persistence persistence;
     List<String> generos = new ArrayList<String>();
-    public Presenter(){}
+    
+    public Presenter() {
+        persistence = new Persistence();
+        frame = new Frame(this);
+        netflixAnime = new NetflixAnime();
+        loadDefaultData();
+    }
 
-    private void addGen(){
-        generos.add("terror");
-        generos.add("comedia");
-        generos.add("accion");
+    private void loadDefaultData() {
+        netflixAnime.setUserList(persistence.getUserList());
+        netflixAnime.setGenereList(persistence.getGenereList());
+        netflixAnime.setSeriesList(persistence.getSeriesList());
     }
-    private void addSeries(){
-        Serie serie1 = new Serie("Anime1", generos, Status.ACTIVA, 2, 1, 24, "cualquier cosa que se pueda leer", BroadcastDay.DOMINGO);
-        Serie serie2 = new Serie("Anime2", generos, Status.ACTIVA, 2, 2, 24, "cualquier cosa que se pueda leer", BroadcastDay.DOMINGO);
-        Serie serie3 = new Serie("Anime3", generos, Status.ACTIVA, 2, 3, 24, "cualquier cosa que se pueda leer", BroadcastDay.DOMINGO);
-        Serie serie4 = new Serie("Anime4", generos, Status.EN_ESPERA, 1, 4, 0, "Nueva serie ingresada", BroadcastDay.MIERCOLES);
-        manager.addSerie(serie1);
-        manager.addSerie(serie2);
-        manager.addSerie(serie3);
-        manager.addSerie(serie4);
+
+    public static void main(String[] args) {
+        Presenter presenter = new Presenter();
+        presenter.start();
     }
-    private String toJSON(){
-        String temp = "[";
-        int i  = 0;
-        for (Serie serie : manager.getSeriesList()) {
-            if (i == manager.getSeriesList().size()-1) {
-                temp +=  fw.getJson(serie);
-            } else {
-                temp +=  fw.getJson(serie) + ",";
-                i++;
-            }
+
+    private void start() {
+        frame.setVisible(true);
+    }
+
+    @Override
+    public void actionPerformed(ActionEvent e) {
+        switch (e.getActionCommand().toUpperCase()) {
+            case "LOGIN_USER" -> loginUser();
+            case "SIGN_USER" -> signUser();
         }
-        temp += "]";
-        return temp;
     }
-    private void writeJSON() throws IOException{
-        fw.write(toJSON());
+
+    private void signUser() {
+        String userName = frame.getInicio().getSignDialog().getNameTextField().getText();
+        String password = frame.getInicio().getSignDialog().getPasswordField().getText();
+        if (userName.isEmpty() || password.isEmpty()) {
+            frame.showErrorMessage("Debe ingresar usuario y contraseña");
+            return;
+        }
+        if (netflixAnime.searchUser(userName) != null) {
+            frame.showErrorMessage("Usuario ya registrado");
+            return;
+        }
+        frame.getInicio().getSignDialog().setVisible(false);
+        netflixAnime.addUser(userName, password);
+        frame.showInfoMessage("Usuario registrado correctamente");
     }
-    private void readJSON() throws FileNotFoundException, IOException{
-        fr.loadFileJson();
-        List<Serie> temp = fr.getSeries();
-        System.out.println(temp.size() + "");
-    }
-    public static void main(String[] args) throws IOException {
-        Presenter p = new Presenter();
-        p.addGen();
-        p.addSeries();
-        p.toJSON();
-        p.writeJSON();
-        p.readJSON();
+
+    private void loginUser() {
+        String userName = frame.getInicio().getUserText().getText();
+        String password = frame.getInicio().getPasswordText().getText();
+        if (userName.isEmpty() || password.isEmpty()) {
+            frame.showErrorMessage("Debe ingresar usuario y contraseña");
+            return;
+        }
+        if (netflixAnime.searchUser(userName) == null) {
+            frame.showErrorMessage("Usuario no registrado");
+            return;
+        }
+        if (netflixAnime.validateLogin(userName, password)) {
+            frame.showInfoMessage("Bienvenido " + userName);
+            frame.showPanel(frame.getOptions());
+        } else {
+            frame.showErrorMessage("Usuario y/o contraseña incorrectos");
+        }
     }
 }

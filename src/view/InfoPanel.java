@@ -1,6 +1,6 @@
 package view;
 
-import java.awt.Color;
+import java.awt.event.ActionListener;
 
 import javax.swing.*;
 
@@ -10,14 +10,13 @@ public class InfoPanel extends JPanel {
     private ButtonsInfoPanel buttonsPanel;
     private JScrollPane scroll;
 
-    public InfoPanel(){
+    public InfoPanel(ActionListener actionListener){
         setVisible(true);
         setLayout(null);
         initPanels();
         addPanels();
     }
 
-    //1382, 784
     private void initPanels(){
         infoSerie = new InfoSeriePanel();
         listSeries = new ListSeriesPanel();
