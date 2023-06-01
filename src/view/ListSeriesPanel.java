@@ -1,19 +1,19 @@
 package view;
 
 import javax.swing.*;
-
 import resources.GlobalFont;
-
 import java.awt.*;
+import model.Serie;
+import java.util.List;
 
 public class ListSeriesPanel extends JPanel {
 
-    public ListSeriesPanel() {
+    public ListSeriesPanel(List<Serie> series) {
         setVisible(true);
         setLayout(new GridBagLayout());
         setBackground(new Color(5, 5, 21));
         addTitleLabel();
-        addButtons();
+        addButtons(series);
     }
 
     private void addTitleLabel() {
@@ -27,13 +27,13 @@ public class ListSeriesPanel extends JPanel {
         add(listLabel, gbc);
     }
 
-    private void addButtons() {
+    private void addButtons(List<Serie> series) {
         GridBagConstraints gbc = new GridBagConstraints();
         gbc.gridx = 0;
         gbc.gridy = 0;
-        for (int i = 0; i < 20; i++) {
+        for (int i = 0; i < series.size(); i++) {
             gbc.gridy++;
-            JButton tempButton = new JButton("<html><center>" + adaptToHtml("Boton Boton Boton Boton Boton Boton Boton Boton Boton Boton Boton Boton Boton Boton Boton Boton Boton Boton Boton ") + i + "</center></html>");
+            JButton tempButton = new JButton("<html><center>" + adaptToHtml(series.get(i).getName()) + "</center></html>");
             tempButton.setSize(345, 50);
             add(tempButton, gbc);
         }

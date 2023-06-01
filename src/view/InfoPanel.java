@@ -5,22 +5,23 @@ import java.awt.event.ActionListener;
 import javax.swing.*;
 
 public class InfoPanel extends JPanel {
+    private ActionListener actionListener;
     private InfoSeriePanel infoSerie;
     private ListSeriesPanel listSeries;
     private ButtonsInfoPanel buttonsPanel;
     private JScrollPane scroll;
 
     public InfoPanel(ActionListener actionListener){
+        this.actionListener = actionListener;
         setVisible(true);
         setLayout(null);
-        initPanels();
+        initPanels(actionListener);
         addPanels();
     }
 
-    private void initPanels(){
+    private void initPanels(ActionListener actionListener){
         infoSerie = new InfoSeriePanel();
-        listSeries = new ListSeriesPanel();
-        buttonsPanel = new ButtonsInfoPanel();
+        buttonsPanel = new ButtonsInfoPanel(actionListener);
         scroll = new JScrollPane();
         buttonsPanel.setBounds(0, 0, 345, 392);
         infoSerie.setBounds(345 ,0, 1037, 768);

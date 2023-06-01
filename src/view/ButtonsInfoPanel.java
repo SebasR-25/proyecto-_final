@@ -1,9 +1,12 @@
 package view;
 
 import java.awt.*;
+import java.awt.event.ActionListener;
+
 import javax.swing.*;
 
 public class ButtonsInfoPanel extends JPanel {
+    private ActionListener actionListener;
     private JLabel orderLabel;
     private JButton namesButton;
     private JButton genreButton; 
@@ -12,7 +15,8 @@ public class ButtonsInfoPanel extends JPanel {
     private JTextField search;
     private JButton searchButton;
 
-    public ButtonsInfoPanel(){
+    public ButtonsInfoPanel(ActionListener actionListener){
+        this.actionListener = actionListener;
         setVisible(true);
         setLayout(null);
         setBackground(new Color(0, 13, 26));
