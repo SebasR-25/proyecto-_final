@@ -22,13 +22,15 @@ public class OptionPanel extends JPanel{
         Image originalImage = icon.getImage();
         Image scaledImage = originalImage.getScaledInstance(1366, 768, Image.SCALE_SMOOTH);
         image = new ImageIcon(scaledImage).getImage();
-        setVisible(true);
         setLayout(null);
         initButtons();
         addFont();
         locateButtons();
         addButtons();
-        initButtons();    
+        addListeners();
+        initButtons();
+        initDialogs();
+        setVisible(true);
     }
 
     @Override
@@ -72,7 +74,16 @@ public class OptionPanel extends JPanel{
     }
     private void addListeners(){
         goToEdit.addActionListener(e -> {
-
+            editDialog.setVisible(true);
+            editDialog.setModal(true);
+        });
+        goToDelete.addActionListener(e->{
+            deleteDialog.setVisible(true);
+            deleteDialog.setModal(true);
+        });
+        goToAdd.addActionListener(e->{
+            addDialog.setVisible(true);
+            addDialog.setModal(true);
         });
     }
 }
