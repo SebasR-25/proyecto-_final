@@ -1,18 +1,11 @@
 package presenter;
 
 import fileOperations.Persistence;
-import model.BroadcastDay;
-import model.NetflixAnime;
-import model.Serie;
-import model.Status;
+import model.*;
 import view.Frame;
-
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
+import java.io.*;
 
 public class Presenter implements ActionListener {
     private Frame frame;
