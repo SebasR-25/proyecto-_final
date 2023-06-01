@@ -1,6 +1,6 @@
 package presenter;
 
-import view.View;
+import view.Frame;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -12,7 +12,7 @@ import fileOperations.*;
 public class Presenter{
     FileWritter fw = new FileWritter();
     FileReadder fr = new FileReadder();
-    View view = new View();
+    
     ListManager manager = new ListManager();
     List<String> generos = new ArrayList<String>();
     public Presenter(){}
