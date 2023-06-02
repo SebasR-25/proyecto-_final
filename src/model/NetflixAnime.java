@@ -4,25 +4,20 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class NetflixAnime {
-    private List<Serie> seriesList;
     private List<User> userList;
     private User actualUser;
-    private List<String> genereList;
 
     public NetflixAnime() {
-        seriesList = new ArrayList<>();
         userList = new ArrayList<>();
-        genereList = new ArrayList<>();
     }
 
-    public NetflixAnime(List<Serie> seriesList, List<User> userList, List<String> genereList) {
-        this.seriesList = seriesList;
+    public NetflixAnime(List<User> userList) {
         this.userList = userList;
-        this.genereList = genereList;
     }
 
     public List<Serie> filterByBroadcastDay(BroadcastDay broadcastDay) {
         List<Serie> filteredList = new ArrayList<>();
+        List<Serie> seriesList = actualUser.getUserSeriesList();
         for (Serie serie : seriesList) {
             if (serie.getBroadcastDay().equals(broadcastDay)) {
                 filteredList.add(serie);
@@ -33,6 +28,7 @@ public class NetflixAnime {
 
     public List<Serie> filterByStatus(Status status) {
         List<Serie> filteredList = new ArrayList<>();
+        List<Serie> seriesList = actualUser.getUserSeriesList();
         for (Serie serie : seriesList) {
             if (serie.getStatus().equals(status)) {
                 filteredList.add(serie);
@@ -43,6 +39,7 @@ public class NetflixAnime {
 
     public List<Serie> filterByGenre(String genre) {
         List<Serie> filteredList = new ArrayList<>();
+        List<Serie> seriesList = actualUser.getUserSeriesList();
         for (Serie serie : seriesList) {
             if (serie.getGenres().contains(genre)) {
                 filteredList.add(serie);
@@ -52,17 +49,19 @@ public class NetflixAnime {
     }
 
     public List<Serie> sortAlphabetically() {
+        List<Serie> seriesList = actualUser.getUserSeriesList();
         seriesList.sort((serie1, serie2) -> serie1.getName().compareTo(serie2.getName()));
         return seriesList;
     }
 
     public void addSerie(Serie serie) {
-        seriesList.add(serie);
+        actualUser.getUserSeriesList().add(serie);
     }
 
-    public Serie searchSerie(int id) {
+    public Serie searchSerie(String serieName) {
+        List<Serie> seriesList = actualUser.getUserSeriesList();
         for (Serie temptSerie : seriesList) {
-            if (temptSerie.getId() == id) {
+            if (temptSerie.getName().equals(serieName)) {
                 return temptSerie;
             }
         }
@@ -70,33 +69,13 @@ public class NetflixAnime {
     }
 
     public void editSerie(Serie oldSerie, Serie newSerie) {
+        List<Serie> seriesList = actualUser.getUserSeriesList();
         seriesList.remove(oldSerie);
         seriesList.add(newSerie);
     }
 
     public void deleteSerie(Serie serie) {
-        seriesList.remove(serie);
-    }
-
-    public String toStringSerie(Serie serie) {
-        String message = "Nombre: " + serie.getName() + "\nGéneros: " + serie.toStringGenres() + "\nEstado: " + serie.getStatus() + "\nTemporadas: " + serie.getSeasons() + "\nID: " + serie.getId() + "\nCapítulos: " + serie.getChapters() + "\nDescripsión: " + serie.getDescription() + "\nDía de emisión: " + serie.getBroadcastDay();
-        return message;
-    }
-
-    public String toStringList(List<Serie> lista) {
-        String message = "";
-        for (int i = 0; i < lista.size(); i++) {
-            message += toStringSerie(lista.get(i)) + "\n";
-        }
-        return message;
-    }
-
-    public List<Serie> getSeriesList() {
-        return seriesList;
-    }
-
-    public void setSeriesList(List<Serie> seriesList) {
-        this.seriesList = seriesList;
+        actualUser.getUserSeriesList().remove(serie);
     }
 
     public List<User> getUserList() {
@@ -105,14 +84,6 @@ public class NetflixAnime {
 
     public void setUserList(List<User> userList) {
         this.userList = userList;
-    }
-
-    public List<String> getGenereList() {
-        return genereList;
-    }
-
-    public void setGenereList(List<String> genereList) {
-        this.genereList = genereList;
     }
 
     public boolean validateLogin(String userName, String password) {
@@ -143,5 +114,61 @@ public class NetflixAnime {
 
     public void setActualUser(User actualUser) {
         this.actualUser = actualUser;
+    }
+    public List<String> toList(String str){
+        List<String> list = new ArrayList<>();
+        String[] array = str.split(", ");
+        for (int i = 0; i < array.length; i++) {
+            list.add(array[i]);
+        }
+        return list;
+    }
+    public Status toStatus(String str){
+        Status status = null;
+        switch (str.toUpperCase()) {
+            case "ACTIVA":
+                status = Status.ACTIVA;
+                break;
+            case "EN_ESPERA":
+                status = Status.EN_ESPERA;
+                break;
+            case "INACTIVA":
+                status = Status.INACTIVA;
+                break;
+        }
+        return status;
+    }
+    public BroadcastDay toBroadcastDay(String str){
+        BroadcastDay broadcastDay = switch (str.toUpperCase()) {
+            case "LUNES" -> BroadcastDay.LUNES;
+            case "MARTES" -> BroadcastDay.MARTES;
+            case "MIERCOLES" -> BroadcastDay.MIERCOLES;
+            case "JUEVES" -> BroadcastDay.JUEVES;
+            case "VIERNES" -> BroadcastDay.VIERNES;
+            case "SABADO" -> BroadcastDay.SABADO;
+            case "DOMINGO" -> BroadcastDay.DOMINGO;
+            default -> null;
+        };
+        return broadcastDay;
+    }
+
+    public List<Status> getStatusList() {
+        List<Status> statusList = new ArrayList<>();
+        statusList.add(Status.ACTIVA);
+        statusList.add(Status.EN_ESPERA);
+        statusList.add(Status.INACTIVA);
+        return statusList;
+    }
+
+    public List<BroadcastDay> getBroadcastDaysList() {
+        List<BroadcastDay> broadcastDaysList = new ArrayList<>();
+        broadcastDaysList.add(BroadcastDay.LUNES);
+        broadcastDaysList.add(BroadcastDay.MARTES);
+        broadcastDaysList.add(BroadcastDay.MIERCOLES);
+        broadcastDaysList.add(BroadcastDay.JUEVES);
+        broadcastDaysList.add(BroadcastDay.VIERNES);
+        broadcastDaysList.add(BroadcastDay.SABADO);
+        broadcastDaysList.add(BroadcastDay.DOMINGO);
+        return broadcastDaysList;
     }
 }

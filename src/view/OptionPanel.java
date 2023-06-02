@@ -31,7 +31,7 @@ public class OptionPanel extends JPanel{
         locateButtons();
         addButtons();
         addListeners();
-        initDialogs();
+        initDialogs(actionListener);
         setVisible(true);
     }
 
@@ -41,10 +41,12 @@ public class OptionPanel extends JPanel{
         g.drawImage(image, 0, 0, 1366, 768, this);
     }
 
-    private void initDialogs(){
-        addDialog = new AddDialog();
-        editDialog = new EditDialog();
-        deleteDialog = new DeleteDialog();
+    private void initDialogs(ActionListener actionListener){
+        addDialog = new AddDialog(actionListener);
+        editDialog = new EditDialog(actionListener);
+        deleteDialog = new DeleteDialog(actionListener);
+        goToInfo.addActionListener(actionListener);
+        goToInfo.setActionCommand("GO_TO_INFO");
     }
     private void initButtons(){
         goToInfo = new JButton("VER SERIES");
@@ -83,10 +85,8 @@ public class OptionPanel extends JPanel{
             deleteDialog.setVisible(true);
             deleteDialog.setModal(true);
         });
-        goToAdd.addActionListener(e->{
-            addDialog.setVisible(true);
-            addDialog.setModal(true);
-        });
+        goToAdd.addActionListener(actionListener);
+        goToAdd.setActionCommand("SHOW_ADD_DIALOG");
     }
 
     public JButton getGoToInfo() {

@@ -5,6 +5,7 @@
     "userSeriesList": [
       {
         "name": "Aeon Flux Season 2",
+        "broadcastDay": "LUNES",
         "genres": [
           "action",
           "anime influenced",
@@ -13,18 +14,157 @@
           "sci-fi",
           "science fiction"
         ],
-        "seasons": 0,
-        "id": 485,
-        "chapters": 5
+        "status": "ACTIVA",
+        "seasons": 1,
+        "chapters": 12,
+        "description": "Aeon Flux is a mysterious and amoral secret agent from the country of Monica. Her motives or background are left unexplained, as are those of her antagonist/love, Trevor Goodchild. On her missions, she deals swift, bloody \"justice\" to all that oppose her. The second season episodes of this series were unique in that Aeon died at the end of every single episode."
       },
       {
         "name": "Aeseullon ttobos",
+        "broadcastDay": "LUNES",
         "genres": [
           "kids"
         ],
+        "status": "ACTIVA",
         "seasons": 0,
-        "id": 489,
-        "chapters": 28
+        "chapters": 28,
+        "description": ""
+      },
+      {
+        "name": "Aesop\u0027s Fables",
+        "broadcastDay": "LUNES",
+        "genres": [
+          "kids"
+        ],
+        "status": "ACTIVA",
+        "seasons": 0,
+        "chapters": 0,
+        "description": ""
+      },
+      {
+        "name": "Aesop\u0027s Theater",
+        "broadcastDay": "LUNES",
+        "genres": [
+          "kids"
+        ],
+        "status": "ACTIVA",
+        "seasons": 0,
+        "chapters": 0,
+        "description": ""
+      },
+      {
+        "name": "Aesop World",
+        "broadcastDay": "LUNES",
+        "genres": [
+          "kids"
+        ],
+        "status": "ACTIVA",
+        "seasons": 0,
+        "chapters": 0,
+        "description": ""
+      },
+      {
+        "name": "Aesop World 2",
+        "broadcastDay": "LUNES",
+        "genres": [
+          "kids"
+        ],
+        "status": "ACTIVA",
+        "seasons": 0,
+        "chapters": 0,
+        "description": ""
+      },
+      {
+        "name": "Aesop World 3",
+        "broadcastDay": "LUNES",
+        "genres": [
+          "kids"
+        ],
+        "status": "ACTIVA",
+        "seasons": 0,
+        "chapters": 0,
+        "description": ""
+      },
+      {
+        "name": "Aesop World 4",
+        "broadcastDay": "LUNES",
+        "genres": [
+          "kids"
+        ],
+        "status": "ACTIVA",
+        "seasons": 0,
+        "chapters": 0,
+        "description": ""
+      },
+      {
+        "name": "Aesop World 5",
+        "broadcastDay": "LUNES",
+        "genres": [
+          "kids"
+        ],
+        "status": "ACTIVA",
+        "seasons": 0,
+        "chapters": 0,
+        "description": ""
+      },
+      {
+        "name": "Aesop World 6",
+        "broadcastDay": "LUNES",
+        "genres": [
+          "kids"
+        ],
+        "status": "ACTIVA",
+        "seasons": 0,
+        "chapters": 0,
+        "description": ""
+      },
+      {
+        "name": "Aesop World 7",
+        "broadcastDay": "LUNES",
+        "genres": [
+          "kids"
+        ],
+        "status": "ACTIVA",
+        "seasons": 0,
+        "chapters": 0,
+        "description": ""
+      },
+      {
+        "name": "Aesop World 8",
+        "broadcastDay": "LUNES",
+        "genres": [
+          "kids"
+        ],
+        "status": "ACTIVA",
+        "seasons": 0,
+        "chapters": 0,
+        "description": ""
+      },
+      {
+        "name": "Konosuba",
+        "broadcastDay": "MARTES",
+        "genres": [
+          "fantasia",
+          " isekai",
+          " comedia"
+        ],
+        "status": "ACTIVA",
+        "seasons": 2,
+        "chapters": 24,
+        "description": "Un vato se muere por un susto con un tractor"
+      },
+      {
+        "name": "Kimetsu no Yaiba",
+        "broadcastDay": "DOMINGO",
+        "genres": [
+          "Fantasia",
+          "shonen",
+          "accion"
+        ],
+        "status": "ACTIVA",
+        "seasons": 3,
+        "chapters": 48,
+        "description": "Kamado Tanjiro, un joven que tiene un gran corazón, pero que también presume sobrada inteligencia. Su historia resulta conmovedora porque se dedica a la venta de carbón para sobrevivir al lado de su familia. Sin embargo, la tragedia toca a su puerta cuando sus seres queridos son asesinatos. El culpable es Oni, un demonio sanguinario. Su hermana Nezuko, quien también sobrevivió al ataque, fue convertida en un peligroso ser que con características sobrenaturales. Así es como Tanjiro busca transformarse en un asesino de demonios, con la intención de vengar a su familia y recuperar a su hermana."
       }
     ]
   },
@@ -39,4 +179,3 @@
     "userSeriesList": []
   }
 ]
-

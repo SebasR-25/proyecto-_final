@@ -1,18 +1,23 @@
 package view;
 
+import java.awt.event.ActionListener;
+
 import javax.swing.*;
 
 public class DeleteDialog extends JDialog {
+    private ActionListener actionListener;
     private JLabel serieLabel;
     private JTextField serieNameText;
     private JButton continueButton;
     
-    public DeleteDialog(){
+    public DeleteDialog(ActionListener actionListener){
+        this.actionListener = actionListener;
         setSize(300, 230);
         setLayout(null);
         setLocationRelativeTo(null);
         initComp();
         locateComp();
+        setEvents();
         addComp();
     }
 
@@ -34,5 +39,9 @@ public class DeleteDialog extends JDialog {
     }
     public JButton getContinueButton(){
         return continueButton;
+    }
+    private void setEvents(){
+        continueButton.addActionListener(actionListener);
+        continueButton.setActionCommand("DELETE_SERIE");
     }
 }

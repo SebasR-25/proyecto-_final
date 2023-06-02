@@ -1,8 +1,11 @@
 package view;
 
+import java.awt.event.ActionListener;
+
 import javax.swing.*;
 
 public class EditDialog extends JDialog {
+    private ActionListener actionListener;
     private JLabel editText;
     private JLabel nameLabel;
     private JTextField nameTextField;
@@ -20,7 +23,8 @@ public class EditDialog extends JDialog {
     private JTextArea descriptionArea;
     private JButton aceptButton;
 
-    public EditDialog() {
+    public EditDialog(ActionListener actionListener) {
+        this.actionListener = actionListener;
         setSize(300, 500);
         setLayout(null);
         setLocationRelativeTo(null);
@@ -115,5 +119,8 @@ public class EditDialog extends JDialog {
     public JButton getAceptButton() {
         return aceptButton;
     }
-    
+    private void setEvents(){
+        aceptButton.addActionListener(actionListener);
+        aceptButton.setActionCommand("EDIT_SERIE");
+    }
 }

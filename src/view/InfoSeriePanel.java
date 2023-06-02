@@ -2,9 +2,11 @@ package view;
 
 import javax.swing.*;
 
+import model.Serie;
 import resources.GlobalFont;
 
 import java.awt.*;
+import java.util.List;
 
 public class InfoSeriePanel extends JPanel {
     private Image image;
@@ -36,7 +38,7 @@ public class InfoSeriePanel extends JPanel {
         g.drawImage(image, -245, 0, 1382, 745, this);
     }
 
-    private void initLabels(){
+    private void initLabels() {
         imageSerie = new JLabel();
         imageSerie.setOpaque(true);
         imageSerie.setBackground(Color.white);
@@ -57,16 +59,18 @@ public class InfoSeriePanel extends JPanel {
         description.setVerticalAlignment(SwingConstants.TOP);
         description.setForeground(Color.white);
     }
-    private void setFonts(){
+
+    private void setFonts() {
         nameSerieLabel.setFont(GlobalFont.customFont);
         seasonSerieLabel.setFont(GlobalFont.infoFont);
         chapsSerieLabel.setFont(GlobalFont.infoFont);
         broadcastSerieLabel.setFont(GlobalFont.infoFont);
         statusSerieLabel.setFont(GlobalFont.infoFont);
         genresSerieLabel.setFont(GlobalFont.infoFont);
-        description.setFont(GlobalFont.infoFont);
+        description.setFont(GlobalFont.infoFontReduced);
     }
-    private void ubicateLabels(){
+
+    private void ubicateLabels() {
         imageSerie.setBounds(40, 40, 200, 300);
         nameSerieLabel.setBounds(280, 40, 717, 300);
         seasonSerieLabel.setBounds(40, 360, 200, 60);
@@ -74,9 +78,10 @@ public class InfoSeriePanel extends JPanel {
         broadcastSerieLabel.setBounds(40, 480, 300, 60);
         statusSerieLabel.setBounds(40, 540, 200, 60);
         genresSerieLabel.setBounds(40, 600, 400, 120);
-        description.setBounds(530, 380, 400, 300);
+        description.setBounds(530, 380, 400, 350);
     }
-    private void addLabels(){
+
+    private void addLabels() {
         add(imageSerie);
         add(nameSerieLabel);
         add(seasonSerieLabel);
@@ -85,5 +90,23 @@ public class InfoSeriePanel extends JPanel {
         add(statusSerieLabel);
         add(genresSerieLabel);
         add(description);
+    }
+
+    public void loadSerie(Serie serie) {
+        nameSerieLabel.setText("<html><center>" + serie.getName() + "</center></html>");
+        seasonSerieLabel.setText("Temporadas: " + serie.getSeasons());
+        chapsSerieLabel.setText("Capítulos: " + serie.getChapters());
+        broadcastSerieLabel.setText("Día de Emisión: " + serie.getBroadcastDay());
+        statusSerieLabel.setText("Estado: " + serie.getStatus());
+        genresSerieLabel.setText("<html> Géneros: " + adaptList(serie.getGenres()) + "</html>");
+        description.setText("<html><center> Description: " + serie.getDescription() + "</center></html>");
+    }
+
+    private String adaptList(List<String> genres) {
+        StringBuilder result = new StringBuilder();
+        for (String genre : genres) {
+            result.append(genre).append(", ");
+        }
+        return result.substring(0, result.length() - 2);
     }
 }

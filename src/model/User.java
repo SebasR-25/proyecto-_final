@@ -20,6 +20,10 @@ public class User {
         this.userSeriesList = userSeriesList;
     }
 
+    public void addSerie(Serie serie) {
+        userSeriesList.add(serie);
+    }
+
     public String getUserName() {
         return userName;
     }

@@ -29,6 +29,9 @@ public class Frame extends JFrame {
         options.getGoToInfo().addActionListener(e->{
             showPanel(info);
         });
+        info.getButtonsPanel().getBack().addActionListener(e -> {
+            showPanel(options);
+        });
     }
 
     private void cleanInitPanel() {

@@ -1,43 +1,52 @@
 package view;
 
+import model.BroadcastDay;
+import model.Status;
+
+import java.awt.event.ActionListener;
+import java.util.List;
+
 import javax.swing.*;
 
 public class AddDialog extends JDialog {
+    private ActionListener actionListener;
     private JLabel editText;
     private JLabel nameLabel;
     private JTextField nameTextField;
     private JLabel statusLabel;
-    private JTextField statusField;
+    private JComboBox<String> statusField;
     private JLabel seasonsLabel;
     private JTextField seasonsField;
     private JLabel chapsLabel;
     private JTextField chapsField;
     private JLabel broadcastLabel;
-    private JTextField broadcastField;
+    private JComboBox<String> broadcastField;
     private JLabel genresLabel;
     private JTextField genresField;
-    private JLabel descrption;
+    private JLabel description;
     private JTextArea descriptionArea;
-    private JButton aceptButton;
+    private JButton acceptButton;
 
-    public AddDialog() {
+    public AddDialog(ActionListener actionListener) {
+        this.actionListener = actionListener;
         setSize(300, 500);
         setLayout(null);
         setLocationRelativeTo(null);
         labels();
         textFields();
         button();
+        setEvents();
     }
 
     private void initLabels() {
-        editText = new JLabel("Editar serie");
+        editText = new JLabel("Añadir serie");
         nameLabel = new JLabel("Nombre:");
         statusLabel = new JLabel("Estado:");
         seasonsLabel = new JLabel("Temporadas:");
-        chapsLabel = new JLabel("Cápitulos:");
+        chapsLabel = new JLabel("Capítulos:");
         broadcastLabel = new JLabel("Emisión:");
-        genresLabel = new JLabel("Géneros");
-        descrption = new JLabel("Descrpción:");
+        genresLabel = new JLabel("Géneros (Ej: Aventura, Action, Fantasia):");
+        description = new JLabel("Description:");
     }
 
     private void locateLabels() {
@@ -47,8 +56,8 @@ public class AddDialog extends JDialog {
         seasonsLabel.setBounds(20, 140, 80, 20);
         chapsLabel.setBounds(20, 180, 80, 20);
         broadcastLabel.setBounds(20, 220, 80, 20);
-        genresLabel.setBounds(20, 260, 80, 20);
-        descrption.setBounds(20, 300, 80, 20);
+        genresLabel.setBounds(20, 260, 200, 20);
+        description.setBounds(20, 300, 80, 20);
     }
 
     private void addLabels() {
@@ -59,7 +68,7 @@ public class AddDialog extends JDialog {
         add(chapsLabel);
         add(broadcastLabel);
         add(genresLabel);
-        add(descrption);
+        add(description);
     }
 
     private void labels() {
@@ -70,13 +79,13 @@ public class AddDialog extends JDialog {
 
     private void initFields() {
         nameTextField = new JTextField();
-        statusField = new JTextField();
+        statusField = new JComboBox<>();
         seasonsField = new JTextField();
         chapsField = new JTextField();
-        broadcastField = new JTextField();
+        broadcastField = new JComboBox<>();
         genresField = new JTextField();
         descriptionArea = new JTextArea();
-        descriptionArea.setLineWrap(true); 
+        descriptionArea.setLineWrap(true);
         descriptionArea.setWrapStyleWord(true);
     }
 
@@ -107,12 +116,67 @@ public class AddDialog extends JDialog {
     }
 
     private void button() {
-        aceptButton = new JButton("Aceptar");
-        aceptButton.setBounds(110, 420, 80, 20);
-        add(aceptButton);
+        acceptButton = new JButton("Aceptar");
+        acceptButton.setBounds(110, 420, 80, 20);
+        add(acceptButton);
     }
 
-    public JButton getAceptButton() {
-        return aceptButton;
+    private void setEvents() {
+        acceptButton.addActionListener(actionListener);
+        acceptButton.setActionCommand("ADD_SERIE");
+    }
+
+    public void clearFields() {
+        nameTextField.setText("");
+        seasonsField.setText("");
+        chapsField.setText("");
+        if (statusField.getItemCount() > 0 && broadcastField.getItemCount() > 0){
+            statusField.setSelectedIndex(0);
+            broadcastField.setSelectedIndex(0);
+        }
+        genresField.setText("");
+        descriptionArea.setText("");
+    }
+
+    public void fillComboBoxes(List<Status> statusList, List<BroadcastDay> broadcastDays) {
+        for (Status status : statusList) {
+            statusField.addItem(String.valueOf(status));
+        }
+        for (BroadcastDay broadcastDay : broadcastDays) {
+            broadcastField.addItem(String.valueOf(broadcastDay));
+        }
+
+    }
+
+    public JButton getAcceptButton() {
+        return acceptButton;
+    }
+
+    public JTextField getNameTextField() {
+        return nameTextField;
+    }
+
+    public JComboBox<String> getStatusField() {
+        return statusField;
+    }
+
+    public JTextField getSeasonsField() {
+        return seasonsField;
+    }
+
+    public JTextField getChapsField() {
+        return chapsField;
+    }
+
+    public JComboBox<String> getBroadcastField() {
+        return broadcastField;
+    }
+
+    public JTextField getGenresField() {
+        return genresField;
+    }
+
+    public JTextArea getDescriptionArea() {
+        return descriptionArea;
     }
 }

@@ -7,6 +7,7 @@ import javax.swing.*;
 
 public class ButtonsInfoPanel extends JPanel {
     private ActionListener actionListener;
+    private JButton back;
     private JLabel orderLabel;
     private JButton namesButton;
     private JButton genreButton; 
@@ -43,6 +44,8 @@ public class ButtonsInfoPanel extends JPanel {
         orderLabel.setBounds(0, 0, 345, 65);
     }
     private void initButtons(){
+        Image icon = new ImageIcon("src/resources/media/back-icon.png").getImage().getScaledInstance(30, 30, Image.SCALE_SMOOTH);
+        back = new JButton(new ImageIcon(icon));
         namesButton = new JButton("NOMBRE");
         genreButton = new JButton("GÉNERO");
         statusButton = new JButton("ESTADO");
@@ -50,12 +53,14 @@ public class ButtonsInfoPanel extends JPanel {
         locateButtons();
     }
     private void addButtons(){
+        add(back);
         add(namesButton);
         add(genreButton);
         add(statusButton);
         add(emisionButton);
     }
     private void locateButtons(){
+        back.setBounds(10, 10, 30, 30);
         namesButton.setBounds(118, 85, 105, 25);
         genreButton.setBounds(118, 145, 105, 25);
         statusButton.setBounds(118, 205, 105, 25);
@@ -72,4 +77,9 @@ public class ButtonsInfoPanel extends JPanel {
         add(search);
         add(searchButton);
     }
+
+    public JButton getBack() {
+        return back;
+    }
+    
 }

@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Serie {
-    private int id;
     private String name;
     private BroadcastDay broadcastDay;
     private List<String> genres;
@@ -14,7 +13,6 @@ public class Serie {
     private String description;
 
     public Serie() {
-        id = 0;
         name = "";
         broadcastDay = BroadcastDay.LUNES;
         genres = new ArrayList<>();
@@ -24,12 +22,11 @@ public class Serie {
         description = "";
     }
 
-    public Serie(String name, List<String> genres, Status status, int seasons, int id, int chapters, String description, BroadcastDay broadcastDay) {
+    public Serie(String name, List<String> genres, Status status, int seasons, int chapters, String description, BroadcastDay broadcastDay) {
         this.name = name;
         this.genres = genres;
         this.status = status;
         this.seasons = seasons;
-        this.id = id;
         this.chapters = chapters;
         this.description = description;
         this.broadcastDay = broadcastDay;
@@ -65,14 +62,6 @@ public class Serie {
 
     public void setSeasons(int seasons) {
         this.seasons = seasons;
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
     }
 
     public int getChapters() {
