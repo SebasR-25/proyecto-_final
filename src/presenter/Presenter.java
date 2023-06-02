@@ -61,14 +61,14 @@ public class Presenter implements ActionListener {
 
     private void orderByEmission() {
         try {
-            String search = frame.getStringMessage("Ingrese el dia de emision").toLowerCase();
-            BroadcastDay broadcastDay = BroadcastDay.valueOf(search.toUpperCase());
+            String search = frame.getStringMessage("Ingrese el dia de emision").toUpperCase();
+            BroadcastDay broadcastDay = BroadcastDay.valueOf(search);
             List<Serie> seriesMatch = netflixAnime.filterByBroadcastDay(broadcastDay);
             frame.getInfo().getListSeries().updateButtonList(seriesMatch);
         } catch (IllegalArgumentException e) {
             frame.showErrorMessage("No se encontro ese dia de emision");
+            frame.getInfo().getListSeries().updateButtonList(netflixAnime.getActualUser().getUserSeriesList());
         }
-        frame.getInfo().getListSeries().updateButtonList(netflixAnime.getActualUser().getUserSeriesList());
     }
 
     private void orderByStatus() {
@@ -79,23 +79,25 @@ public class Presenter implements ActionListener {
             frame.getInfo().getListSeries().updateButtonList(seriesMatch);
         } catch (IllegalArgumentException e) {
             frame.showErrorMessage("No se encontro ese estado");
+            frame.getInfo().getListSeries().updateButtonList(netflixAnime.getActualUser().getUserSeriesList());
         }
-        frame.getInfo().getListSeries().updateButtonList(netflixAnime.getActualUser().getUserSeriesList());
     }
 
     private void orderByGenre() {
         try {
             String genre = frame.getStringMessage("Ingrese el genero").toLowerCase();
             List<Serie> seriesMatch = netflixAnime.filterByGenre(genre);
+            System.out.println(seriesMatch);
             frame.getInfo().getListSeries().updateButtonList(seriesMatch);
         } catch (Exception e) {
             frame.showErrorMessage("No se encontro ese genero");
+            frame.getInfo().getListSeries().updateButtonList(netflixAnime.getActualUser().getUserSeriesList());
         }
-        frame.getInfo().getListSeries().updateButtonList(netflixAnime.getActualUser().getUserSeriesList());
     }
 
     private void orderByName() {
         List<Serie> seriesMatch = netflixAnime.sortAlphabetically();
+        System.out.println(seriesMatch);
         frame.getInfo().getListSeries().updateButtonList(seriesMatch);
     }
 
@@ -107,7 +109,6 @@ public class Presenter implements ActionListener {
         }
         if (seriesMatch.isEmpty()) {
             frame.showErrorMessage("No se encontraron series con ese nombre");
-            return;
         }
         frame.getInfo().getListSeries().updateButtonList(seriesMatch);
     }

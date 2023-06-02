@@ -99,4 +99,11 @@ public class Serie {
         }
         return message;
     }
+
+    @Override
+    public String toString() {
+        return "Serie{" +
+                "name='" + name + '\'' +
+                '}';
+    }
 }

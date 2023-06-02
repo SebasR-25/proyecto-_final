@@ -77,6 +77,7 @@ public class ListSeriesPanel extends JPanel {
     }
 
     public void updateButtonList(List<Serie> serie) {
+        System.out.println("UpdateButtonList" + serie);
         removeAll();
         addTitleLabel();
         addButtons(serie);
