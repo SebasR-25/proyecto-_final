@@ -52,6 +52,7 @@ public class InfoPanel extends JPanel {
 
     public void loadSeries(List<Serie> userSeriesList) {
         listSeries = new ListSeriesPanel(userSeriesList, actionListener);
+        scroll.getVerticalScrollBar().setUnitIncrement(16);
         scroll.setViewportView(listSeries);
     }
 }

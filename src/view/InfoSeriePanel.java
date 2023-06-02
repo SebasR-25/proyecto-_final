@@ -76,7 +76,7 @@ public class InfoSeriePanel extends JPanel {
         seasonSerieLabel.setBounds(40, 360, 200, 60);
         chapsSerieLabel.setBounds(40, 420, 200, 60);
         broadcastSerieLabel.setBounds(40, 480, 300, 60);
-        statusSerieLabel.setBounds(40, 540, 200, 60);
+        statusSerieLabel.setBounds(40, 540, 400, 60);
         genresSerieLabel.setBounds(40, 600, 400, 120);
         description.setBounds(530, 380, 400, 350);
     }

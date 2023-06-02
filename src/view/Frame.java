@@ -83,4 +83,9 @@ public class Frame extends JFrame {
         getContentPane().repaint();
         getContentPane().revalidate();
     }
+
+    public String getStringMessage(String message) {
+        String name = JOptionPane.showInputDialog(this, "<html><center>" + message + "</center></html>", "Información", JOptionPane.INFORMATION_MESSAGE);
+        return name;
+    }
 }

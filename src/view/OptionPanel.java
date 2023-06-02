@@ -77,13 +77,12 @@ public class OptionPanel extends JPanel{
         add(goToBack);
     }
     private void addListeners(){
-        goToEdit.addActionListener(e -> {
-            editDialog.setVisible(true);
-            editDialog.setModal(true);
-        });
+        goToEdit.addActionListener(actionListener);
+        goToEdit.setActionCommand("SHOW_EDIT_DIALOG");
         goToDelete.addActionListener(e->{
+            deleteDialog.getSerieNameText().setText("");
+            deleteDialog.setModalityType(Dialog.ModalityType.APPLICATION_MODAL);
             deleteDialog.setVisible(true);
-            deleteDialog.setModal(true);
         });
         goToAdd.addActionListener(actionListener);
         goToAdd.setActionCommand("SHOW_ADD_DIALOG");

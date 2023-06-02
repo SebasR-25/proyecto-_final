@@ -6,7 +6,7 @@ import java.util.List;
 public class NetflixAnime {
     private List<User> userList;
     private User actualUser;
-
+    private Serie serieToEdit;
     public NetflixAnime() {
         userList = new ArrayList<>();
     }
@@ -170,5 +170,13 @@ public class NetflixAnime {
         broadcastDaysList.add(BroadcastDay.SABADO);
         broadcastDaysList.add(BroadcastDay.DOMINGO);
         return broadcastDaysList;
+    }
+
+    public Serie getSerieToEdit() {
+        return serieToEdit;
+    }
+
+    public void setSerieToEdit(Serie serieToEdit) {
+        this.serieToEdit = serieToEdit;
     }
 }

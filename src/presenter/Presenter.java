@@ -3,6 +3,7 @@ package presenter;
 import fileOperations.Persistence;
 import model.*;
 import view.AddDialog;
+import view.EditDialog;
 import view.Frame;
 
 import javax.swing.*;
@@ -45,7 +46,77 @@ public class Presenter implements ActionListener {
             case "SHOW_ADD_DIALOG" -> showAddDialog();
             case "ADD_SERIE" -> addSerie();
             case "GO_TO_INFO" -> setInfoInInfoPanel();
+            case "DELETE_SERIE" -> deleteSerie();
+            case "SHOW_EDIT_DIALOG" -> showEditDialog();
+            case "EDIT_ACCEPT" -> editSerie();
         }
+    }
+
+    private void editSerie() {
+        EditDialog editDialog = frame.getOptions().getEditDialog();
+        Serie oldSerie = netflixAnime.getSerieToEdit();
+        if (editDialog.getNameTextField().getText().isEmpty()) {
+            frame.showErrorMessage("Debe ingresar el nombre de la serie");
+            return;
+        }
+        if (editDialog.getSeasonsField().getText().isEmpty()) {
+            frame.showErrorMessage("Debe ingresar la cantidad de temporadas");
+            return;
+        }
+        if (editDialog.getChapsField().getText().isEmpty()) {
+            frame.showErrorMessage("Debe ingresar la cantidad de capitulos");
+            return;
+        }
+        Serie newSerie = getSerieFromEditDialog();
+        netflixAnime.editSerie(oldSerie, newSerie);
+        frame.getOptions().getEditDialog().setVisible(false);
+        frame.showInfoMessage("Serie editada correctamente");
+        saveData();
+    }
+
+    private Serie getSerieFromEditDialog() {
+        Serie serie = new Serie();
+        EditDialog dialog = frame.getOptions().getEditDialog();
+        serie.setName(dialog.getNameTextField().getText());
+        serie.setBroadcastDay(netflixAnime.toBroadcastDay(dialog.getBroadcastField().getSelectedItem().toString()));
+        serie.setGenres(netflixAnime.toList(dialog.getGenresField().getText()));
+        serie.setStatus(netflixAnime.toStatus(dialog.getStatusField().getSelectedItem().toString()));
+        serie.setSeasons(Integer.parseInt(dialog.getSeasonsField().getText()));
+        serie.setChapters(Integer.parseInt(dialog.getChapsField().getText()));
+        serie.setDescription(dialog.getDescriptionArea().getText());
+        return serie;
+    }
+
+    private void showEditDialog() {
+        String serieName = frame.getStringMessage("Ingrese el nombre de la serie a editar");
+        Serie serie = netflixAnime.searchSerie(serieName);
+        if (serie == null) {
+            frame.showErrorMessage("Serie no encontrada");
+            return;
+        }
+        EditDialog editDialog = frame.getOptions().getEditDialog();
+        editDialog.setLocationRelativeTo(frame);
+        editDialog.clearFields();
+        editDialog.fillComboBoxes(netflixAnime.getStatusList(), netflixAnime.getBroadcastDaysList());
+        editDialog.fillInfo(serie);
+        editDialog.setVisible(true);
+        netflixAnime.setSerieToEdit(serie);
+    }
+
+    private void deleteSerie() {
+        if (frame.getOptions().getDeleteDialog().getSerieNameText().getText().isEmpty()) {
+            frame.showErrorMessage("Debe ingresar el nombre de la serie");
+            return;
+        }
+        Serie serie = netflixAnime.searchSerie(frame.getOptions().getDeleteDialog().getSerieNameText().getText());
+        if (serie == null) {
+            frame.showErrorMessage("Serie no encontrada");
+            return;
+        }
+        netflixAnime.deleteSerie(serie);
+        frame.getOptions().getDeleteDialog().setVisible(false);
+        frame.showInfoMessage("Serie eliminada correctamente");
+        saveData();
     }
 
     private void showAddDialog() {
@@ -102,14 +173,6 @@ public class Presenter implements ActionListener {
         System.out.println(buttonPressed.getName());
         Serie serie = netflixAnime.searchSerie(buttonPressed.getName());
         frame.getInfo().getInfoSerie().loadSerie(serie);
-        /*
-         *Serie serie = netflixAnime.searchSerie();
-        if (serie == null) {
-            frame.showErrorMessage("Serie no encontrada");
-            return;
-        } 
-         */
-
     }
 
     private void addSerie() {
@@ -125,15 +188,15 @@ public class Presenter implements ActionListener {
     }
 
     private Serie createSerie() {
-        AddDialog addDialog = frame.getOptions().getAddDialog();
+        AddDialog dialog = frame.getOptions().getAddDialog();
         Serie serie = new Serie();
-        serie.setName(addDialog.getNameTextField().getText());
-        serie.setBroadcastDay(netflixAnime.toBroadcastDay(addDialog.getBroadcastField().getSelectedItem().toString()));
-        serie.setGenres(netflixAnime.toList(addDialog.getGenresField().getText()));
-        serie.setStatus(netflixAnime.toStatus(addDialog.getStatusField().getSelectedItem().toString()));
-        serie.setSeasons(Integer.parseInt(addDialog.getSeasonsField().getText()));
-        serie.setChapters(Integer.parseInt(addDialog.getChapsField().getText()));
-        serie.setDescription(addDialog.getDescriptionArea().getText());
+        serie.setName(dialog.getNameTextField().getText());
+        serie.setBroadcastDay(netflixAnime.toBroadcastDay(dialog.getBroadcastField().getSelectedItem().toString()));
+        serie.setGenres(netflixAnime.toList(dialog.getGenresField().getText()));
+        serie.setStatus(netflixAnime.toStatus(dialog.getStatusField().getSelectedItem().toString()));
+        serie.setSeasons(Integer.parseInt(dialog.getSeasonsField().getText()));
+        serie.setChapters(Integer.parseInt(dialog.getChapsField().getText()));
+        serie.setDescription(dialog.getDescriptionArea().getText());
         return serie;
     }
 }

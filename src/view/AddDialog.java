@@ -56,7 +56,7 @@ public class AddDialog extends JDialog {
         seasonsLabel.setBounds(20, 140, 80, 20);
         chapsLabel.setBounds(20, 180, 80, 20);
         broadcastLabel.setBounds(20, 220, 80, 20);
-        genresLabel.setBounds(20, 260, 200, 20);
+        genresLabel.setBounds(20, 260, 300, 20);
         description.setBounds(20, 300, 80, 20);
     }
 

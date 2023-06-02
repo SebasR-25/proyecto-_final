@@ -44,4 +44,16 @@ public class DeleteDialog extends JDialog {
         continueButton.addActionListener(actionListener);
         continueButton.setActionCommand("DELETE_SERIE");
     }
+
+    public JTextField getSerieNameText() {
+        return serieNameText;
+    }
+
+    public void setSerieNameText(JTextField serieNameText) {
+        this.serieNameText = serieNameText;
+    }
+
+    public void setContinueButton(JButton continueButton) {
+        this.continueButton = continueButton;
+    }
 }

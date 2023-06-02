@@ -141,19 +141,6 @@
         "description": ""
       },
       {
-        "name": "Konosuba",
-        "broadcastDay": "MARTES",
-        "genres": [
-          "fantasia",
-          " isekai",
-          " comedia"
-        ],
-        "status": "ACTIVA",
-        "seasons": 2,
-        "chapters": 24,
-        "description": "Un vato se muere por un susto con un tractor"
-      },
-      {
         "name": "Kimetsu no Yaiba",
         "broadcastDay": "DOMINGO",
         "genres": [
@@ -165,6 +152,20 @@
         "seasons": 3,
         "chapters": 48,
         "description": "Kamado Tanjiro, un joven que tiene un gran corazón, pero que también presume sobrada inteligencia. Su historia resulta conmovedora porque se dedica a la venta de carbón para sobrevivir al lado de su familia. Sin embargo, la tragedia toca a su puerta cuando sus seres queridos son asesinatos. El culpable es Oni, un demonio sanguinario. Su hermana Nezuko, quien también sobrevivió al ataque, fue convertida en un peligroso ser que con características sobrenaturales. Así es como Tanjiro busca transformarse en un asesino de demonios, con la intención de vengar a su familia y recuperar a su hermana."
+      },
+      {
+        "name": "Konosuba",
+        "broadcastDay": "MARTES",
+        "genres": [
+          "fantasia",
+          "drama",
+          "comedia",
+          "isekai"
+        ],
+        "status": "INACTIVA",
+        "seasons": 2,
+        "chapters": 22,
+        "description": "Kazuma Satō, un joven otaku que es enviado a un mundo de fantasía con elementos similares a los videojuegos MMORPG después de su muerte (en un ridículo accidente), donde se forma un grupo disfuncional con una diosa, una archimaga y una paladín."
       }
     ]
   },

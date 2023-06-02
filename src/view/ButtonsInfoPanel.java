@@ -12,7 +12,7 @@ public class ButtonsInfoPanel extends JPanel {
     private JButton namesButton;
     private JButton genreButton; 
     private JButton statusButton;
-    private JButton emisionButton;
+    private JButton emissionButton;
     private JTextField search;
     private JButton searchButton;
 
@@ -22,7 +22,21 @@ public class ButtonsInfoPanel extends JPanel {
         setLayout(null);
         setBackground(new Color(0, 13, 26));
         initComp(); 
-        addComp();  
+        addComp();
+        setButtonEvents();
+    }
+
+    private void setButtonEvents() {
+        namesButton.addActionListener(actionListener);
+        namesButton.setActionCommand("ORDER_BY_NAME");
+        genreButton.addActionListener(actionListener);
+        genreButton.setActionCommand("ORDER_BY_GENRE");
+        statusButton.addActionListener(actionListener);
+        statusButton.setActionCommand("ORDER_BY_STATUS");
+        emissionButton.addActionListener(actionListener);
+        emissionButton.setActionCommand("ORDER_BY_EMISSION");
+        searchButton.addActionListener(actionListener);
+        searchButton.setActionCommand("SEARCH");
     }
 
     private void initComp(){
@@ -49,7 +63,7 @@ public class ButtonsInfoPanel extends JPanel {
         namesButton = new JButton("NOMBRE");
         genreButton = new JButton("GÉNERO");
         statusButton = new JButton("ESTADO");
-        emisionButton = new JButton("EMISIÓN");
+        emissionButton = new JButton("EMISIÓN");
         locateButtons();
     }
     private void addButtons(){
@@ -57,14 +71,14 @@ public class ButtonsInfoPanel extends JPanel {
         add(namesButton);
         add(genreButton);
         add(statusButton);
-        add(emisionButton);
+        add(emissionButton);
     }
     private void locateButtons(){
         back.setBounds(10, 10, 30, 30);
         namesButton.setBounds(118, 85, 105, 25);
         genreButton.setBounds(118, 145, 105, 25);
         statusButton.setBounds(118, 205, 105, 25);
-        emisionButton.setBounds(118, 265, 105, 25);
+        emissionButton.setBounds(118, 265, 105, 25);
     }
     private void searchComp(){
         search = new JTextField("Buscar");
