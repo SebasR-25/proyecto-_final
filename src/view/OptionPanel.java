@@ -5,7 +5,9 @@ import javax.swing.*;
 import resources.GlobalFont;
 
 import java.awt.*;
+import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.KeyEvent;
 
 public class OptionPanel extends JPanel{
     private final ActionListener actionListener;
@@ -86,6 +88,22 @@ public class OptionPanel extends JPanel{
         });
         goToAdd.addActionListener(actionListener);
         goToAdd.setActionCommand("SHOW_ADD_DIALOG");
+        addKeyStroke();
+    }
+    private void addKeyStroke(){
+        KeyStroke keyStroke = KeyStroke.getKeyStroke(KeyEvent.VK_A, KeyEvent.ALT_DOWN_MASK);
+        InputMap inputMap = goToAdd.getInputMap(JComponent.WHEN_IN_FOCUSED_WINDOW);
+        inputMap.put(keyStroke, "myAction");
+        ActionMap actionMap = goToAdd.getActionMap();
+        actionMap.put("myAction", new AbstractAction() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                ImageIcon icon = new ImageIcon("src/resources/media/Fondo_Easter_Egg.jpg");
+                Image scaledImage = icon.getImage().getScaledInstance(icon.getIconWidth()/2, icon.getIconHeight()/3, Image.SCALE_SMOOTH);
+                image = new ImageIcon(scaledImage).getImage();
+                repaint();
+            }
+        });
     }
 
     public JButton getGoToInfo() {

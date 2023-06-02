@@ -39,13 +39,13 @@ public class ListSeriesPanel extends JPanel {
         GridBagConstraints gbc = new GridBagConstraints();
         gbc.gridx = 0;
         gbc.gridy = 0;
-        IntStream.range(0, series.size()).forEach(i -> {
+        for (Serie serie : series) {
             gbc.gridy++;
-            JButton tempButton = new JButton("<html><center>" + adaptToHtml(series.get(i).getName()) + "</center></html>");
-            tempButton.setName(series.get(i).getName());
+            JButton tempButton = new JButton("<html><center>" + adaptToHtml(serie.getName()) + "</center></html>");
+            tempButton.setName(serie.getName());
             setEvents(tempButton);
             add(tempButton, gbc);
-        });
+        }
     }
 
     private String adaptToHtml(String text) {
@@ -74,5 +74,13 @@ public class ListSeriesPanel extends JPanel {
     private void setEvents(JButton button) {
         button.addActionListener(actionListener);
         button.setActionCommand("SERIE");
+    }
+
+    public void updateButtonList(List<Serie> serie) {
+        removeAll();
+        addTitleLabel();
+        addButtons(serie);
+        revalidate();
+        repaint();
     }
 }

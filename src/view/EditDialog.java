@@ -131,7 +131,7 @@ public class EditDialog extends JDialog {
         nameTextField.setText("");
         seasonsField.setText("");
         chapsField.setText("");
-        if (statusField.getItemCount() > 0 && broadcastField.getItemCount() > 0){
+        if (statusField.getItemCount() > 0 && broadcastField.getItemCount() > 0) {
             statusField.setSelectedIndex(0);
             broadcastField.setSelectedIndex(0);
         }
@@ -189,6 +189,7 @@ public class EditDialog extends JDialog {
         }
         return genresString.substring(0, genresString.length() - 2);
     }
+
     public void fillComboBoxes(List<Status> statusList, List<BroadcastDay> broadcastDays) {
         for (Status status : statusList) {
             statusField.addItem(String.valueOf(status));

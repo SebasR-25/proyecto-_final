@@ -7,9 +7,11 @@ import view.EditDialog;
 import view.Frame;
 
 import javax.swing.*;
+import javax.swing.event.ListDataEvent;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.List;
 
 public class Presenter implements ActionListener {
     private Frame frame;
@@ -49,7 +51,65 @@ public class Presenter implements ActionListener {
             case "DELETE_SERIE" -> deleteSerie();
             case "SHOW_EDIT_DIALOG" -> showEditDialog();
             case "EDIT_ACCEPT" -> editSerie();
+            case "SEARCH"-> searchSerie();
+            case "ORDER_BY_NAME" -> orderByName();
+            case "ORDER_BY_GENRE" -> orderByGenre();
+            case "ORDER_BY_STATUS" -> orderByStatus();
+            case "ORDER_BY_EMISSION" -> orderByEmission();
         }
+    }
+
+    private void orderByEmission() {
+        try {
+            String search = frame.getStringMessage("Ingrese el dia de emision").toLowerCase();
+            BroadcastDay broadcastDay = BroadcastDay.valueOf(search.toUpperCase());
+            List<Serie> seriesMatch = netflixAnime.filterByBroadcastDay(broadcastDay);
+            frame.getInfo().getListSeries().updateButtonList(seriesMatch);
+        } catch (IllegalArgumentException e) {
+            frame.showErrorMessage("No se encontro ese dia de emision");
+        }
+        frame.getInfo().getListSeries().updateButtonList(netflixAnime.getActualUser().getUserSeriesList());
+    }
+
+    private void orderByStatus() {
+        try {
+            String search = frame.getStringMessage("Ingrese el estado").toLowerCase();
+            Status status = Status.valueOf(search.toUpperCase());
+            List<Serie> seriesMatch = netflixAnime.filterByStatus(status);
+            frame.getInfo().getListSeries().updateButtonList(seriesMatch);
+        } catch (IllegalArgumentException e) {
+            frame.showErrorMessage("No se encontro ese estado");
+        }
+        frame.getInfo().getListSeries().updateButtonList(netflixAnime.getActualUser().getUserSeriesList());
+    }
+
+    private void orderByGenre() {
+        try {
+            String genre = frame.getStringMessage("Ingrese el genero").toLowerCase();
+            List<Serie> seriesMatch = netflixAnime.filterByGenre(genre);
+            frame.getInfo().getListSeries().updateButtonList(seriesMatch);
+        } catch (Exception e) {
+            frame.showErrorMessage("No se encontro ese genero");
+        }
+        frame.getInfo().getListSeries().updateButtonList(netflixAnime.getActualUser().getUserSeriesList());
+    }
+
+    private void orderByName() {
+        List<Serie> seriesMatch = netflixAnime.sortAlphabetically();
+        frame.getInfo().getListSeries().updateButtonList(seriesMatch);
+    }
+
+    private void searchSerie() {
+        String serieName = frame.getInfo().getButtonsPanel().getSearch().getText();
+        List<Serie> seriesMatch = netflixAnime.searchAllSeries(serieName);
+        if(serieName.equals("")){
+            seriesMatch = netflixAnime.getActualUser().getUserSeriesList();
+        }
+        if (seriesMatch.isEmpty()) {
+            frame.showErrorMessage("No se encontraron series con ese nombre");
+            return;
+        }
+        frame.getInfo().getListSeries().updateButtonList(seriesMatch);
     }
 
     private void editSerie() {

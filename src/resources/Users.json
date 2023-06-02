@@ -31,28 +31,6 @@
         "description": ""
       },
       {
-        "name": "Aesop\u0027s Fables",
-        "broadcastDay": "LUNES",
-        "genres": [
-          "kids"
-        ],
-        "status": "ACTIVA",
-        "seasons": 0,
-        "chapters": 0,
-        "description": ""
-      },
-      {
-        "name": "Aesop\u0027s Theater",
-        "broadcastDay": "LUNES",
-        "genres": [
-          "kids"
-        ],
-        "status": "ACTIVA",
-        "seasons": 0,
-        "chapters": 0,
-        "description": ""
-      },
-      {
         "name": "Aesop World",
         "broadcastDay": "LUNES",
         "genres": [
@@ -141,6 +119,41 @@
         "description": ""
       },
       {
+        "name": "Aesop\u0027s Fables",
+        "broadcastDay": "LUNES",
+        "genres": [
+          "kids"
+        ],
+        "status": "ACTIVA",
+        "seasons": 0,
+        "chapters": 0,
+        "description": ""
+      },
+      {
+        "name": "Aesop\u0027s Theater",
+        "broadcastDay": "LUNES",
+        "genres": [
+          "kids"
+        ],
+        "status": "ACTIVA",
+        "seasons": 0,
+        "chapters": 0,
+        "description": ""
+      },
+      {
+        "name": "Boku no Hero",
+        "broadcastDay": "SABADO",
+        "genres": [
+          "shonen",
+          "accion",
+          "sobrenatural"
+        ],
+        "status": "ACTIVA",
+        "seasons": 8,
+        "chapters": 135,
+        "description": "Deku se la come y obtiene poderes"
+      },
+      {
         "name": "Kimetsu no Yaiba",
         "broadcastDay": "DOMINGO",
         "genres": [
@@ -166,6 +179,17 @@
         "seasons": 2,
         "chapters": 22,
         "description": "Kazuma Satō, un joven otaku que es enviado a un mundo de fantasía con elementos similares a los videojuegos MMORPG después de su muerte (en un ridículo accidente), donde se forma un grupo disfuncional con una diosa, una archimaga y una paladín."
+      },
+      {
+        "name": "Zero Zero Nine One",
+        "broadcastDay": "LUNES",
+        "genres": [
+          "Accion"
+        ],
+        "status": "INACTIVA",
+        "seasons": 1,
+        "chapters": 13,
+        "description": "La guerra fria se ha exendido por mas de 140 años y los frentes estan cansados de la tensa calma de la situacion, el espionaje en este momento tiene un papel crucial"
       }
     ]
   },
@@ -178,5 +202,23 @@
     "userName": "Jane",
     "password": "pass456",
     "userSeriesList": []
+  },
+  {
+    "userName": "Sebastian",
+    "password": "azami",
+    "userSeriesList": [
+      {
+        "name": "Aacchi kocchi",
+        "broadcastDay": "VIERNES",
+        "genres": [
+          "comedia",
+          "colegial"
+        ],
+        "status": "INACTIVA",
+        "seasons": 1,
+        "chapters": 12,
+        "description": "Un grupo de amigos que viven pacificamente su vida escolar"
+      }
+    ]
   }
 ]

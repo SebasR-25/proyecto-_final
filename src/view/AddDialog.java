@@ -130,10 +130,8 @@ public class AddDialog extends JDialog {
         nameTextField.setText("");
         seasonsField.setText("");
         chapsField.setText("");
-        if (statusField.getItemCount() > 0 && broadcastField.getItemCount() > 0){
-            statusField.setSelectedIndex(0);
-            broadcastField.setSelectedIndex(0);
-        }
+        statusField.setModel(new DefaultComboBoxModel<>());
+        broadcastField.setModel(new DefaultComboBoxModel<>());
         genresField.setText("");
         descriptionArea.setText("");
     }

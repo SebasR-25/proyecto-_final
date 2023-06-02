@@ -2,6 +2,8 @@ package view;
 
 import java.awt.*;
 import java.awt.event.ActionListener;
+import java.awt.event.FocusEvent;
+import java.awt.event.FocusListener;
 
 import javax.swing.*;
 
@@ -37,6 +39,22 @@ public class ButtonsInfoPanel extends JPanel {
         emissionButton.setActionCommand("ORDER_BY_EMISSION");
         searchButton.addActionListener(actionListener);
         searchButton.setActionCommand("SEARCH");
+        search.addActionListener(actionListener);
+        search.setActionCommand("SEARCH");
+        search.addFocusListener(new FocusListener() {
+            @Override
+            public void focusGained(FocusEvent e) {
+                if (search.getText().equals("Buscar")) {
+                    search.setText("");
+                }
+            }
+            @Override
+            public void focusLost(FocusEvent e) {
+                if (search.getText().equals("")) {
+                    search.setText("Buscar");
+                }
+            }
+        });
     }
 
     private void initComp(){
@@ -95,5 +113,52 @@ public class ButtonsInfoPanel extends JPanel {
     public JButton getBack() {
         return back;
     }
-    
+
+    public JButton getNamesButton() {
+        return namesButton;
+    }
+
+    public void setNamesButton(JButton namesButton) {
+        this.namesButton = namesButton;
+    }
+
+    public JButton getGenreButton() {
+        return genreButton;
+    }
+
+    public void setGenreButton(JButton genreButton) {
+        this.genreButton = genreButton;
+    }
+
+    public JButton getStatusButton() {
+        return statusButton;
+    }
+
+    public void setStatusButton(JButton statusButton) {
+        this.statusButton = statusButton;
+    }
+
+    public JButton getEmissionButton() {
+        return emissionButton;
+    }
+
+    public void setEmissionButton(JButton emissionButton) {
+        this.emissionButton = emissionButton;
+    }
+
+    public JTextField getSearch() {
+        return search;
+    }
+
+    public void setSearch(JTextField search) {
+        this.search = search;
+    }
+
+    public JButton getSearchButton() {
+        return searchButton;
+    }
+
+    public void setSearchButton(JButton searchButton) {
+        this.searchButton = searchButton;
+    }
 }

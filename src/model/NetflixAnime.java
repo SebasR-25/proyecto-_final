@@ -179,4 +179,16 @@ public class NetflixAnime {
     public void setSerieToEdit(Serie serieToEdit) {
         this.serieToEdit = serieToEdit;
     }
+
+    public List<Serie> searchAllSeries(String serieName) {
+        List<Serie> seriesList = new ArrayList<>();
+        for (User user : userList) {
+            for (Serie serie : user.getUserSeriesList()) {
+                if (serie.getName().toLowerCase().contains(serieName.toLowerCase())) {
+                    seriesList.add(serie);
+                }
+            }
+        }
+        return seriesList;
+    }
 }

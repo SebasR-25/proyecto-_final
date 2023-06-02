@@ -42,6 +42,9 @@ public class InfoSeriePanel extends JPanel {
         imageSerie = new JLabel();
         imageSerie.setOpaque(true);
         imageSerie.setBackground(Color.white);
+        ImageIcon iconOriginal = new ImageIcon("src/resources/media/Portada.png");
+        Image scaledImage = iconOriginal.getImage().getScaledInstance(200, 300, Image.SCALE_SMOOTH);
+        imageSerie.setIcon(new ImageIcon(scaledImage));
         nameSerieLabel = new JLabel("<html><center></center></html>");
         nameSerieLabel.setForeground(Color.white);
         seasonSerieLabel = new JLabel("Temporadas:");
