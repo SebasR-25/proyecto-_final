@@ -6,6 +6,7 @@ import java.util.List;
 public class NetflixAnime {
     private List<Serie> seriesList;
     private List<User> userList;
+    private User actualUser;
     private List<String> genereList;
 
     public NetflixAnime() {
@@ -134,5 +135,13 @@ public class NetflixAnime {
 
     public void addUser(String userName, String password) {
         userList.add(new User(userName, password,new ArrayList<>()));
+    }
+
+    public User getActualUser() {
+        return actualUser;
+    }
+
+    public void setActualUser(User actualUser) {
+        this.actualUser = actualUser;
     }
 }

@@ -19,10 +19,10 @@ import java.io.*;
         persistence = new Persistence();
         frame = new Frame(this);
         netflixAnime = new NetflixAnime();
-        loadDefaultData();
+        loadData();
     }
 
-    private void loadDefaultData() {
+    private void loadData() {
         netflixAnime.setUserList(persistence.getUserList());
         netflixAnime.setGenereList(persistence.getGenereList());
         netflixAnime.setSeriesList(persistence.getSeriesList());
@@ -73,6 +73,7 @@ import java.io.*;
             return;
         }
         if (netflixAnime.validateLogin(userName, password)) {
+            netflixAnime.setActualUser(netflixAnime.searchUser(userName));
             frame.showInfoMessage("Bienvenido " + userName);
             frame.showPanel(frame.getOptions());
         } else {

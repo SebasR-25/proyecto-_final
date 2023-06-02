@@ -2,7 +2,31 @@
   {
     "userName": "admin",
     "password": "admin",
-    "userSeriesList": []
+    "userSeriesList": [
+      {
+        "name": "Aeon Flux Season 2",
+        "genres": [
+          "action",
+          "anime influenced",
+          "cops",
+          "mystery",
+          "sci-fi",
+          "science fiction"
+        ],
+        "seasons": 0,
+        "id": 485,
+        "chapters": 5
+      },
+      {
+        "name": "Aeseullon ttobos",
+        "genres": [
+          "kids"
+        ],
+        "seasons": 0,
+        "id": 489,
+        "chapters": 28
+      }
+    ]
   },
   {
     "userName": "John",
